@@ -1,0 +1,251 @@
+# Modern unit sequences - generated PNG sprite sheets
+# Body (8 facings) + turret (8 facings) PNG per unit.
+
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 2
+
+
+mbt:
+	idle:
+		FilenamePattern: mbt-{0:D4}.png
+		Count: 8
+		Facings: -8
+	icon:
+		Filename: mbt-0000.png
+		Offset: -30,-30
+	turret:
+		FilenamePattern: mbt-turret-{0:D4}.png
+		Count: 8
+		Facings: -8
+
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 2
+
+
+ltnk:
+	idle:
+		FilenamePattern: ltnk-{0:D4}.png
+		Count: 8
+		Facings: -8
+	icon:
+		Filename: ltnk-0000.png
+		Offset: -30,-30
+	turret:
+		FilenamePattern: ltnk-turret-{0:D4}.png
+		Count: 8
+		Facings: -8
+
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 2
+
+
+atnk:
+	idle:
+		FilenamePattern: atnk-{0:D4}.png
+		Count: 8
+		Facings: -8
+	icon:
+		Filename: atnk-0000.png
+		Offset: -30,-30
+	turret:
+		FilenamePattern: atnk-turret-{0:D4}.png
+		Count: 8
+		Facings: -8
+
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 2
+
+
+etnk:
+	idle:
+		FilenamePattern: etnk-{0:D4}.png
+		Count: 8
+		Facings: -8
+	icon:
+		Filename: etnk-0000.png
+		Offset: -30,-30
+	turret:
+		FilenamePattern: etnk-turret-{0:D4}.png
+		Count: 8
+		Facings: -8
+
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 2
+
+
+stnk2:
+	idle:
+		FilenamePattern: stnk2-{0:D4}.png
+		Count: 8
+		Facings: -8
+	icon:
+		Filename: stnk2-0000.png
+		Offset: -30,-30
+	turret:
+		FilenamePattern: stnk2-turret-{0:D4}.png
+		Count: 8
+		Facings: -8
+
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 2
+
+
+spa:
+	idle:
+		FilenamePattern: spa-{0:D4}.png
+		Count: 8
+		Facings: -8
+	icon:
+		Filename: spa-0000.png
+		Offset: -30,-30
+	turret:
+		FilenamePattern: spa-turret-{0:D4}.png
+		Count: 8
+		Facings: -8
+
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 2
+
+
+mlrs:
+	idle:
+		FilenamePattern: mlrs-{0:D4}.png
+		Count: 8
+		Facings: -8
+	empty-idle:
+		FilenamePattern: mlrs-{0:D4}.png
+		Count: 8
+		Facings: -8
+	icon:
+		Filename: mlrs-0000.png
+		Offset: -30,-30
+	turret:
+		FilenamePattern: mlrs-turret-{0:D4}.png
+		Count: 8
+		Facings: -8
+
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 2
+
+
+ifv:
+	idle:
+		FilenamePattern: ifv-{0:D4}.png
+		Count: 8
+		Facings: -8
+	icon:
+		Filename: ifv-0000.png
+		Offset: -30,-30
+	turret:
+		FilenamePattern: ifv-turret-{0:D4}.png
+		Count: 8
+		Facings: -8
+
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 2
+
+
+aad:
+	idle:
+		FilenamePattern: aad-{0:D4}.png
+		Count: 8
+		Facings: -8
+	icon:
+		Filename: aad-0000.png
+		Offset: -30,-30
+	turret:
+		FilenamePattern: aad-turret-{0:D4}.png
+		Count: 8
+		Facings: -8
+
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 2
+
+
+ffg:
+	idle:
+		FilenamePattern: ffg-{0:D4}.png
+		Count: 8
+		Facings: -8
+	icon:
+		Filename: ffg-0000.png
+		Offset: -30,-30
+	turret:
+		FilenamePattern: ffg-turret-{0:D4}.png
+		Count: 8
+		Facings: -8
+
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 2
+
+
+cvn:
+	idle:
+		FilenamePattern: cvn-{0:D4}.png
+		Count: 8
+		Facings: -8
+	open:
+		Filename: cvn-0000.png
+	close:
+		Filename: cvn-0000.png
+	unload:
+		Filename: cvn-0000.png
+	icon:
+		Filename: cvn-0000.png
+		Offset: -30,-30
+	turret:
+		FilenamePattern: cvn-turret-{0:D4}.png
+		Count: 8
+		Facings: -8
+
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 2
+
+
+cor:
+	idle:
+		FilenamePattern: cor-{0:D4}.png
+		Count: 8
+		Facings: -8
+	icon:
+		Filename: cor-0000.png
+		Offset: -30,-30
+	turret:
+		FilenamePattern: cor-turret-{0:D4}.png
+		Count: 8
+		Facings: -8
+
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 2
+
+
+ptf:
+	idle:
+		FilenamePattern: ptf-{0:D4}.png
+		Count: 8
+		Facings: -8
+	icon:
+		Filename: ptf-0000.png
+		Offset: -30,-30
+	turret:
+		FilenamePattern: ptf-turret-{0:D4}.png
+		Count: 8
+		Facings: -8
+
+
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 2

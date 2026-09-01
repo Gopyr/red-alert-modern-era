@@ -61,3 +61,63 @@ actor-ssbn =
     Immune to standard anti-submarine weapons.
       Strong vs Ships and Buildings
       Weak vs Other Submarines
+actor-spa =
+    .name = Self-Propelled Artillery
+    .generic-name = Artillery
+    .description =
+    Long-range self-propelled howitzer with heavy punch.
+      Strong vs Buildings and Infantry
+      Weak vs Tanks and Aircraft
+
+actor-mlrs =
+    .name = MLRS Rocket Launcher
+    .generic-name = Artillery
+    .description =
+    Multiple rocket launcher for area saturation.
+      Strong vs Infantry and Buildings
+      Weak vs Armor and Aircraft
+
+actor-ifv =
+    .name = Infantry Fighting Vehicle
+    .generic-name = APC
+    .description =
+    Fast transport with autocannon. Moves infantry quickly.
+      Strong vs Infantry
+      Weak vs Tanks and Aircraft
+
+actor-aad =
+    .name = Anti-Air Vehicle
+    .generic-name = AA Vehicle
+    .description =
+    Mobile surface-to-air missile platform.
+      Strong vs Aircraft
+      Weak vs Tanks and Infantry
+
+actor-ffg =
+    .name = Frigate
+    .description =
+    Versatile escort with anti-ship and anti-submarine weapons.
+      Strong vs Ships and Submarines
+      Weak vs Aircraft
+
+actor-cvn =
+    .name = Aircraft Carrier
+    .description =
+    Floating airbase. Slow but carries powerful strike aircraft.
+      Strong vs Aircraft
+      Weak vs Submarines
+
+actor-cor =
+    .name = Corvette
+    .description =
+    Small, fast escort vessel with light guns.
+      Strong vs Patrol Boats and Submarines
+      Weak vs Larger Ships
+
+actor-ptf =
+    .name = Patrol Boat
+    .description =
+    Cheap and fast gunboat for early naval control.
+      Strong vs Infantry and Light Boats
+      Weak vs Larger Ships
+

@@ -95,6 +95,7 @@ Sequences:
 	ra|sequences/structures.yaml
 	ra|sequences/infantry.yaml
 	ra|sequences/aircraft.yaml
+	ra|sequences/modern.yaml
 	ra|sequences/misc.yaml
 	ra|sequences/decorations.yaml
 
@@ -272,7 +273,7 @@ SupportsMapsFrom: ra
 
 SoundFormats: Aud, Wav
 
-SpriteFormats: ShpD2, ShpTD, TmpRA, TmpTD, ShpTS
+SpriteFormats: ShpD2, ShpTD, TmpRA, TmpTD, ShpTS, PngSheet
 
 VideoFormats: Vqa, Wsa
 

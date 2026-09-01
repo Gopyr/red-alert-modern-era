@@ -1,20 +1,18 @@
 # Modern Units roster - Gopyr's OpenRA mod additions
-# Adds modern-themed tank and ship variants by reusing existing sprites
-# with distinct roles, names and statistics. All actors inherit from
-# original RA units so they remain fully functional and load cleanly.
+# Modern-themed tanks, artillery and ships with custom PNG sprites.
 #
-# NOTE: These units reuse original RA sprites. They look like the base
-# vehicle but fill a distinct, stronger role (higher tier / modern naming).
+# Each unit uses its own generated PNG pixel-art (8 facings body + turret)
+# so they no longer reuse classic RA sprites.
 
 #########################################
 #  MODERN TANKS
 #########################################
 
-# M1 Abrams-class main battle tank. Upgrade of the Soviet Heavy Tank.
+# M1 Abrams-class main battle tank.
 MBT:
 	Inherits: 3TNK
 	RenderSprites:
-		Image: 3tnk
+		Image: mbt
 	Buildable:
 		BuildPaletteOrder: 230
 		Prerequisites: fix, ~vehicles.allies, ~techlevel.high
@@ -29,11 +27,11 @@ MBT:
 	Mobile:
 		Speed: 76
 
-# M8 AGS light tank. Fast scout derivative of the Light Tank.
+# M8 AGS light tank. Fast scout.
 LTNK:
 	Inherits: 1TNK
 	RenderSprites:
-		Image: 1tnk
+		Image: ltnk
 	Buildable:
 		BuildPaletteOrder: 121
 		Prerequisites: ~vehicles.allies, ~vehicles.soviet, ~techlevel.low
@@ -50,11 +48,11 @@ LTNK:
 	Armor:
 		Type: Medium
 
-# Assault Tank (super-heavy breakthrough). Derivative of the Mammoth Tank.
+# Assault Tank (super-heavy breakthrough).
 ATNK:
 	Inherits: 4TNK
 	RenderSprites:
-		Image: 4tnk
+		Image: atnk
 	Buildable:
 		BuildPaletteOrder: 235
 		Prerequisites: fix, ~vehicles.soviet, ~techlevel.high
@@ -69,11 +67,11 @@ ATNK:
 	Mobile:
 		Speed: 55
 
-# EMP Support Tank. Support variant using the Chrono Tank sprite.
+# EMP Support Tank.
 ETNK:
 	Inherits: CTNK
 	RenderSprites:
-		Image: ctnk
+		Image: etnk
 	Buildable:
 		BuildPaletteOrder: 236
 		Prerequisites: atek, fix, ~techlevel.high
@@ -86,11 +84,11 @@ ETNK:
 	Health:
 		HP: 40000
 
-# Predator Stealth Tank. Silent variant of the Stealth Tank.
+# Predator Stealth Tank.
 STNK2:
 	Inherits: STNK
 	RenderSprites:
-		Image: stnk
+		Image: stnk2
 	Buildable:
 		BuildPaletteOrder: 237
 		Prerequisites: stek, fix, ~techlevel.medium
@@ -108,10 +106,92 @@ STNK2:
 		Speed: 113
 
 #########################################
+#  MODERN SELF-PROPELLED ARTILLERY
+#########################################
+
+# Self-Propelled Artillery (SPA) - long range howitzer.
+SPA:
+	Inherits: ARTY
+	RenderSprites:
+		Image: spa
+	Buildable:
+		BuildPaletteOrder: 232
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.high
+		Description: actor-spa.description
+	Valued:
+		Cost: 1400
+	Tooltip:
+		Name: actor-spa.name
+		GenericName: actor-spa.generic-name
+	Health:
+		HP: 45000
+	Mobile:
+		Speed: 60
+	Armament:
+		Weapon: 155mm
+
+# MLRS rocket launcher - area saturation.
+MLRS:
+	Inherits: V2RL
+	RenderSprites:
+		Image: mlrs
+	Buildable:
+		BuildPaletteOrder: 233
+		Prerequisites: fix, ~vehicles.soviet, ~techlevel.high
+		Description: actor-mlrs.description
+	Valued:
+		Cost: 1500
+	Tooltip:
+		Name: actor-mlrs.name
+		GenericName: actor-mlrs.generic-name
+	Health:
+		HP: 35000
+	Mobile:
+		Speed: 70
+
+# Infantry Fighting Vehicle (IFV) - fast APC with autocannon.
+IFV:
+	Inherits: APC
+	RenderSprites:
+		Image: ifv
+	Buildable:
+		BuildPaletteOrder: 122
+		Prerequisites: ~vehicles.allies, ~vehicles.soviet, ~techlevel.medium
+		Description: actor-ifv.description
+	Valued:
+		Cost: 700
+	Tooltip:
+		Name: actor-ifv.name
+		GenericName: actor-ifv.generic-name
+	Health:
+		HP: 34000
+	Mobile:
+		Speed: 140
+
+# Anti-Air Defence vehicle (AAD) - mobile SAM.
+AAD:
+	Inherits: MRJ
+	RenderSprites:
+		Image: aad
+	Buildable:
+		BuildPaletteOrder: 234
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-aad.description
+	Valued:
+		Cost: 1250
+	Tooltip:
+		Name: actor-aad.name
+		GenericName: actor-aad.generic-name
+	Health:
+		HP: 30000
+	Mobile:
+		Speed: 90
+
+#########################################
 #  MODERN NAVY
 #########################################
 
-# Guided-Missile Destroyer (DDG). Modernized, tougher destroyer.
+# Guided-Missile Destroyer (DDG).
 GDD:
 	Inherits: DD
 	RenderSprites:
@@ -124,6 +204,7 @@ GDD:
 		Cost: 1600
 	Tooltip:
 		Name: actor-gdd.name
+		GenericName: actor-gdd.generic-name
 	Health:
 		HP: 55000
 	Mobile:
@@ -143,13 +224,14 @@ BCR:
 		Cost: 3400
 	Tooltip:
 		Name: actor-bcr.name
+		GenericName: actor-bcr.generic-name
 	Health:
 		HP: 95000
 	Mobile:
 		TurnSpeed: 10
 		Speed: 48
 
-# Ballistic Missile Submarine (SSBN). Strategic strike sub.
+# Ballistic Missile Submarine (SSBN).
 SSBN:
 	Inherits: MSUB
 	RenderSprites:
@@ -162,5 +244,86 @@ SSBN:
 		Cost: 3200
 	Tooltip:
 		Name: actor-ssbn.name
+		GenericName: actor-ssbn.generic-name
 	Health:
 		HP: 45000
+
+# Frigate (FFG) - versatile escort with ASW/missiles.
+FFG:
+	Inherits: DD
+	RenderSprites:
+		Image: ffg
+	Buildable:
+		BuildPaletteOrder: 46
+		Prerequisites: ~syrd, dome, ~techlevel.medium
+		Description: actor-ffg.description
+	Valued:
+		Cost: 1150
+	Tooltip:
+		Name: actor-ffg.name
+		GenericName: actor-ffg.generic-name
+	Health:
+		HP: 42000
+	Mobile:
+		TurnSpeed: 20
+		Speed: 115
+
+# Aircraft Carrier (CVN) - mobile airbase.
+CVN:
+	Inherits: LST
+	RenderSprites:
+		Image: cvn
+	Buildable:
+		BuildPaletteOrder: 60
+		Prerequisites: ~syrd, atek, dome, ~techlevel.high
+		Description: actor-cvn.description
+	Valued:
+		Cost: 4000
+	Tooltip:
+		Name: actor-cvn.name
+		GenericName: actor-cvn.generic-name
+	Health:
+		HP: 150000
+	Mobile:
+		TurnSpeed: 8
+		Speed: 40
+
+# Corvette (COR) - small fast escort.
+COR:
+	Inherits: PT
+	RenderSprites:
+		Image: cor
+	Buildable:
+		BuildPaletteOrder: 47
+		Prerequisites: ~syrd, ~techlevel.medium
+		Description: actor-cor.description
+	Valued:
+		Cost: 900
+	Tooltip:
+		Name: actor-cor.name
+		GenericName: actor-cor.generic-name
+	Health:
+		HP: 30000
+	Mobile:
+		TurnSpeed: 28
+		Speed: 130
+
+# Patrol Boat (PTF) - cheap fast gunboat.
+PTF:
+	Inherits: PT
+	RenderSprites:
+		Image: ptf
+	Buildable:
+		BuildPaletteOrder: 48
+		Prerequisites: ~syrd, ~techlevel.low
+		Description: actor-ptf.description
+	Valued:
+		Cost: 500
+	Tooltip:
+		Name: actor-ptf.name
+		GenericName: actor-ptf.generic-name
+	Health:
+		HP: 18000
+	Mobile:
+		TurnSpeed: 32
+		Speed: 155

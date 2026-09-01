@@ -1,0 +1,50 @@
+MapFormat: 12
+
+RequiresMod: ra
+
+Title: Earth - World Map
+
+Author: Gopyr
+
+Tileset: TEMPERAT
+
+MapSize: 512,256
+
+Bounds: 16,16,480,224
+
+Visibility: Lobby
+
+Categories: Conquest
+
+Players:
+	PlayerReference@Neutral:
+		Name: Neutral
+		OwnsWorld: True
+		NonCombatant: True
+		Faction: allies
+	PlayerReference@Civilians:
+		Name: Civilians
+		NonCombatant: True
+		Faction: allies
+		Color: 000000
+		Allies: Allies
+	PlayerReference@Allies:
+		Name: Allies
+		Playable: True
+		Faction: allies
+		Color: ABB7E4
+		Enemies: Soviets
+	PlayerReference@Soviets:
+		Name: Soviets
+		Playable: True
+		Faction: soviet
+		Color: FE1100
+		Enemies: Allies
+
+Actors:
+	Actor0: mpspawn
+		Owner: Neutral
+		Location: 190,64
+	Actor1: mpspawn
+		Owner: Neutral
+		Location: 320,190
