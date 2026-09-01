@@ -1,0 +1,166 @@
+# Modern Units roster - Gopyr's OpenRA mod additions
+# Adds modern-themed tank and ship variants by reusing existing sprites
+# with distinct roles, names and statistics. All actors inherit from
+# original RA units so they remain fully functional and load cleanly.
+#
+# NOTE: These units reuse original RA sprites. They look like the base
+# vehicle but fill a distinct, stronger role (higher tier / modern naming).
+
+#########################################
+#  MODERN TANKS
+#########################################
+
+# M1 Abrams-class main battle tank. Upgrade of the Soviet Heavy Tank.
+MBT:
+	Inherits: 3TNK
+	RenderSprites:
+		Image: 3tnk
+	Buildable:
+		BuildPaletteOrder: 230
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.high
+		Description: actor-mbt.description
+	Valued:
+		Cost: 1750
+	Tooltip:
+		Name: actor-mbt.name
+		GenericName: actor-mbt.generic-name
+	Health:
+		HP: 75000
+	Mobile:
+		Speed: 76
+
+# M8 AGS light tank. Fast scout derivative of the Light Tank.
+LTNK:
+	Inherits: 1TNK
+	RenderSprites:
+		Image: 1tnk
+	Buildable:
+		BuildPaletteOrder: 121
+		Prerequisites: ~vehicles.allies, ~vehicles.soviet, ~techlevel.low
+		Description: actor-ltnk.description
+	Valued:
+		Cost: 850
+	Tooltip:
+		Name: actor-ltnk.name
+		GenericName: actor-ltnk.generic-name
+	Health:
+		HP: 29000
+	Mobile:
+		Speed: 149
+	Armor:
+		Type: Medium
+
+# Assault Tank (super-heavy breakthrough). Derivative of the Mammoth Tank.
+ATNK:
+	Inherits: 4TNK
+	RenderSprites:
+		Image: 4tnk
+	Buildable:
+		BuildPaletteOrder: 235
+		Prerequisites: fix, ~vehicles.soviet, ~techlevel.high
+		Description: actor-atnk.description
+	Valued:
+		Cost: 2600
+	Tooltip:
+		Name: actor-atnk.name
+		GenericName: actor-atnk.generic-name
+	Health:
+		HP: 120000
+	Mobile:
+		Speed: 55
+
+# EMP Support Tank. Support variant using the Chrono Tank sprite.
+ETNK:
+	Inherits: CTNK
+	RenderSprites:
+		Image: ctnk
+	Buildable:
+		BuildPaletteOrder: 236
+		Prerequisites: atek, fix, ~techlevel.high
+		Description: actor-etnk.description
+	Valued:
+		Cost: 2000
+	Tooltip:
+		Name: actor-etnk.name
+		GenericName: actor-etnk.generic-name
+	Health:
+		HP: 40000
+
+# Predator Stealth Tank. Silent variant of the Stealth Tank.
+STNK2:
+	Inherits: STNK
+	RenderSprites:
+		Image: stnk
+	Buildable:
+		BuildPaletteOrder: 237
+		Prerequisites: stek, fix, ~techlevel.medium
+		Description: actor-stnk2.description
+	Valued:
+		Cost: 1600
+	Tooltip:
+		Name: actor-stnk2.name
+		GenericName: actor-stnk2.generic-name
+	Health:
+		HP: 20000
+	Armament:
+		Weapon: 90mm
+	Mobile:
+		Speed: 113
+
+#########################################
+#  MODERN NAVY
+#########################################
+
+# Guided-Missile Destroyer (DDG). Modernized, tougher destroyer.
+GDD:
+	Inherits: DD
+	RenderSprites:
+		Image: dd
+	Buildable:
+		BuildPaletteOrder: 45
+		Prerequisites: ~syrd, dome, atek, ~techlevel.high
+		Description: actor-gdd.description
+	Valued:
+		Cost: 1600
+	Tooltip:
+		Name: actor-gdd.name
+	Health:
+		HP: 55000
+	Mobile:
+		TurnSpeed: 24
+		Speed: 100
+
+# Battlecruiser (BCR). Long-range heavy combatant.
+BCR:
+	Inherits: CA
+	RenderSprites:
+		Image: ca
+	Buildable:
+		BuildPaletteOrder: 55
+		Prerequisites: ~syrd, atek, dome, ~techlevel.high
+		Description: actor-bcr.description
+	Valued:
+		Cost: 3400
+	Tooltip:
+		Name: actor-bcr.name
+	Health:
+		HP: 95000
+	Mobile:
+		TurnSpeed: 10
+		Speed: 48
+
+# Ballistic Missile Submarine (SSBN). Strategic strike sub.
+SSBN:
+	Inherits: MSUB
+	RenderSprites:
+		Image: msub
+	Buildable:
+		BuildPaletteOrder: 65
+		Prerequisites: ~syrd, atek, ~techlevel.high
+		Description: actor-ssbn.description
+	Valued:
+		Cost: 3200
+	Tooltip:
+		Name: actor-ssbn.name
+	Health:
+		HP: 45000
