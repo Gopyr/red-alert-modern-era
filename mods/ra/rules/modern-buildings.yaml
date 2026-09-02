@@ -1,0 +1,58 @@
+# Modern buildings: Docks tier 1-3 (coastal only, TerrainTypes Water)
+
+# Battle Dock (Tier 1)
+DOCK1:
+	Inherits: SYRD
+	RenderSprites:
+		Image: dock1
+	Buildable:
+		Queue: Building
+		BuildPaletteOrder: 41
+		Prerequisites: anypower, ~techlevel.low
+		Description: actor-dock1.description
+	Valued:
+		Cost: 1200
+	Tooltip:
+		Name: actor-dock1.name
+	Health:
+		HP: 150000
+	Building:
+		TerrainTypes: Water
+
+# Advanced Dock (Tier 2)
+DOCK2:
+	Inherits: SYRD
+	RenderSprites:
+		Image: dock2
+	Buildable:
+		Queue: Building
+		BuildPaletteOrder: 42
+		Prerequisites: anypower, ~techlevel.medium
+		Description: actor-dock2.description
+	Valued:
+		Cost: 2000
+	Tooltip:
+		Name: actor-dock2.name
+	Health:
+		HP: 200000
+	Building:
+		TerrainTypes: Water
+
+# Super Dock (Tier 3)
+DOCK3:
+	Inherits: SYRD
+	RenderSprites:
+		Image: dock3
+	Buildable:
+		Queue: Building
+		BuildPaletteOrder: 43
+		Prerequisites: anypower, atek, ~techlevel.high
+		Description: actor-dock3.description
+	Valued:
+		Cost: 3200
+	Tooltip:
+		Name: actor-dock3.name
+	Health:
+		HP: 260000
+	Building:
+		TerrainTypes: Water

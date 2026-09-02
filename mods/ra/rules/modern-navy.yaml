@@ -1,0 +1,271 @@
+# Modern capital ships - battleships and carriers (Docks tier 3)
+
+# IJN Yamato
+YAMATO:
+	Inherits: CA
+	RenderSprites:
+		Image: yamato
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 70
+		Prerequisites: ~syrd, atek, dome, ~techlevel.high
+		Description: actor-yamato.description
+	Valued:
+		Cost: 5200
+	Tooltip:
+		Name: actor-yamato.name
+		GenericName: actor-yamato.generic-name
+	Health:
+		HP: 160000
+	Armament:
+		Weapon: 8Inch
+	Mobile:
+		TurnSpeed: 8
+		Speed: 28
+
+# USS Iowa
+IOWA:
+	Inherits: CA
+	RenderSprites:
+		Image: iowa
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 71
+		Prerequisites: ~syrd, atek, dome, ~techlevel.high
+		Description: actor-iowa.description
+	Valued:
+		Cost: 4800
+	Tooltip:
+		Name: actor-iowa.name
+		GenericName: actor-iowa.generic-name
+	Health:
+		HP: 145000
+	Armament:
+		Weapon: 8Inch
+	Mobile:
+		TurnSpeed: 8
+		Speed: 30
+
+# KMS Bismarck
+BISMARCK:
+	Inherits: CA
+	RenderSprites:
+		Image: bismarck
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 72
+		Prerequisites: ~syrd, atek, dome, ~techlevel.high
+		Description: actor-bismarck.description
+	Valued:
+		Cost: 4600
+	Tooltip:
+		Name: actor-bismarck.name
+		GenericName: actor-bismarck.generic-name
+	Health:
+		HP: 140000
+	Armament:
+		Weapon: 8Inch
+	Mobile:
+		TurnSpeed: 8
+		Speed: 29
+
+# USS North Carolina
+NC:
+	Inherits: CA
+	RenderSprites:
+		Image: nc
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 73
+		Prerequisites: ~syrd, atek, dome, ~techlevel.high
+		Description: actor-nc.description
+	Valued:
+		Cost: 4300
+	Tooltip:
+		Name: actor-nc.name
+		GenericName: actor-nc.generic-name
+	Health:
+		HP: 130000
+	Armament:
+		Weapon: 8Inch
+	Mobile:
+		TurnSpeed: 8
+		Speed: 30
+
+# HMS Vanguard
+VANGUARD:
+	Inherits: CA
+	RenderSprites:
+		Image: vanguard
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 74
+		Prerequisites: ~syrd, atek, ~techlevel.high
+		Description: actor-vanguard.description
+	Valued:
+		Cost: 4100
+	Tooltip:
+		Name: actor-vanguard.name
+		GenericName: actor-vanguard.generic-name
+	Health:
+		HP: 125000
+	Armament:
+		Weapon: 8Inch
+	Mobile:
+		TurnSpeed: 8
+		Speed: 30
+
+# HMS King George V
+KINGGV:
+	Inherits: CA
+	RenderSprites:
+		Image: kinggv
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 75
+		Prerequisites: ~syrd, atek, ~techlevel.high
+		Description: actor-kinggv.description
+	Valued:
+		Cost: 3900
+	Tooltip:
+		Name: actor-kinggv.name
+		GenericName: actor-kinggv.generic-name
+	Health:
+		HP: 118000
+	Armament:
+		Weapon: 8Inch
+	Mobile:
+		TurnSpeed: 8
+		Speed: 29
+
+# Sovetsky Soyuz
+SOVETSKY:
+	Inherits: CA
+	RenderSprites:
+		Image: sovetsky
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 76
+		Prerequisites: ~syrd, stek, dome, ~techlevel.high
+		Description: actor-sovetsky.description
+	Valued:
+		Cost: 4400
+	Tooltip:
+		Name: actor-sovetsky.name
+		GenericName: actor-sovetsky.generic-name
+	Health:
+		HP: 135000
+	Armament:
+		Weapon: 8Inch
+	Mobile:
+		TurnSpeed: 8
+		Speed: 28
+
+# Richelieu
+RICHELIEU:
+	Inherits: CA
+	RenderSprites:
+		Image: richelieu
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 77
+		Prerequisites: ~syrd, atek, ~techlevel.high
+		Description: actor-richelieu.description
+	Valued:
+		Cost: 4200
+	Tooltip:
+		Name: actor-richelieu.name
+		GenericName: actor-richelieu.generic-name
+	Health:
+		HP: 128000
+	Armament:
+		Weapon: 8Inch
+	Mobile:
+		TurnSpeed: 8
+		Speed: 29
+
+# Littorio
+LITTORIO:
+	Inherits: CA
+	RenderSprites:
+		Image: littorio
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 78
+		Prerequisites: ~syrd, atek, ~techlevel.high
+		Description: actor-littorio.description
+	Valued:
+		Cost: 4000
+	Tooltip:
+		Name: actor-littorio.name
+		GenericName: actor-littorio.generic-name
+	Health:
+		HP: 122000
+	Armament:
+		Weapon: 8Inch
+	Mobile:
+		TurnSpeed: 8
+		Speed: 29
+
+# USS Nimitz
+NIMITZY:
+	Inherits: LST
+	RenderSprites:
+		Image: nimitzy
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 80
+		Prerequisites: ~syrd, atek, dome, ~techlevel.high
+		Description: actor-nimitzy.description
+	Valued:
+		Cost: 6000
+	Tooltip:
+		Name: actor-nimitzy.name
+		GenericName: actor-nimitzy.generic-name
+	Health:
+		HP: 200000
+	Mobile:
+		TurnSpeed: 8
+		Speed: 22
+
+# USS Gerald R. Ford
+FORD:
+	Inherits: LST
+	RenderSprites:
+		Image: ford
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 81
+		Prerequisites: ~syrd, atek, dome, ~techlevel.unrestricted
+		Description: actor-ford.description
+	Valued:
+		Cost: 7500
+	Tooltip:
+		Name: actor-ford.name
+		GenericName: actor-ford.generic-name
+	Health:
+		HP: 220000
+	Mobile:
+		TurnSpeed: 8
+		Speed: 22
+
+# HMS Queen Elizabeth
+QUEENELIZ:
+	Inherits: LST
+	RenderSprites:
+		Image: queeneliz
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 82
+		Prerequisites: ~syrd, atek, ~techlevel.high
+		Description: actor-queeneliz.description
+	Valued:
+		Cost: 5500
+	Tooltip:
+		Name: actor-queeneliz.name
+		GenericName: actor-queeneliz.generic-name
+	Health:
+		HP: 180000
+	Mobile:
+		TurnSpeed: 8
+		Speed: 24

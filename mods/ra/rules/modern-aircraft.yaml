@@ -1,0 +1,450 @@
+# Modern aircraft, helicopter and drone units - Gopyr's OpenRA mod
+# Tier 2-3 air power: jets from airfield, helis from helipad
+
+# F-16 Fighting Falcon
+F16:
+	Inherits: MIG
+	RenderSprites:
+		Image: f16
+	Buildable:
+		Queue: Aircraft
+		BuildPaletteOrder: 51
+		Prerequisites: ~afld, stek, ~techlevel.high
+		Description: actor-f16.description
+	Valued:
+		Cost: 1800
+	Tooltip:
+		Name: actor-f16.name
+		GenericName: actor-f16.generic-name
+	Health:
+		HP: 9000
+	Armament:
+		Weapon: Maverick
+
+# F-22 Raptor
+F22:
+	Inherits: MIG
+	RenderSprites:
+		Image: f22
+	Buildable:
+		Queue: Aircraft
+		BuildPaletteOrder: 52
+		Prerequisites: ~afld, stek, dome, ~techlevel.high
+		Description: actor-f22.description
+	Valued:
+		Cost: 2800
+	Tooltip:
+		Name: actor-f22.name
+		GenericName: actor-f22.generic-name
+	Health:
+		HP: 12000
+	Armament:
+		Weapon: HellfireAG
+
+# Su-27 Flanker
+SU27:
+	Inherits: MIG
+	RenderSprites:
+		Image: su27
+	Buildable:
+		Queue: Aircraft
+		BuildPaletteOrder: 53
+		Prerequisites: ~afld, atek, ~techlevel.high
+		Description: actor-su27.description
+	Valued:
+		Cost: 2100
+	Tooltip:
+		Name: actor-su27.name
+		GenericName: actor-su27.generic-name
+	Health:
+		HP: 10000
+	Armament:
+		Weapon: Maverick
+
+# Rafale
+RAFALE:
+	Inherits: MIG
+	RenderSprites:
+		Image: rafale
+	Buildable:
+		Queue: Aircraft
+		BuildPaletteOrder: 54
+		Prerequisites: ~afld, atek, ~techlevel.high
+		Description: actor-rafale.description
+	Valued:
+		Cost: 2400
+	Tooltip:
+		Name: actor-rafale.name
+		GenericName: actor-rafale.generic-name
+	Health:
+		HP: 11000
+	Armament:
+		Weapon: Maverick
+
+# F-15 Eagle
+F15:
+	Inherits: MIG
+	RenderSprites:
+		Image: f15
+	Buildable:
+		Queue: Aircraft
+		BuildPaletteOrder: 55
+		Prerequisites: ~afld, stek, atek, ~techlevel.high
+		Description: actor-f15.description
+	Valued:
+		Cost: 2600
+	Tooltip:
+		Name: actor-f15.name
+		GenericName: actor-f15.generic-name
+	Health:
+		HP: 13000
+	Armament:
+		Weapon: Maverick
+
+# Spitfire
+SPITFIRE:
+	Inherits: MIG
+	RenderSprites:
+		Image: spitfire
+	Buildable:
+		Queue: Aircraft
+		BuildPaletteOrder: 56
+		Prerequisites: ~afld, ~techlevel.low
+		Description: actor-spitfire.description
+	Valued:
+		Cost: 800
+	Tooltip:
+		Name: actor-spitfire.name
+		GenericName: actor-spitfire.generic-name
+	Health:
+		HP: 6000
+	Armament:
+		Weapon: M1Carbine
+
+# B-2 Spirit
+B2:
+	Inherits: MIG
+	RenderSprites:
+		Image: b2
+	Buildable:
+		Queue: Aircraft
+		BuildPaletteOrder: 57
+		Prerequisites: ~afld, stek, atek, dome, ~techlevel.unrestricted
+		Description: actor-b2.description
+	Valued:
+		Cost: 5000
+	Tooltip:
+		Name: actor-b2.name
+		GenericName: actor-b2.generic-name
+	Health:
+		HP: 18000
+	Armament:
+		Weapon: Maverick
+
+# F-117 Nighthawk
+F117:
+	Inherits: MIG
+	RenderSprites:
+		Image: f117
+	Buildable:
+		Queue: Aircraft
+		BuildPaletteOrder: 58
+		Prerequisites: ~afld, stek, atek, ~techlevel.high
+		Description: actor-f117.description
+	Valued:
+		Cost: 3500
+	Tooltip:
+		Name: actor-f117.name
+		GenericName: actor-f117.generic-name
+	Health:
+		HP: 12000
+	Armament:
+		Weapon: Maverick
+
+# Harrier
+HARRIER:
+	Inherits: MIG
+	RenderSprites:
+		Image: harrier
+	Buildable:
+		Queue: Aircraft
+		BuildPaletteOrder: 59
+		Prerequisites: ~afld, ~techlevel.medium
+		Description: actor-harrier.description
+	Valued:
+		Cost: 2000
+	Tooltip:
+		Name: actor-harrier.name
+		GenericName: actor-harrier.generic-name
+	Health:
+		HP: 9000
+	Armament:
+		Weapon: Maverick
+
+# MiG-29
+MIG29:
+	Inherits: MIG
+	RenderSprites:
+		Image: mig29
+	Buildable:
+		Queue: Aircraft
+		BuildPaletteOrder: 60
+		Prerequisites: ~afld, atek, ~techlevel.high
+		Description: actor-mig29.description
+	Valued:
+		Cost: 1900
+	Tooltip:
+		Name: actor-mig29.name
+		GenericName: actor-mig29.generic-name
+	Health:
+		HP: 9500
+	Armament:
+		Weapon: Maverick
+
+# AH-64 Apache
+APACHE:
+	Inherits: HIND
+	RenderSprites:
+		Image: apache
+	Buildable:
+		Queue: Aircraft
+		BuildPaletteOrder: 21
+		Prerequisites: ~hpad, ~techlevel.medium
+		Description: actor-apache.description
+	Valued:
+		Cost: 1800
+	Tooltip:
+		Name: actor-apache.name
+		GenericName: actor-apache.generic-name
+	Health:
+		HP: 11000
+	Armament:
+		Weapon: HellfireAG
+
+# AH-1 Cobra
+COBRA:
+	Inherits: HIND
+	RenderSprites:
+		Image: cobra
+	Buildable:
+		Queue: Aircraft
+		BuildPaletteOrder: 22
+		Prerequisites: ~hpad, ~techlevel.medium
+		Description: actor-cobra.description
+	Valued:
+		Cost: 1600
+	Tooltip:
+		Name: actor-cobra.name
+		GenericName: actor-cobra.generic-name
+	Health:
+		HP: 9500
+	Armament:
+		Weapon: HellfireAG
+
+# UH-60 Black Hawk
+BLACKHAWK:
+	Inherits: MH60
+	RenderSprites:
+		Image: blackhawk
+	Buildable:
+		Queue: Aircraft
+		BuildPaletteOrder: 23
+		Prerequisites: ~hpad, ~techlevel.medium
+		Description: actor-blackhawk.description
+	Valued:
+		Cost: 1100
+	Tooltip:
+		Name: actor-blackhawk.name
+		GenericName: actor-blackhawk.generic-name
+	Health:
+		HP: 12000
+
+# CH-47 Chinook
+CHINOOK:
+	Inherits: HELI
+	RenderSprites:
+		Image: chinook
+	Buildable:
+		Queue: Aircraft
+		BuildPaletteOrder: 24
+		Prerequisites: ~hpad, atek, ~techlevel.high
+		Description: actor-chinook.description
+	Valued:
+		Cost: 1800
+	Tooltip:
+		Name: actor-chinook.name
+		GenericName: actor-chinook.generic-name
+	Health:
+		HP: 15000
+
+# Ka-52 Alligator
+KA52:
+	Inherits: HIND
+	RenderSprites:
+		Image: ka52
+	Buildable:
+		Queue: Aircraft
+		BuildPaletteOrder: 25
+		Prerequisites: ~hpad, stek, ~techlevel.high
+		Description: actor-ka52.description
+	Valued:
+		Cost: 2200
+	Tooltip:
+		Name: actor-ka52.name
+		GenericName: actor-ka52.generic-name
+	Health:
+		HP: 11500
+	Armament:
+		Weapon: HellfireAG
+
+# Mi-24 Hind
+MILMI24:
+	Inherits: HIND
+	RenderSprites:
+		Image: milmi24
+	Buildable:
+		Queue: Aircraft
+		BuildPaletteOrder: 26
+		Prerequisites: ~hpad, stek, ~techlevel.medium
+		Description: actor-milmi24.description
+	Valued:
+		Cost: 1900
+	Tooltip:
+		Name: actor-milmi24.name
+		GenericName: actor-milmi24.generic-name
+	Health:
+		HP: 12000
+	Armament:
+		Weapon: Maverick
+
+# UH-60 Utility
+UH60:
+	Inherits: MH60
+	RenderSprites:
+		Image: uh60
+	Buildable:
+		Queue: Aircraft
+		BuildPaletteOrder: 27
+		Prerequisites: ~hpad, ~techlevel.medium
+		Description: actor-uh60.description
+	Valued:
+		Cost: 1200
+	Tooltip:
+		Name: actor-uh60.name
+		GenericName: actor-uh60.generic-name
+	Health:
+		HP: 12500
+
+# Eurocopter Tiger
+EUROCOPTER:
+	Inherits: MH60
+	RenderSprites:
+		Image: eurocopter
+	Buildable:
+		Queue: Aircraft
+		BuildPaletteOrder: 28
+		Prerequisites: ~hpad, ~techlevel.low
+		Description: actor-eurocopter.description
+	Valued:
+		Cost: 1000
+	Tooltip:
+		Name: actor-eurocopter.name
+		GenericName: actor-eurocopter.generic-name
+	Health:
+		HP: 10000
+
+# AH-1Z Viper
+AH1Z:
+	Inherits: HIND
+	RenderSprites:
+		Image: ah1z
+	Buildable:
+		Queue: Aircraft
+		BuildPaletteOrder: 29
+		Prerequisites: ~hpad, atek, ~techlevel.high
+		Description: actor-ah1z.description
+	Valued:
+		Cost: 1900
+	Tooltip:
+		Name: actor-ah1z.name
+		GenericName: actor-ah1z.generic-name
+	Health:
+		HP: 10500
+	Armament:
+		Weapon: HellfireAG
+
+# NH90
+NH90:
+	Inherits: HELI
+	RenderSprites:
+		Image: nh90
+	Buildable:
+		Queue: Aircraft
+		BuildPaletteOrder: 30
+		Prerequisites: ~hpad, ~techlevel.high
+		Description: actor-nh90.description
+	Valued:
+		Cost: 1500
+	Tooltip:
+		Name: actor-nh90.name
+		GenericName: actor-nh90.generic-name
+	Health:
+		HP: 13000
+
+# MQ-9 Reaper
+MQ9:
+	Inherits: MIG
+	RenderSprites:
+		Image: mq9
+	Buildable:
+		Queue: Aircraft
+		BuildPaletteOrder: 61
+		Prerequisites: ~afld, atek, dome, ~techlevel.high
+		Description: actor-mq9.description
+	Valued:
+		Cost: 2500
+	Tooltip:
+		Name: actor-mq9.name
+		GenericName: actor-mq9.generic-name
+	Health:
+		HP: 6000
+	Armament:
+		Weapon: Maverick
+
+# Quadcopter Drone
+QUAD:
+	Inherits: HELI
+	RenderSprites:
+		Image: quad
+	Buildable:
+		Queue: Aircraft
+		BuildPaletteOrder: 31
+		Prerequisites: ~hpad, ~techlevel.low
+		Description: actor-quad.description
+	Valued:
+		Cost: 300
+	Tooltip:
+		Name: actor-quad.name
+		GenericName: actor-quad.generic-name
+	Health:
+		HP: 3000
+
+# Switchblade
+SWITCHBLADE:
+	Inherits: MIG
+	RenderSprites:
+		Image: switchblade
+	Buildable:
+		Queue: Aircraft
+		BuildPaletteOrder: 62
+		Prerequisites: ~afld, ~techlevel.medium
+		Description: actor-switchblade.description
+	Valued:
+		Cost: 900
+	Tooltip:
+		Name: actor-switchblade.name
+		GenericName: actor-switchblade.generic-name
+	Health:
+		HP: 4000
+	Armament:
+		Weapon: Maverick

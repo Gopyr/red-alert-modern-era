@@ -1,0 +1,1024 @@
+# Modern aircraft, drone, armored infantry and capital ship sequences
+f16:
+	idle:
+		Filename: f16-idle.png
+		Facings: 8
+	move:
+		Filename: f16-move.png
+		Facings: 8
+		Tick: 80
+	die1:
+		Filename: f16-die.png
+	muzzle:
+		Filename: f16-idle.png
+		Frame: 0
+	turret:
+		Filename: f16-idle.png
+		Facings: 8
+	icon:
+		Filename: f16-idle.png
+		Frame: 0
+
+f22:
+	idle:
+		Filename: f22-idle.png
+		Facings: 8
+	move:
+		Filename: f22-move.png
+		Facings: 8
+		Tick: 80
+	die1:
+		Filename: f22-die.png
+	muzzle:
+		Filename: f22-idle.png
+		Frame: 0
+	turret:
+		Filename: f22-idle.png
+		Facings: 8
+	icon:
+		Filename: f22-idle.png
+		Frame: 0
+
+su27:
+	idle:
+		Filename: su27-idle.png
+		Facings: 8
+	move:
+		Filename: su27-move.png
+		Facings: 8
+		Tick: 80
+	die1:
+		Filename: su27-die.png
+	muzzle:
+		Filename: su27-idle.png
+		Frame: 0
+	turret:
+		Filename: su27-idle.png
+		Facings: 8
+	icon:
+		Filename: su27-idle.png
+		Frame: 0
+
+rafale:
+	idle:
+		Filename: rafale-idle.png
+		Facings: 8
+	move:
+		Filename: rafale-move.png
+		Facings: 8
+		Tick: 80
+	die1:
+		Filename: rafale-die.png
+	muzzle:
+		Filename: rafale-idle.png
+		Frame: 0
+	turret:
+		Filename: rafale-idle.png
+		Facings: 8
+	icon:
+		Filename: rafale-idle.png
+		Frame: 0
+
+f15:
+	idle:
+		Filename: f15-idle.png
+		Facings: 8
+	move:
+		Filename: f15-move.png
+		Facings: 8
+		Tick: 80
+	die1:
+		Filename: f15-die.png
+	muzzle:
+		Filename: f15-idle.png
+		Frame: 0
+	turret:
+		Filename: f15-idle.png
+		Facings: 8
+	icon:
+		Filename: f15-idle.png
+		Frame: 0
+
+spitfire:
+	idle:
+		Filename: spitfire-idle.png
+		Facings: 8
+	move:
+		Filename: spitfire-move.png
+		Facings: 8
+		Tick: 80
+	die1:
+		Filename: spitfire-die.png
+	muzzle:
+		Filename: spitfire-idle.png
+		Frame: 0
+	turret:
+		Filename: spitfire-idle.png
+		Facings: 8
+	icon:
+		Filename: spitfire-idle.png
+		Frame: 0
+
+b2:
+	idle:
+		Filename: b2-idle.png
+		Facings: 8
+	move:
+		Filename: b2-move.png
+		Facings: 8
+		Tick: 80
+	die1:
+		Filename: b2-die.png
+	muzzle:
+		Filename: b2-idle.png
+		Frame: 0
+	turret:
+		Filename: b2-idle.png
+		Facings: 8
+	icon:
+		Filename: b2-idle.png
+		Frame: 0
+
+f117:
+	idle:
+		Filename: f117-idle.png
+		Facings: 8
+	move:
+		Filename: f117-move.png
+		Facings: 8
+		Tick: 80
+	die1:
+		Filename: f117-die.png
+	muzzle:
+		Filename: f117-idle.png
+		Frame: 0
+	turret:
+		Filename: f117-idle.png
+		Facings: 8
+	icon:
+		Filename: f117-idle.png
+		Frame: 0
+
+harrier:
+	idle:
+		Filename: harrier-idle.png
+		Facings: 8
+	move:
+		Filename: harrier-move.png
+		Facings: 8
+		Tick: 80
+	die1:
+		Filename: harrier-die.png
+	muzzle:
+		Filename: harrier-idle.png
+		Frame: 0
+	turret:
+		Filename: harrier-idle.png
+		Facings: 8
+	icon:
+		Filename: harrier-idle.png
+		Frame: 0
+
+mig29:
+	idle:
+		Filename: mig29-idle.png
+		Facings: 8
+	move:
+		Filename: mig29-move.png
+		Facings: 8
+		Tick: 80
+	die1:
+		Filename: mig29-die.png
+	muzzle:
+		Filename: mig29-idle.png
+		Frame: 0
+	turret:
+		Filename: mig29-idle.png
+		Facings: 8
+	icon:
+		Filename: mig29-idle.png
+		Frame: 0
+
+apache:
+	idle:
+		Filename: apache-idle.png
+		Facings: 8
+	move:
+		Filename: apache-move.png
+		Facings: 8
+		Tick: 80
+	die1:
+		Filename: apache-die.png
+	muzzle:
+		Filename: apache-idle.png
+		Frame: 0
+	turret:
+		Filename: apache-idle.png
+		Facings: 8
+	icon:
+		Filename: apache-idle.png
+		Frame: 0
+
+cobra:
+	idle:
+		Filename: cobra-idle.png
+		Facings: 8
+	move:
+		Filename: cobra-move.png
+		Facings: 8
+		Tick: 80
+	die1:
+		Filename: cobra-die.png
+	muzzle:
+		Filename: cobra-idle.png
+		Frame: 0
+	turret:
+		Filename: cobra-idle.png
+		Facings: 8
+	icon:
+		Filename: cobra-idle.png
+		Frame: 0
+
+blackhawk:
+	idle:
+		Filename: blackhawk-idle.png
+		Facings: 8
+	move:
+		Filename: blackhawk-move.png
+		Facings: 8
+		Tick: 80
+	die1:
+		Filename: blackhawk-die.png
+	muzzle:
+		Filename: blackhawk-idle.png
+		Frame: 0
+	turret:
+		Filename: blackhawk-idle.png
+		Facings: 8
+	icon:
+		Filename: blackhawk-idle.png
+		Frame: 0
+
+chinook:
+	idle:
+		Filename: chinook-idle.png
+		Facings: 8
+	move:
+		Filename: chinook-move.png
+		Facings: 8
+		Tick: 80
+	die1:
+		Filename: chinook-die.png
+	muzzle:
+		Filename: chinook-idle.png
+		Frame: 0
+	turret:
+		Filename: chinook-idle.png
+		Facings: 8
+	icon:
+		Filename: chinook-idle.png
+		Frame: 0
+
+ka52:
+	idle:
+		Filename: ka52-idle.png
+		Facings: 8
+	move:
+		Filename: ka52-move.png
+		Facings: 8
+		Tick: 80
+	die1:
+		Filename: ka52-die.png
+	muzzle:
+		Filename: ka52-idle.png
+		Frame: 0
+	turret:
+		Filename: ka52-idle.png
+		Facings: 8
+	icon:
+		Filename: ka52-idle.png
+		Frame: 0
+
+milmi24:
+	idle:
+		Filename: milmi24-idle.png
+		Facings: 8
+	move:
+		Filename: milmi24-move.png
+		Facings: 8
+		Tick: 80
+	die1:
+		Filename: milmi24-die.png
+	muzzle:
+		Filename: milmi24-idle.png
+		Frame: 0
+	turret:
+		Filename: milmi24-idle.png
+		Facings: 8
+	icon:
+		Filename: milmi24-idle.png
+		Frame: 0
+
+uh60:
+	idle:
+		Filename: uh60-idle.png
+		Facings: 8
+	move:
+		Filename: uh60-move.png
+		Facings: 8
+		Tick: 80
+	die1:
+		Filename: uh60-die.png
+	muzzle:
+		Filename: uh60-idle.png
+		Frame: 0
+	turret:
+		Filename: uh60-idle.png
+		Facings: 8
+	icon:
+		Filename: uh60-idle.png
+		Frame: 0
+
+eurocopter:
+	idle:
+		Filename: eurocopter-idle.png
+		Facings: 8
+	move:
+		Filename: eurocopter-move.png
+		Facings: 8
+		Tick: 80
+	die1:
+		Filename: eurocopter-die.png
+	muzzle:
+		Filename: eurocopter-idle.png
+		Frame: 0
+	turret:
+		Filename: eurocopter-idle.png
+		Facings: 8
+	icon:
+		Filename: eurocopter-idle.png
+		Frame: 0
+
+ah1z:
+	idle:
+		Filename: ah1z-idle.png
+		Facings: 8
+	move:
+		Filename: ah1z-move.png
+		Facings: 8
+		Tick: 80
+	die1:
+		Filename: ah1z-die.png
+	muzzle:
+		Filename: ah1z-idle.png
+		Frame: 0
+	turret:
+		Filename: ah1z-idle.png
+		Facings: 8
+	icon:
+		Filename: ah1z-idle.png
+		Frame: 0
+
+nh90:
+	idle:
+		Filename: nh90-idle.png
+		Facings: 8
+	move:
+		Filename: nh90-move.png
+		Facings: 8
+		Tick: 80
+	die1:
+		Filename: nh90-die.png
+	muzzle:
+		Filename: nh90-idle.png
+		Frame: 0
+	turret:
+		Filename: nh90-idle.png
+		Facings: 8
+	icon:
+		Filename: nh90-idle.png
+		Frame: 0
+
+mq9:
+	idle:
+		Filename: mq9-idle.png
+		Facings: 8
+	move:
+		Filename: mq9-move.png
+		Facings: 8
+		Tick: 80
+	die1:
+		Filename: mq9-die.png
+	muzzle:
+		Filename: mq9-idle.png
+		Frame: 0
+	turret:
+		Filename: mq9-idle.png
+		Facings: 8
+	icon:
+		Filename: mq9-idle.png
+		Frame: 0
+
+quad:
+	idle:
+		Filename: quad-idle.png
+		Facings: 8
+	move:
+		Filename: quad-move.png
+		Facings: 8
+		Tick: 80
+	die1:
+		Filename: quad-die.png
+	muzzle:
+		Filename: quad-idle.png
+		Frame: 0
+	turret:
+		Filename: quad-idle.png
+		Facings: 8
+	icon:
+		Filename: quad-idle.png
+		Frame: 0
+
+switchblade:
+	idle:
+		Filename: switchblade-idle.png
+		Facings: 8
+	move:
+		Filename: switchblade-move.png
+		Facings: 8
+		Tick: 80
+	die1:
+		Filename: switchblade-die.png
+	muzzle:
+		Filename: switchblade-idle.png
+		Frame: 0
+	turret:
+		Filename: switchblade-idle.png
+		Facings: 8
+	icon:
+		Filename: switchblade-idle.png
+		Frame: 0
+
+powsoldier:
+	stand:
+		Filename: powsoldier-stand.png
+		Facings: 8
+	stand2:
+		Filename: powsoldier-stand.png
+		Facings: 8
+	idle:
+		Filename: powsoldier-stand.png
+		Facings: 8
+		Tick: 120
+	idle1:
+		Filename: powsoldier-stand.png
+		Facings: 8
+		Tick: 120
+	idle2:
+		Filename: powsoldier-stand.png
+		Facings: 8
+		Tick: 120
+	run:
+		Filename: powsoldier-run.png
+		Facings: 8
+		Tick: 100
+	walk:
+		Filename: powsoldier-run.png
+		Facings: 8
+		Tick: 100
+	shoot:
+		Filename: powsoldier-shoot.png
+		Facings: 8
+	throw:
+		Filename: powsoldier-shoot.png
+		Facings: 8
+	die1:
+		Filename: powsoldier-die.png
+	die-crushed:
+		Filename: powsoldier-die.png
+	parachute:
+		Filename: powsoldier-stand.png
+		Frame: 0
+	garrison-muzzle:
+		Filename: powsoldier-stand.png
+		Frame: 0
+	prone-stand:
+		Filename: powsoldier-stand.png
+		Facings: 8
+	prone-stand2:
+		Filename: powsoldier-stand.png
+		Facings: 8
+	prone-run:
+		Filename: powsoldier-run.png
+		Facings: 8
+		Tick: 100
+	prone-shoot:
+		Filename: powsoldier-shoot.png
+		Facings: 8
+	liedown:
+		Filename: powsoldier-stand.png
+		Frame: 0
+	standup:
+		Filename: powsoldier-stand.png
+		Frame: 0
+	muzzle:
+		Filename: powsoldier-shoot.png
+		Frame: 0
+	turret:
+		Filename: powsoldier-stand.png
+		Facings: 8
+	icon:
+		Filename: powsoldier-stand.png
+		Frame: 0
+
+heavysoldier:
+	stand:
+		Filename: heavysoldier-stand.png
+		Facings: 8
+	stand2:
+		Filename: heavysoldier-stand.png
+		Facings: 8
+	idle:
+		Filename: heavysoldier-stand.png
+		Facings: 8
+		Tick: 120
+	idle1:
+		Filename: heavysoldier-stand.png
+		Facings: 8
+		Tick: 120
+	idle2:
+		Filename: heavysoldier-stand.png
+		Facings: 8
+		Tick: 120
+	run:
+		Filename: heavysoldier-run.png
+		Facings: 8
+		Tick: 100
+	walk:
+		Filename: heavysoldier-run.png
+		Facings: 8
+		Tick: 100
+	shoot:
+		Filename: heavysoldier-shoot.png
+		Facings: 8
+	throw:
+		Filename: heavysoldier-shoot.png
+		Facings: 8
+	die1:
+		Filename: heavysoldier-die.png
+	die-crushed:
+		Filename: heavysoldier-die.png
+	parachute:
+		Filename: heavysoldier-stand.png
+		Frame: 0
+	garrison-muzzle:
+		Filename: heavysoldier-stand.png
+		Frame: 0
+	prone-stand:
+		Filename: heavysoldier-stand.png
+		Facings: 8
+	prone-stand2:
+		Filename: heavysoldier-stand.png
+		Facings: 8
+	prone-run:
+		Filename: heavysoldier-run.png
+		Facings: 8
+		Tick: 100
+	prone-shoot:
+		Filename: heavysoldier-shoot.png
+		Facings: 8
+	liedown:
+		Filename: heavysoldier-stand.png
+		Frame: 0
+	standup:
+		Filename: heavysoldier-stand.png
+		Frame: 0
+	muzzle:
+		Filename: heavysoldier-shoot.png
+		Frame: 0
+	turret:
+		Filename: heavysoldier-stand.png
+		Facings: 8
+	icon:
+		Filename: heavysoldier-stand.png
+		Frame: 0
+
+exosoldier:
+	stand:
+		Filename: exosoldier-stand.png
+		Facings: 8
+	stand2:
+		Filename: exosoldier-stand.png
+		Facings: 8
+	idle:
+		Filename: exosoldier-stand.png
+		Facings: 8
+		Tick: 120
+	idle1:
+		Filename: exosoldier-stand.png
+		Facings: 8
+		Tick: 120
+	idle2:
+		Filename: exosoldier-stand.png
+		Facings: 8
+		Tick: 120
+	run:
+		Filename: exosoldier-run.png
+		Facings: 8
+		Tick: 100
+	walk:
+		Filename: exosoldier-run.png
+		Facings: 8
+		Tick: 100
+	shoot:
+		Filename: exosoldier-shoot.png
+		Facings: 8
+	throw:
+		Filename: exosoldier-shoot.png
+		Facings: 8
+	die1:
+		Filename: exosoldier-die.png
+	die-crushed:
+		Filename: exosoldier-die.png
+	parachute:
+		Filename: exosoldier-stand.png
+		Frame: 0
+	garrison-muzzle:
+		Filename: exosoldier-stand.png
+		Frame: 0
+	prone-stand:
+		Filename: exosoldier-stand.png
+		Facings: 8
+	prone-stand2:
+		Filename: exosoldier-stand.png
+		Facings: 8
+	prone-run:
+		Filename: exosoldier-run.png
+		Facings: 8
+		Tick: 100
+	prone-shoot:
+		Filename: exosoldier-shoot.png
+		Facings: 8
+	liedown:
+		Filename: exosoldier-stand.png
+		Frame: 0
+	standup:
+		Filename: exosoldier-stand.png
+		Frame: 0
+	muzzle:
+		Filename: exosoldier-shoot.png
+		Frame: 0
+	turret:
+		Filename: exosoldier-stand.png
+		Facings: 8
+	icon:
+		Filename: exosoldier-stand.png
+		Frame: 0
+
+supersoldier:
+	stand:
+		Filename: supersoldier-stand.png
+		Facings: 8
+	stand2:
+		Filename: supersoldier-stand.png
+		Facings: 8
+	idle:
+		Filename: supersoldier-stand.png
+		Facings: 8
+		Tick: 120
+	idle1:
+		Filename: supersoldier-stand.png
+		Facings: 8
+		Tick: 120
+	idle2:
+		Filename: supersoldier-stand.png
+		Facings: 8
+		Tick: 120
+	run:
+		Filename: supersoldier-run.png
+		Facings: 8
+		Tick: 100
+	walk:
+		Filename: supersoldier-run.png
+		Facings: 8
+		Tick: 100
+	shoot:
+		Filename: supersoldier-shoot.png
+		Facings: 8
+	throw:
+		Filename: supersoldier-shoot.png
+		Facings: 8
+	die1:
+		Filename: supersoldier-die.png
+	die-crushed:
+		Filename: supersoldier-die.png
+	parachute:
+		Filename: supersoldier-stand.png
+		Frame: 0
+	garrison-muzzle:
+		Filename: supersoldier-stand.png
+		Frame: 0
+	prone-stand:
+		Filename: supersoldier-stand.png
+		Facings: 8
+	prone-stand2:
+		Filename: supersoldier-stand.png
+		Facings: 8
+	prone-run:
+		Filename: supersoldier-run.png
+		Facings: 8
+		Tick: 100
+	prone-shoot:
+		Filename: supersoldier-shoot.png
+		Facings: 8
+	liedown:
+		Filename: supersoldier-stand.png
+		Frame: 0
+	standup:
+		Filename: supersoldier-stand.png
+		Frame: 0
+	muzzle:
+		Filename: supersoldier-shoot.png
+		Frame: 0
+	turret:
+		Filename: supersoldier-stand.png
+		Facings: 8
+	icon:
+		Filename: supersoldier-stand.png
+		Frame: 0
+
+yamato:
+	idle:
+		Filename: yamato-idle.png
+		Facings: 8
+	move:
+		Filename: yamato-move.png
+		Facings: 8
+		Tick: 60
+	die1:
+		Filename: yamato-die.png
+	muzzle:
+		Filename: yamato-idle.png
+		Frame: 0
+	turret:
+		Filename: yamato-idle.png
+		Facings: 8
+	icon:
+		Filename: yamato-idle.png
+		Frame: 0
+
+iowa:
+	idle:
+		Filename: iowa-idle.png
+		Facings: 8
+	move:
+		Filename: iowa-move.png
+		Facings: 8
+		Tick: 60
+	die1:
+		Filename: iowa-die.png
+	muzzle:
+		Filename: iowa-idle.png
+		Frame: 0
+	turret:
+		Filename: iowa-idle.png
+		Facings: 8
+	icon:
+		Filename: iowa-idle.png
+		Frame: 0
+
+bismarck:
+	idle:
+		Filename: bismarck-idle.png
+		Facings: 8
+	move:
+		Filename: bismarck-move.png
+		Facings: 8
+		Tick: 60
+	die1:
+		Filename: bismarck-die.png
+	muzzle:
+		Filename: bismarck-idle.png
+		Frame: 0
+	turret:
+		Filename: bismarck-idle.png
+		Facings: 8
+	icon:
+		Filename: bismarck-idle.png
+		Frame: 0
+
+nc:
+	idle:
+		Filename: nc-idle.png
+		Facings: 8
+	move:
+		Filename: nc-move.png
+		Facings: 8
+		Tick: 60
+	die1:
+		Filename: nc-die.png
+	muzzle:
+		Filename: nc-idle.png
+		Frame: 0
+	turret:
+		Filename: nc-idle.png
+		Facings: 8
+	icon:
+		Filename: nc-idle.png
+		Frame: 0
+
+vanguard:
+	idle:
+		Filename: vanguard-idle.png
+		Facings: 8
+	move:
+		Filename: vanguard-move.png
+		Facings: 8
+		Tick: 60
+	die1:
+		Filename: vanguard-die.png
+	muzzle:
+		Filename: vanguard-idle.png
+		Frame: 0
+	turret:
+		Filename: vanguard-idle.png
+		Facings: 8
+	icon:
+		Filename: vanguard-idle.png
+		Frame: 0
+
+kinggv:
+	idle:
+		Filename: kinggv-idle.png
+		Facings: 8
+	move:
+		Filename: kinggv-move.png
+		Facings: 8
+		Tick: 60
+	die1:
+		Filename: kinggv-die.png
+	muzzle:
+		Filename: kinggv-idle.png
+		Frame: 0
+	turret:
+		Filename: kinggv-idle.png
+		Facings: 8
+	icon:
+		Filename: kinggv-idle.png
+		Frame: 0
+
+sovetsky:
+	idle:
+		Filename: sovetsky-idle.png
+		Facings: 8
+	move:
+		Filename: sovetsky-move.png
+		Facings: 8
+		Tick: 60
+	die1:
+		Filename: sovetsky-die.png
+	muzzle:
+		Filename: sovetsky-idle.png
+		Frame: 0
+	turret:
+		Filename: sovetsky-idle.png
+		Facings: 8
+	icon:
+		Filename: sovetsky-idle.png
+		Frame: 0
+
+richelieu:
+	idle:
+		Filename: richelieu-idle.png
+		Facings: 8
+	move:
+		Filename: richelieu-move.png
+		Facings: 8
+		Tick: 60
+	die1:
+		Filename: richelieu-die.png
+	muzzle:
+		Filename: richelieu-idle.png
+		Frame: 0
+	turret:
+		Filename: richelieu-idle.png
+		Facings: 8
+	icon:
+		Filename: richelieu-idle.png
+		Frame: 0
+
+littorio:
+	idle:
+		Filename: littorio-idle.png
+		Facings: 8
+	move:
+		Filename: littorio-move.png
+		Facings: 8
+		Tick: 60
+	die1:
+		Filename: littorio-die.png
+	muzzle:
+		Filename: littorio-idle.png
+		Frame: 0
+	turret:
+		Filename: littorio-idle.png
+		Facings: 8
+	icon:
+		Filename: littorio-idle.png
+		Frame: 0
+
+nimitzy:
+	idle:
+		Filename: nimitzy-idle.png
+		Facings: 8
+	move:
+		Filename: nimitzy-move.png
+		Facings: 8
+		Tick: 60
+	die1:
+		Filename: nimitzy-die.png
+	muzzle:
+		Filename: nimitzy-idle.png
+		Frame: 0
+	turret:
+		Filename: nimitzy-idle.png
+		Facings: 8
+	open:
+		Filename: nimitzy-idle.png
+		Frame: 0
+	close:
+		Filename: nimitzy-idle.png
+		Frame: 0
+	unload:
+		Filename: nimitzy-idle.png
+		Frame: 0
+	make:
+		Filename: nimitzy-idle.png
+		Frame: 0
+	icon:
+		Filename: nimitzy-idle.png
+		Frame: 0
+
+ford:
+	idle:
+		Filename: ford-idle.png
+		Facings: 8
+	move:
+		Filename: ford-move.png
+		Facings: 8
+		Tick: 60
+	die1:
+		Filename: ford-die.png
+	muzzle:
+		Filename: ford-idle.png
+		Frame: 0
+	turret:
+		Filename: ford-idle.png
+		Facings: 8
+	open:
+		Filename: ford-idle.png
+		Frame: 0
+	close:
+		Filename: ford-idle.png
+		Frame: 0
+	unload:
+		Filename: ford-idle.png
+		Frame: 0
+	make:
+		Filename: ford-idle.png
+		Frame: 0
+	icon:
+		Filename: ford-idle.png
+		Frame: 0
+
+queeneliz:
+	idle:
+		Filename: queeneliz-idle.png
+		Facings: 8
+	move:
+		Filename: queeneliz-move.png
+		Facings: 8
+		Tick: 60
+	die1:
+		Filename: queeneliz-die.png
+	muzzle:
+		Filename: queeneliz-idle.png
+		Frame: 0
+	turret:
+		Filename: queeneliz-idle.png
+		Facings: 8
+	open:
+		Filename: queeneliz-idle.png
+		Frame: 0
+	close:
+		Filename: queeneliz-idle.png
+		Frame: 0
+	unload:
+		Filename: queeneliz-idle.png
+		Frame: 0
+	make:
+		Filename: queeneliz-idle.png
+		Frame: 0
+	icon:
+		Filename: queeneliz-idle.png
+		Frame: 0

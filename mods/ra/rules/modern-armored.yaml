@@ -1,0 +1,89 @@
+# Modern armored infantry - powered/heavy/exo/super soldiers
+
+# Powered Armor Soldier
+POWSOLDIER:
+	Inherits: E1
+	RenderSprites:
+		Image: powsoldier
+	Buildable:
+		Queue: Infantry
+		BuildPaletteOrder: 125
+		Prerequisites: tent, ~techlevel.medium
+		Description: actor-powsoldier.description
+	Valued:
+		Cost: 350
+	Tooltip:
+		Name: actor-powsoldier.name
+		GenericName: actor-powsoldier.generic-name
+	Health:
+		HP: 18000
+	Mobile:
+		Speed: 75
+	Armament@PRIMARY:
+		Weapon: M1Carbine
+
+# Heavy Armor Soldier
+HEAVYSOLDIER:
+	Inherits: E2
+	RenderSprites:
+		Image: heavysoldier
+	Buildable:
+		Queue: Infantry
+		BuildPaletteOrder: 126
+		Prerequisites: tent, ~techlevel.high
+		Description: actor-heavysoldier.description
+	Valued:
+		Cost: 600
+	Tooltip:
+		Name: actor-heavysoldier.name
+		GenericName: actor-heavysoldier.generic-name
+	Health:
+		HP: 22000
+	Mobile:
+		Speed: 60
+	Armament@PRIMARY:
+		Weapon: Grenade
+
+# Exo-Skeleton Soldier
+EXOSOLDIER:
+	Inherits: E3
+	RenderSprites:
+		Image: exosoldier
+	Buildable:
+		Queue: Infantry
+		BuildPaletteOrder: 127
+		Prerequisites: tent, stek, ~techlevel.high
+		Description: actor-exosoldier.description
+	Valued:
+		Cost: 800
+	Tooltip:
+		Name: actor-exosoldier.name
+		GenericName: actor-exosoldier.generic-name
+	Health:
+		HP: 25000
+	Mobile:
+		Speed: 65
+	Armament@PRIMARY:
+		Weapon: Dragon
+
+# Super Soldier
+SUPERSOLDIER:
+	Inherits: E7
+	RenderSprites:
+		Image: supersoldier
+	Buildable:
+		Queue: Infantry
+		BuildPaletteOrder: 128
+		Prerequisites: tent, atek, stek, ~techlevel.unrestricted
+		Description: actor-supersoldier.description
+	Valued:
+		Cost: 1200
+	Tooltip:
+		Name: actor-supersoldier.name
+		GenericName: actor-supersoldier.generic-name
+	Health:
+		HP: 30000
+	Mobile:
+		Speed: 70
+	Armament@PRIMARY:
+		Weapon: M1Carbine

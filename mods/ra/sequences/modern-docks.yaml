@@ -1,0 +1,32 @@
+dock1:
+	idle:
+		Filename: dock1.png
+		Start: 0
+	make:
+		Filename: dock1.png
+		Frame: 0
+	icon:
+		Filename: dock1.png
+		Frame: 0
+
+dock2:
+	idle:
+		Filename: dock2.png
+		Start: 0
+	make:
+		Filename: dock2.png
+		Frame: 0
+	icon:
+		Filename: dock2.png
+		Frame: 0
+
+dock3:
+	idle:
+		Filename: dock3.png
+		Start: 0
+	make:
+		Filename: dock3.png
+		Frame: 0
+	icon:
+		Filename: dock3.png
+		Frame: 0

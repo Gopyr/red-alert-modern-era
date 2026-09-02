@@ -27,24 +27,42 @@ Players:
 		NonCombatant: True
 		Faction: allies
 		Color: 000000
-		Allies: Allies
+		Allies: Allies (Europe), Allies (US East)
 	PlayerReference@Allies:
-		Name: Allies
+		Name: Allies (Europe)
 		Playable: True
 		Faction: allies
 		Color: ABB7E4
-		Enemies: Soviets
+		Enemies: Soviets (Asia), Soviets (Australia)
+	PlayerReference@Allies2:
+		Name: Allies (US East)
+		Playable: True
+		Faction: allies
+		Color: 4C6BFC
+		Enemies: Soviets (Asia), Soviets (Australia)
 	PlayerReference@Soviets:
-		Name: Soviets
+		Name: Soviets (Asia)
 		Playable: True
 		Faction: soviet
 		Color: FE1100
-		Enemies: Allies
+		Enemies: Allies (Europe), Allies (US East)
+	PlayerReference@Soviets2:
+		Name: Soviets (Australia)
+		Playable: True
+		Faction: soviet
+		Color: FF8800
+		Enemies: Allies (Europe), Allies (US East)
 
 Actors:
 	Actor0: mpspawn
 		Owner: Neutral
-		Location: 190,64
+		Location: 235,90
 	Actor1: mpspawn
 		Owner: Neutral
-		Location: 320,190
+		Location: 79,70
+	Actor2: mpspawn
+		Owner: Neutral
+		Location: 339,95
+	Actor3: mpspawn
+		Owner: Neutral
+		Location: 419,170
