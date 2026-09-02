@@ -50,6 +50,8 @@ function makelauncher()
 	TAG_TYPE="${TAG%%-*}"
 	TAG_VERSION="${TAG#*-}"
 	BACKWARDS_TAG="${TAG_VERSION}-${TAG_TYPE}"
+	# Sanitize for rcedit: must start with a digit (X.Y.Z)
+	BACKWARDS_TAG="$(echo "${BACKWARDS_TAG}" | sed -E 's/^[^0-9]*//; s/[^0-9.].*$//')"
 
 	convert "${ARTWORK_DIR}/${MOD_ID}_16x16.png" "${ARTWORK_DIR}/${MOD_ID}_24x24.png" "${ARTWORK_DIR}/${MOD_ID}_32x32.png" "${ARTWORK_DIR}/${MOD_ID}_48x48.png" "${ARTWORK_DIR}/${MOD_ID}_256x256.png" "${BUILTDIR}/${MOD_ID}.ico"
 	install_windows_launcher "${SRCDIR}" "${BUILTDIR}" "win-${PLATFORM}" "${MOD_ID}" "${LAUNCHER_NAME}" "${DISPLAY_NAME}" "${FAQ_URL}" "${TAG}"
