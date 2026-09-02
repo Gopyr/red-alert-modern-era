@@ -154,7 +154,7 @@ actor-chal3 =
     .generic-name = MBT
     .description = UK MBT. Cost 3200, HP 105000, Speed 65. Tier T3.
 
-actor-t14 =
+actor-t14a =
     .name = T-14 Armata
     .generic-name = MBT (most modern)
     .description = Russia MBT (most modern). Cost 3500, HP 110000, Speed 78. Tier T3.
