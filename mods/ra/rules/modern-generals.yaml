@@ -1,0 +1,185 @@
+# Legendary armor commander. Units in his aura take 20% less damage.
+GENPATTON:
+	Inherits: E1
+	RenderSprites:
+		Image: genpatton
+	Buildable:
+		Queue: Infantry
+		BuildPaletteOrder: 90
+		Prerequisites: tent, ~techlevel.high
+		Description: actor-genpatton.description
+	Valued:
+		Cost: 2500
+	Tooltip:
+		Name: actor-genpatton.name
+		GenericName: actor-genpatton.generic-name
+	Health:
+		HP: 30000
+	Mobile:
+		Speed: 70
+	Armament:
+		Weapon: M1Carbine
+	ProximityExternalCondition@DEFENSE_BOOST:
+		Range: 6c0
+		ValidRelationships: Ally
+		Condition: defense-boost
+	InstantlyRepairable:
+	WithRangeCircle:
+		Range: 6c0
+		Color: 00FF0080
+	RenderRangeCircle:
+
+# Master of the offensive. Units in his aura deal 25% more damage.
+GENZHUKOV:
+	Inherits: E1
+	RenderSprites:
+		Image: genzhukov
+	Buildable:
+		Queue: Infantry
+		BuildPaletteOrder: 90
+		Prerequisites: tent, ~techlevel.high
+		Description: actor-genzhukov.description
+	Valued:
+		Cost: 2500
+	Tooltip:
+		Name: actor-genzhukov.name
+		GenericName: actor-genzhukov.generic-name
+	Health:
+		HP: 28000
+	Mobile:
+		Speed: 70
+	Armament:
+		Weapon: Dragon
+	ProximityExternalCondition@ATTACK_BOOST:
+		Range: 6c0
+		ValidRelationships: Ally
+		Condition: attack-boost
+	InstantlyRepairable:
+	WithRangeCircle:
+		Range: 6c0
+		Color: 00FF0080
+	RenderRangeCircle:
+
+# The Desert Fox. Units in his aura move 30% faster.
+GENROMMEL:
+	Inherits: E1
+	RenderSprites:
+		Image: genrommel
+	Buildable:
+		Queue: Infantry
+		BuildPaletteOrder: 90
+		Prerequisites: tent, ~techlevel.high
+		Description: actor-genrommel.description
+	Valued:
+		Cost: 2200
+	Tooltip:
+		Name: actor-genrommel.name
+		GenericName: actor-genrommel.generic-name
+	Health:
+		HP: 26000
+	Mobile:
+		Speed: 85
+	Armament:
+		Weapon: M1Carbine
+	ProximityExternalCondition@SPEED_BOOST:
+		Range: 6c0
+		ValidRelationships: Ally
+		Condition: speed-boost
+	InstantlyRepairable:
+	WithRangeCircle:
+		Range: 6c0
+		Color: 00FF0080
+	RenderRangeCircle:
+
+# Island-hopping legend. Units in his aura reload 25% faster.
+GENMACARTHUR:
+	Inherits: E1
+	RenderSprites:
+		Image: genmacarthur
+	Buildable:
+		Queue: Infantry
+		BuildPaletteOrder: 90
+		Prerequisites: tent, ~techlevel.high
+		Description: actor-genmacarthur.description
+	Valued:
+		Cost: 2500
+	Tooltip:
+		Name: actor-genmacarthur.name
+		GenericName: actor-genmacarthur.generic-name
+	Health:
+		HP: 28000
+	Mobile:
+		Speed: 70
+	Armament:
+		Weapon: M1Carbine
+	ProximityExternalCondition@RELOAD_BOOST:
+		Range: 6c0
+		ValidRelationships: Ally
+		Condition: reload-boost
+	InstantlyRepairable:
+	WithRangeCircle:
+		Range: 6c0
+		Color: 00FF0080
+	RenderRangeCircle:
+
+# Tactical genius. Units in his aura earn experience 50% faster.
+GENLEE:
+	Inherits: E1
+	RenderSprites:
+		Image: genlee
+	Buildable:
+		Queue: Infantry
+		BuildPaletteOrder: 90
+		Prerequisites: tent, ~techlevel.high
+		Description: actor-genlee.description
+	Valued:
+		Cost: 2000
+	Tooltip:
+		Name: actor-genlee.name
+		GenericName: actor-genlee.generic-name
+	Health:
+		HP: 26000
+	Mobile:
+		Speed: 70
+	Armament:
+		Weapon: M1Carbine
+	ProximityExternalCondition@ELITE_BOOST:
+		Range: 6c0
+		ValidRelationships: Ally
+		Condition: elite-boost
+	InstantlyRepairable:
+	WithRangeCircle:
+		Range: 6c0
+		Color: 00FF0080
+	RenderRangeCircle:
+
+# The hammer of the Union. Wider attack aura (8 cells).
+GENGRANT:
+	Inherits: E1
+	RenderSprites:
+		Image: gengrant
+	Buildable:
+		Queue: Infantry
+		BuildPaletteOrder: 90
+		Prerequisites: tent, ~techlevel.high
+		Description: actor-gengrant.description
+	Valued:
+		Cost: 2600
+	Tooltip:
+		Name: actor-gengrant.name
+		GenericName: actor-gengrant.generic-name
+	Health:
+		HP: 32000
+	Mobile:
+		Speed: 65
+	Armament:
+		Weapon: M1Carbine
+	ProximityExternalCondition@ATTACK_BOOST:
+		Range: 8c0
+		ValidRelationships: Ally
+		Condition: attack-boost
+	InstantlyRepairable:
+	WithRangeCircle:
+		Range: 8c0
+		Color: 00FF0080
+	RenderRangeCircle:

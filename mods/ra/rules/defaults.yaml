@@ -241,6 +241,31 @@
 	Inherits@bounty: ^GlobalBounty
 	Inherits@selection: ^SelectableCombatUnit
 	Inherits@handicaps: ^PlayerHandicaps
+	ExternalCondition@ATTACK:
+		Condition: attack-boost
+	ExternalCondition@DEFENSE:
+		Condition: defense-boost
+	ExternalCondition@SPEED:
+		Condition: speed-boost
+	ExternalCondition@RELOAD:
+		Condition: reload-boost
+	ExternalCondition@ELITE:
+		Condition: elite-boost
+	FirepowerMultiplier:
+		Modifier: 125
+		RequiresCondition: attack-boost
+	DamageMultiplier:
+		Modifier: 80
+		RequiresCondition: defense-boost
+	SpeedMultiplier:
+		Modifier: 130
+		RequiresCondition: speed-boost
+	ReloadDelayMultiplier:
+		Modifier: 75
+		RequiresCondition: reload-boost
+	GainsExperienceMultiplier:
+		Modifier: 150
+		RequiresCondition: elite-boost
 	Huntable:
 	OwnerLostAction:
 		Action: Kill
@@ -314,6 +339,31 @@
 
 ^TrackedVehicle:
 	Inherits: ^Vehicle
+	ExternalCondition@ATTACK:
+		Condition: attack-boost
+	ExternalCondition@DEFENSE:
+		Condition: defense-boost
+	ExternalCondition@SPEED:
+		Condition: speed-boost
+	ExternalCondition@RELOAD:
+		Condition: reload-boost
+	ExternalCondition@ELITE:
+		Condition: elite-boost
+	FirepowerMultiplier:
+		Modifier: 125
+		RequiresCondition: attack-boost
+	DamageMultiplier:
+		Modifier: 80
+		RequiresCondition: defense-boost
+	SpeedMultiplier:
+		Modifier: 130
+		RequiresCondition: speed-boost
+	ReloadDelayMultiplier:
+		Modifier: 75
+		RequiresCondition: reload-boost
+	GainsExperienceMultiplier:
+		Modifier: 150
+		RequiresCondition: elite-boost
 	Mobile:
 		Locomotor: tracked
 
@@ -444,6 +494,31 @@
 
 ^Soldier:
 	Inherits: ^Infantry
+	ExternalCondition@ATTACK:
+		Condition: attack-boost
+	ExternalCondition@DEFENSE:
+		Condition: defense-boost
+	ExternalCondition@SPEED:
+		Condition: speed-boost
+	ExternalCondition@RELOAD:
+		Condition: reload-boost
+	ExternalCondition@ELITE:
+		Condition: elite-boost
+	FirepowerMultiplier:
+		Modifier: 125
+		RequiresCondition: attack-boost
+	DamageMultiplier:
+		Modifier: 80
+		RequiresCondition: defense-boost
+	SpeedMultiplier:
+		Modifier: 130
+		RequiresCondition: speed-boost
+	ReloadDelayMultiplier:
+		Modifier: 75
+		RequiresCondition: reload-boost
+	GainsExperienceMultiplier:
+		Modifier: 150
+		RequiresCondition: elite-boost
 	UpdatesPlayerStatistics:
 	MustBeDestroyed:
 	ProximityCaptor:
@@ -508,6 +583,31 @@
 	Inherits@bounty: ^GlobalBounty
 	Inherits@selection: ^SelectableCombatUnit
 	Inherits@handicaps: ^PlayerHandicaps
+	ExternalCondition@ATTACK:
+		Condition: attack-boost
+	ExternalCondition@DEFENSE:
+		Condition: defense-boost
+	ExternalCondition@SPEED:
+		Condition: speed-boost
+	ExternalCondition@RELOAD:
+		Condition: reload-boost
+	ExternalCondition@ELITE:
+		Condition: elite-boost
+	FirepowerMultiplier:
+		Modifier: 125
+		RequiresCondition: attack-boost
+	DamageMultiplier:
+		Modifier: 80
+		RequiresCondition: defense-boost
+	SpeedMultiplier:
+		Modifier: 130
+		RequiresCondition: speed-boost
+	ReloadDelayMultiplier:
+		Modifier: 75
+		RequiresCondition: reload-boost
+	GainsExperienceMultiplier:
+		Modifier: 150
+		RequiresCondition: elite-boost
 	Huntable:
 	OwnerLostAction:
 		Action: Kill
@@ -556,6 +656,31 @@
 
 ^Submarine:
 	Inherits: ^Ship
+	ExternalCondition@ATTACK:
+		Condition: attack-boost
+	ExternalCondition@DEFENSE:
+		Condition: defense-boost
+	ExternalCondition@SPEED:
+		Condition: speed-boost
+	ExternalCondition@RELOAD:
+		Condition: reload-boost
+	ExternalCondition@ELITE:
+		Condition: elite-boost
+	FirepowerMultiplier:
+		Modifier: 125
+		RequiresCondition: attack-boost
+	DamageMultiplier:
+		Modifier: 80
+		RequiresCondition: defense-boost
+	SpeedMultiplier:
+		Modifier: 130
+		RequiresCondition: speed-boost
+	ReloadDelayMultiplier:
+		Modifier: 75
+		RequiresCondition: reload-boost
+	GainsExperienceMultiplier:
+		Modifier: 150
+		RequiresCondition: elite-boost
 	Targetable:
 		TargetTypes: WaterActor, Ship, Submarine, Repair
 		RequiresCondition: !underwater
@@ -657,12 +782,62 @@
 ^Plane:
 	Inherits: ^NeutralPlane
 	Inherits@2: ^GainsExperience
+	ExternalCondition@ATTACK:
+		Condition: attack-boost
+	ExternalCondition@DEFENSE:
+		Condition: defense-boost
+	ExternalCondition@SPEED:
+		Condition: speed-boost
+	ExternalCondition@RELOAD:
+		Condition: reload-boost
+	ExternalCondition@ELITE:
+		Condition: elite-boost
+	FirepowerMultiplier:
+		Modifier: 125
+		RequiresCondition: attack-boost
+	DamageMultiplier:
+		Modifier: 80
+		RequiresCondition: defense-boost
+	SpeedMultiplier:
+		Modifier: 130
+		RequiresCondition: speed-boost
+	ReloadDelayMultiplier:
+		Modifier: 75
+		RequiresCondition: reload-boost
+	GainsExperienceMultiplier:
+		Modifier: 150
+		RequiresCondition: elite-boost
 	Huntable:
 	Repairable:
 		RepairActors: fix
 
 ^Helicopter:
 	Inherits: ^Plane
+	ExternalCondition@ATTACK:
+		Condition: attack-boost
+	ExternalCondition@DEFENSE:
+		Condition: defense-boost
+	ExternalCondition@SPEED:
+		Condition: speed-boost
+	ExternalCondition@RELOAD:
+		Condition: reload-boost
+	ExternalCondition@ELITE:
+		Condition: elite-boost
+	FirepowerMultiplier:
+		Modifier: 125
+		RequiresCondition: attack-boost
+	DamageMultiplier:
+		Modifier: 80
+		RequiresCondition: defense-boost
+	SpeedMultiplier:
+		Modifier: 130
+		RequiresCondition: speed-boost
+	ReloadDelayMultiplier:
+		Modifier: 75
+		RequiresCondition: reload-boost
+	GainsExperienceMultiplier:
+		Modifier: 150
+		RequiresCondition: elite-boost
 	Tooltip:
 		GenericName: meta-helicopter-generic-name
 	Aircraft:

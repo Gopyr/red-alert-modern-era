@@ -97,6 +97,7 @@ Rules:
 	ra|rules/modern-navy-nuclear.yaml
 	ra|rules/modern-land.yaml
 	ra|rules/modern-naval.yaml
+	ra|rules/modern-generals.yaml
 
 Sequences:
 	ra|sequences/ships.yaml
@@ -110,6 +111,7 @@ Sequences:
 	ra|sequences/modern-docks.yaml
 	ra|sequences/modern-land.yaml
 	ra|sequences/modern-naval.yaml
+	ra|sequences/modern-generals.yaml
 	ra|sequences/misc.yaml
 	ra|sequences/decorations.yaml
 
@@ -198,6 +200,7 @@ FluentMessages:
 	ra|fluent/modern2.ftl
 	ra|fluent/modern3.ftl
 	ra|fluent/modern4.ftl
+	ra|fluent/modern5.ftl
 
 AllowUnusedFluentMessagesInExternalPackages: false
 

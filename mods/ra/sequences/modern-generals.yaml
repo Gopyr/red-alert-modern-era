@@ -1,0 +1,263 @@
+genpatton:
+	stand:
+		Filename: genpatton-stand.png
+		Facings: -8
+	run:
+		Filename: genpatton-run.png
+		Facings: -8
+	idle:
+		Filename: genpatton-idle.png
+		Facings: -8
+	idle1:
+		Filename: genpatton-idle.png
+		Frame: 0
+	idle2:
+		Filename: genpatton-idle.png
+		Frame: 1
+	stand2:
+		Filename: genpatton-stand.png
+		Frame: 0
+	shoot:
+		Filename: genpatton-run.png
+		Frame: 0
+	die:
+		Filename: genpatton-idle.png
+		Frame: 0
+	die-crushed:
+		Filename: genpatton-idle.png
+		Frame: 0
+	parachute:
+		Filename: genpatton-idle.png
+		Frame: 0
+	icon:
+		Filename: genpatton-stand.png
+		Frame: 0
+	garrison-muzzle:
+		Filename: genpatton-run.png
+		Frame: 0
+	muzzle:
+		Filename: genpatton-run.png
+		Frame: 0
+	throw:
+		Filename: genpatton-run.png
+		Frame: 0
+
+genzhukov:
+	stand:
+		Filename: genzhukov-stand.png
+		Facings: -8
+	run:
+		Filename: genzhukov-run.png
+		Facings: -8
+	idle:
+		Filename: genzhukov-idle.png
+		Facings: -8
+	idle1:
+		Filename: genzhukov-idle.png
+		Frame: 0
+	idle2:
+		Filename: genzhukov-idle.png
+		Frame: 1
+	stand2:
+		Filename: genzhukov-stand.png
+		Frame: 0
+	shoot:
+		Filename: genzhukov-run.png
+		Frame: 0
+	die:
+		Filename: genzhukov-idle.png
+		Frame: 0
+	die-crushed:
+		Filename: genzhukov-idle.png
+		Frame: 0
+	parachute:
+		Filename: genzhukov-idle.png
+		Frame: 0
+	icon:
+		Filename: genzhukov-stand.png
+		Frame: 0
+	garrison-muzzle:
+		Filename: genzhukov-run.png
+		Frame: 0
+	muzzle:
+		Filename: genzhukov-run.png
+		Frame: 0
+	throw:
+		Filename: genzhukov-run.png
+		Frame: 0
+
+genrommel:
+	stand:
+		Filename: genrommel-stand.png
+		Facings: -8
+	run:
+		Filename: genrommel-run.png
+		Facings: -8
+	idle:
+		Filename: genrommel-idle.png
+		Facings: -8
+	idle1:
+		Filename: genrommel-idle.png
+		Frame: 0
+	idle2:
+		Filename: genrommel-idle.png
+		Frame: 1
+	stand2:
+		Filename: genrommel-stand.png
+		Frame: 0
+	shoot:
+		Filename: genrommel-run.png
+		Frame: 0
+	die:
+		Filename: genrommel-idle.png
+		Frame: 0
+	die-crushed:
+		Filename: genrommel-idle.png
+		Frame: 0
+	parachute:
+		Filename: genrommel-idle.png
+		Frame: 0
+	icon:
+		Filename: genrommel-stand.png
+		Frame: 0
+	garrison-muzzle:
+		Filename: genrommel-run.png
+		Frame: 0
+	muzzle:
+		Filename: genrommel-run.png
+		Frame: 0
+	throw:
+		Filename: genrommel-run.png
+		Frame: 0
+
+genmacarthur:
+	stand:
+		Filename: genmacarthur-stand.png
+		Facings: -8
+	run:
+		Filename: genmacarthur-run.png
+		Facings: -8
+	idle:
+		Filename: genmacarthur-idle.png
+		Facings: -8
+	idle1:
+		Filename: genmacarthur-idle.png
+		Frame: 0
+	idle2:
+		Filename: genmacarthur-idle.png
+		Frame: 1
+	stand2:
+		Filename: genmacarthur-stand.png
+		Frame: 0
+	shoot:
+		Filename: genmacarthur-run.png
+		Frame: 0
+	die:
+		Filename: genmacarthur-idle.png
+		Frame: 0
+	die-crushed:
+		Filename: genmacarthur-idle.png
+		Frame: 0
+	parachute:
+		Filename: genmacarthur-idle.png
+		Frame: 0
+	icon:
+		Filename: genmacarthur-stand.png
+		Frame: 0
+	garrison-muzzle:
+		Filename: genmacarthur-run.png
+		Frame: 0
+	muzzle:
+		Filename: genmacarthur-run.png
+		Frame: 0
+	throw:
+		Filename: genmacarthur-run.png
+		Frame: 0
+
+genlee:
+	stand:
+		Filename: genlee-stand.png
+		Facings: -8
+	run:
+		Filename: genlee-run.png
+		Facings: -8
+	idle:
+		Filename: genlee-idle.png
+		Facings: -8
+	idle1:
+		Filename: genlee-idle.png
+		Frame: 0
+	idle2:
+		Filename: genlee-idle.png
+		Frame: 1
+	stand2:
+		Filename: genlee-stand.png
+		Frame: 0
+	shoot:
+		Filename: genlee-run.png
+		Frame: 0
+	die:
+		Filename: genlee-idle.png
+		Frame: 0
+	die-crushed:
+		Filename: genlee-idle.png
+		Frame: 0
+	parachute:
+		Filename: genlee-idle.png
+		Frame: 0
+	icon:
+		Filename: genlee-stand.png
+		Frame: 0
+	garrison-muzzle:
+		Filename: genlee-run.png
+		Frame: 0
+	muzzle:
+		Filename: genlee-run.png
+		Frame: 0
+	throw:
+		Filename: genlee-run.png
+		Frame: 0
+
+gengrant:
+	stand:
+		Filename: gengrant-stand.png
+		Facings: -8
+	run:
+		Filename: gengrant-run.png
+		Facings: -8
+	idle:
+		Filename: gengrant-idle.png
+		Facings: -8
+	idle1:
+		Filename: gengrant-idle.png
+		Frame: 0
+	idle2:
+		Filename: gengrant-idle.png
+		Frame: 1
+	stand2:
+		Filename: gengrant-stand.png
+		Frame: 0
+	shoot:
+		Filename: gengrant-run.png
+		Frame: 0
+	die:
+		Filename: gengrant-idle.png
+		Frame: 0
+	die-crushed:
+		Filename: gengrant-idle.png
+		Frame: 0
+	parachute:
+		Filename: gengrant-idle.png
+		Frame: 0
+	icon:
+		Filename: gengrant-stand.png
+		Frame: 0
+	garrison-muzzle:
+		Filename: gengrant-run.png
+		Frame: 0
+	muzzle:
+		Filename: gengrant-run.png
+		Frame: 0
+	throw:
+		Filename: gengrant-run.png
+		Frame: 0
