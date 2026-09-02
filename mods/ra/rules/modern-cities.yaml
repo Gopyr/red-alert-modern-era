@@ -1,0 +1,47 @@
+CITY:
+	Inherits: OILB
+	RenderSprites:
+		Image: oilb
+	Valued:
+		Cost: 0
+	Tooltip:
+		Name: actor-city.name
+		GenericName: actor-city.generic-name
+	TooltipDescription@ally:
+		Description: actor-city.captured-desc
+		ValidRelationships: Ally
+	TooltipDescription@other:
+		Description: actor-city.capturable-desc
+		ValidRelationships: Neutral, Enemy
+	CashTrickler:
+		Interval: 375
+		Amount: 100
+		RequiresCondition: enabled
+	GpsDot:
+		String: Structure
+	GivesCashOnCapture:
+		Amount: 500
+
+CITY2:
+	Inherits: OILB
+	RenderSprites:
+		Image: oilb
+	Valued:
+		Cost: 0
+	Tooltip:
+		Name: actor-city2.name
+		GenericName: actor-city2.generic-name
+	TooltipDescription@ally:
+		Description: actor-city.captured-desc
+		ValidRelationships: Ally
+	TooltipDescription@other:
+		Description: actor-city.capturable-desc
+		ValidRelationships: Neutral, Enemy
+	CashTrickler:
+		Interval: 375
+		Amount: 250
+		RequiresCondition: enabled
+	GpsDot:
+		String: Structure
+	GivesCashOnCapture:
+		Amount: 1000

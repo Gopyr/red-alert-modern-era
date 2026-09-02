@@ -89,3 +89,73 @@ SVDMarksman:
 	Warhead@2Eff: CreateEffect
 		Explosions: sniperhit
 		ImpactSounds: sniper.aud
+
+# CGNMissile - ship-launched long-range cruise/artillery missile (hits land + sea)
+CGNMissile:
+	Inherits: ^AntiGroundMissile
+	ReloadDelay: 150
+	Range: 12c0
+	MinRange: 3c0
+	Report: missile1.aud
+	Projectile: Bullet
+		Speed: 240
+		Blockable: false
+		TrailImage: smokey
+		TrailDelay: 4
+		Inaccuracy: 170
+		Image: MISSILE
+		Shadow: True
+		LaunchAngle: 90
+	Warhead@1Dam: SpreadDamage
+		Spread: 341
+		Damage: 3000
+		Falloff: 1000, 368, 135, 50, 18, 7, 0
+		ValidTargets: GroundActor, WaterActor, Water, Underwater, Trees
+		Versus:
+			None: 90
+			Wood: 75
+			Tree: 75
+			Light: 80
+			Heavy: 70
+			Concrete: 100
+		DamageTypes: Prone50Percent, TriggerProne, SmallExplosionDeath, Incendiary
+	Warhead@3Eff: CreateEffect
+		Explosions: napalm
+		ImpactSounds: firebl3.aud
+	Warhead@4EffWater: CreateEffect
+		Explosions: large_splash
+
+# CarrierStrike - naval carrier air-strike (long-range, launched from the flight deck)
+CarrierStrike:
+	Inherits: ^AntiGroundMissile
+	ReloadDelay: 250
+	Range: 16c0
+	MinRange: 4c0
+	Report: missile1.aud
+	Projectile: Bullet
+		Speed: 320
+		Blockable: false
+		TrailImage: smokey
+		TrailDelay: 3
+		Inaccuracy: 130
+		Image: MISSILE
+		Shadow: True
+		LaunchAngle: 105
+	Warhead@1Dam: SpreadDamage
+		Spread: 512
+		Damage: 5000
+		Falloff: 1000, 368, 135, 50, 18, 7, 0
+		ValidTargets: GroundActor, WaterActor, Water, Underwater, Trees
+		Versus:
+			None: 90
+			Wood: 85
+			Tree: 85
+			Light: 90
+			Heavy: 75
+			Concrete: 60
+		DamageTypes: Prone50Percent, TriggerProne, SmallExplosionDeath, Incendiary
+	Warhead@3Eff: CreateEffect
+		Explosions: napalm
+		ImpactSounds: firebl3.aud
+	Warhead@4EffWater: CreateEffect
+		Explosions: large_splash

@@ -227,6 +227,11 @@ NIMITZY:
 	Mobile:
 		TurnSpeed: 8
 		Speed: 22
+	Armament@STRIKE:
+		Weapon: CarrierStrike
+		LocalOffset: 0,-200,0, 0,200,0
+	AttackFrontal:
+		FacingTolerance: 1
 
 # USS Gerald R. Ford
 FORD:
@@ -248,6 +253,11 @@ FORD:
 	Mobile:
 		TurnSpeed: 8
 		Speed: 22
+	Armament@STRIKE:
+		Weapon: CarrierStrike
+		LocalOffset: 0,-200,0, 0,200,0
+	AttackFrontal:
+		FacingTolerance: 1
 
 # HMS Queen Elizabeth
 QUEENELIZ:
@@ -269,3 +279,8 @@ QUEENELIZ:
 	Mobile:
 		TurnSpeed: 8
 		Speed: 24
+	Armament@STRIKE:
+		Weapon: CarrierStrike
+		LocalOffset: 0,-200,0, 0,200,0
+	AttackFrontal:
+		FacingTolerance: 1

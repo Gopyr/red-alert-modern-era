@@ -249,3 +249,31 @@ actor-dock3 =
     .generic-name = Dock
     .description =
     Coastal dock. Tier 3 naval base. Unlocks capital ships.
+
+actor-city =
+    .name = Capital City
+    .generic-name = City
+    .captured-desc = A neutral capital that generates income while you control it. Capture it to boost your economy.
+    .capturable-desc = Neutral city. Capture it with infantry or engineers to gain its income.
+actor-city2 =
+    .name = Metropolis
+    .generic-name = Metropolis
+    .captured-desc = A major city that generates high income while you control it.
+    .capturable-desc = Neutral metropolis. Capture it with infantry or engineers to gain its income.
+
+actor-ddn =
+    .name = Nuclear Destroyer
+    .generic-name = Destroyer
+    .description = Arleigh Burke-class AEGIS destroyer. Nuclear-powered with triple attack: naval gun, anti-sub depth charges, and air-defense missiles.
+actor-cgn =
+    .name = Nuclear Cruiser
+    .generic-name = Cruiser
+    .description = Ticonderoga-class guided-missile cruiser. Twin cannon plus a long-range cruise missile that strikes both land and sea.
+actor-ssn =
+    .name = Nuclear Attack Sub
+    .generic-name = Submarine
+    .description = Virginia-class nuclear attack submarine. Torpedoes for close quarters and a long-range sub missile.
+actor-ssgn =
+    .name = Nuclear Missile Sub
+    .generic-name = Submarine
+    .description = Cruise-missile submarine. Massive long-range anti-ship missile barrage with air defense.

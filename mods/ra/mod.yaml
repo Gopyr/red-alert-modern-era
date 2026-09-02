@@ -93,6 +93,8 @@ Rules:
 	ra|rules/modern-navy.yaml
 	ra|rules/modern-armored.yaml
 	ra|rules/modern-buildings.yaml
+	ra|rules/modern-cities.yaml
+	ra|rules/modern-navy-nuclear.yaml
 
 Sequences:
 	ra|sequences/ships.yaml

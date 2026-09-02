@@ -1,0 +1,130 @@
+# Modern nuclear-powered warships - multi-attack variants (Docks tier 3)
+# Nuclear = top-tier: higher cost, speed, HP, faster reload, self-sustaining endurance.
+
+# DDN - Nuclear Destroyer (Arleigh Burke-class AEGIS)
+# Multi-attack: naval gun (Stinger) + anti-sub combat system (DepthCharge) + air-defense missiles (StingerAA)
+DDN:
+	Inherits: DD
+	RenderSprites:
+		Image: dd
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 85
+		Prerequisites: ~syrd, atek, dome, ~techlevel.high
+		Description: actor-ddn.description
+	Valued:
+		Cost: 2200
+	Tooltip:
+		Name: actor-ddn.name
+		GenericName: actor-ddn.generic-name
+	Health:
+		HP: 55000
+	Mobile:
+		TurnSpeed: 32
+		Speed: 105
+	Armament@PRIMARY:
+		Weapon: Stinger
+		LocalOffset: 0,-100,0, 0,100,0
+		LocalYaw: 64, -64
+	Armament@SECONDARY:
+		Weapon: DepthCharge
+		LocalOffset: 0,-100,0, 0,100,0
+		LocalYaw: 80, -80
+	Armament@TERTIARY:
+		Weapon: StingerAA
+		LocalOffset: 0,-100,0, 0,100,0
+		LocalYaw: 64, -64
+
+# CGN - Nuclear Guided-Missile Cruiser (Ticonderoga-class)
+# Multi-attack: twin cannon (8Inch) + long-range strike missile (20c) + air-defense (StingerAA)
+CGN:
+	Inherits: CA
+	RenderSprites:
+		Image: ca
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 86
+		Prerequisites: ~syrd, atek, dome, ~techlevel.high
+		Description: actor-cgn.description
+	Valued:
+		Cost: 3000
+	Tooltip:
+		Name: actor-cgn.name
+		GenericName: actor-cgn.generic-name
+	Health:
+		HP: 80000
+	Mobile:
+		TurnSpeed: 30
+		Speed: 88
+	Armament@PRIMARY:
+		Weapon: 8Inch
+		LocalOffset: 0,-75,0, 0,75,0
+	Armament@SECONDARY:
+		Weapon: 8Inch
+		LocalOffset: 0,-75,0, 0,75,0
+	Armament@TERTIARY:
+		Weapon: CGNMissile
+		LocalOffset: 0,-100,0, 0,100,0
+	Armament@QUATERNARY:
+		Weapon: StingerAA
+		LocalOffset: 0,-100,0, 0,100,0
+	AttackTurreted:
+
+# SSN - Nuclear Attack Submarine (Virginia-class)
+# Multi-attack: torpedo tube (close) + long-range sub missile + air defense
+SSN:
+	Inherits: SS
+	RenderSprites:
+		Image: ss
+	Buildable:
+		Queue: Ship
+		BuildAtProductionType: Submarine
+		BuildPaletteOrder: 87
+		Prerequisites: ~spen, atek, ~techlevel.high
+		Description: actor-ssn.description
+	Valued:
+		Cost: 2600
+	Tooltip:
+		Name: actor-ssn.name
+		GenericName: actor-ssn.generic-name
+	Health:
+		HP: 40000
+	Mobile:
+		TurnSpeed: 24
+		Speed: 92
+	Armament@PRIMARY:
+		Weapon: TorpTube
+		LocalOffset: 0,-171,0, 0,171,0
+		FireDelay: 2
+	Armament@SECONDARY:
+		Weapon: SubMissile
+		LocalOffset: 0,-171,0, 0,171,0
+	AttackFrontal:
+		FacingTolerance: 0
+
+# SSGN - Nuclear Guided-Missile Submarine (submarine carrier strike / cruise-missile sub)
+# Long-range ship-to-shore strike platform.
+SSGN:
+	Inherits: MSUB
+	RenderSprites:
+		Image: msub
+	Buildable:
+		Queue: Ship
+		BuildAtProductionType: Submarine
+		BuildPaletteOrder: 88
+		Prerequisites: ~spen, atek, ~techlevel.high
+		Description: actor-ssgn.description
+	Valued:
+		Cost: 3400
+	Tooltip:
+		Name: actor-ssgn.name
+		GenericName: actor-ssgn.generic-name
+	Health:
+		HP: 50000
+	Mobile:
+		TurnSpeed: 20
+		Speed: 84
+	Armament@PRIMARY:
+		Weapon: SubMissile
+	Armament@SECONDARY:
+		Weapon: SubMissileAA
