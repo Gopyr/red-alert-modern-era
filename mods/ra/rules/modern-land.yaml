@@ -1,0 +1,799 @@
+# USA - Utility scout
+HUMVEE:
+	Inherits: JEEP
+	RenderSprites:
+		Image: humvee
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 101
+		Prerequisites: fix, ~vehicles.allies
+		Description: actor-humvee.description
+	Valued:
+		Cost: 400
+	Tooltip:
+		Name: actor-humvee.name
+		GenericName: actor-humvee.generic-name
+	Health:
+		HP: 15000
+	Mobile:
+		Speed: 160
+
+# USA - Armored utility
+JLTV:
+	Inherits: JEEP
+	RenderSprites:
+		Image: jltv
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 102
+		Prerequisites: fix, ~vehicles.allies
+		Description: actor-jltv.description
+	Valued:
+		Cost: 500
+	Tooltip:
+		Name: actor-jltv.name
+		GenericName: actor-jltv.generic-name
+	Health:
+		HP: 18000
+	Mobile:
+		Speed: 155
+
+# Germany - Utility
+GWAGEN:
+	Inherits: JEEP
+	RenderSprites:
+		Image: gwagen
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 103
+		Prerequisites: fix, ~vehicles.allies
+		Description: actor-gwagen.description
+	Valued:
+		Cost: 350
+	Tooltip:
+		Name: actor-gwagen.name
+		GenericName: actor-gwagen.generic-name
+	Health:
+		HP: 13000
+	Mobile:
+		Speed: 150
+
+# UK - Utility
+DEFENDER:
+	Inherits: JEEP
+	RenderSprites:
+		Image: defender
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 104
+		Prerequisites: fix, ~vehicles.allies
+		Description: actor-defender.description
+	Valued:
+		Cost: 350
+	Tooltip:
+		Name: actor-defender.name
+		GenericName: actor-defender.generic-name
+	Health:
+		HP: 13000
+	Mobile:
+		Speed: 150
+
+# Russia - Utility
+TIGR:
+	Inherits: JEEP
+	RenderSprites:
+		Image: tigr
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 105
+		Prerequisites: fix, ~vehicles.allies
+		Description: actor-tigr.description
+	Valued:
+		Cost: 400
+	Tooltip:
+		Name: actor-tigr.name
+		GenericName: actor-tigr.generic-name
+	Health:
+		HP: 16000
+	Mobile:
+		Speed: 140
+
+# USA - Utility
+OSHLATV:
+	Inherits: JEEP
+	RenderSprites:
+		Image: oshlatv
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 106
+		Prerequisites: fix, ~vehicles.allies
+		Description: actor-oshlatv.description
+	Valued:
+		Cost: 550
+	Tooltip:
+		Name: actor-oshlatv.name
+		GenericName: actor-oshlatv.generic-name
+	Health:
+		HP: 19000
+	Mobile:
+		Speed: 155
+
+# USA - APC transport
+M113:
+	Inherits: APC
+	RenderSprites:
+		Image: m113
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 107
+		Prerequisites: fix, ~vehicles.allies
+		Description: actor-m113.description
+	Valued:
+		Cost: 800
+	Tooltip:
+		Name: actor-m113.name
+		GenericName: actor-m113.generic-name
+	Health:
+		HP: 25000
+	Mobile:
+		Speed: 100
+
+# USA - APC
+STRYKER:
+	Inherits: APC
+	RenderSprites:
+		Image: stryker
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 108
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-stryker.description
+	Valued:
+		Cost: 950
+	Tooltip:
+		Name: actor-stryker.name
+		GenericName: actor-stryker.generic-name
+	Health:
+		HP: 28000
+	Mobile:
+		Speed: 120
+
+# Russia - APC
+BTR80:
+	Inherits: APC
+	RenderSprites:
+		Image: btr80
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 109
+		Prerequisites: fix, ~vehicles.allies
+		Description: actor-btr80.description
+	Valued:
+		Cost: 850
+	Tooltip:
+		Name: actor-btr80.name
+		GenericName: actor-btr80.generic-name
+	Health:
+		HP: 26000
+	Mobile:
+		Speed: 115
+
+# Switzerland - APC
+PIRANHA:
+	Inherits: APC
+	RenderSprites:
+		Image: piranha
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 110
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-piranha.description
+	Valued:
+		Cost: 900
+	Tooltip:
+		Name: actor-piranha.name
+		GenericName: actor-piranha.generic-name
+	Health:
+		HP: 27000
+	Mobile:
+		Speed: 120
+
+# Germany/NL - APC
+BOXER:
+	Inherits: APC
+	RenderSprites:
+		Image: boxer
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 111
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-boxer.description
+	Valued:
+		Cost: 1000
+	Tooltip:
+		Name: actor-boxer.name
+		GenericName: actor-boxer.generic-name
+	Health:
+		HP: 30000
+	Mobile:
+		Speed: 115
+
+# Austria - APC
+PANDUR:
+	Inherits: APC
+	RenderSprites:
+		Image: pandur
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 112
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-pandur.description
+	Valued:
+		Cost: 900
+	Tooltip:
+		Name: actor-pandur.name
+		GenericName: actor-pandur.generic-name
+	Health:
+		HP: 27000
+	Mobile:
+		Speed: 120
+
+# Indonesia - APC
+ANOA:
+	Inherits: APC
+	RenderSprites:
+		Image: anoa
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 113
+		Prerequisites: fix, ~vehicles.allies
+		Description: actor-anoa.description
+	Valued:
+		Cost: 700
+	Tooltip:
+		Name: actor-anoa.name
+		GenericName: actor-anoa.generic-name
+	Health:
+		HP: 22000
+	Mobile:
+		Speed: 110
+
+# Indonesia - APC
+KOMODO:
+	Inherits: APC
+	RenderSprites:
+		Image: komodo
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 114
+		Prerequisites: fix, ~vehicles.allies
+		Description: actor-komodo.description
+	Valued:
+		Cost: 700
+	Tooltip:
+		Name: actor-komodo.name
+		GenericName: actor-komodo.generic-name
+	Health:
+		HP: 22000
+	Mobile:
+		Speed: 110
+
+# USA - Armored car
+V150:
+	Inherits: APC
+	RenderSprites:
+		Image: v150
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 115
+		Prerequisites: fix, ~vehicles.allies
+		Description: actor-v150.description
+	Valued:
+		Cost: 750
+	Tooltip:
+		Name: actor-v150.name
+		GenericName: actor-v150.generic-name
+	Health:
+		HP: 23000
+	Mobile:
+		Speed: 130
+
+# USA - MRAP
+BUFFALO:
+	Inherits: APC
+	RenderSprites:
+		Image: buffalo
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 116
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-buffalo.description
+	Valued:
+		Cost: 1100
+	Tooltip:
+		Name: actor-buffalo.name
+		GenericName: actor-buffalo.generic-name
+	Health:
+		HP: 35000
+	Mobile:
+		Speed: 100
+
+# Russia - IFV
+BMP2:
+	Inherits: 1TNK
+	RenderSprites:
+		Image: bmp2
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 117
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-bmp2.description
+	Valued:
+		Cost: 1300
+	Tooltip:
+		Name: actor-bmp2.name
+		GenericName: actor-bmp2.generic-name
+	Health:
+		HP: 32000
+	Mobile:
+		Speed: 110
+
+# France - IFV
+VBCI:
+	Inherits: 1TNK
+	RenderSprites:
+		Image: vbci
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 118
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-vbci.description
+	Valued:
+		Cost: 1350
+	Tooltip:
+		Name: actor-vbci.name
+		GenericName: actor-vbci.generic-name
+	Health:
+		HP: 33000
+	Mobile:
+		Speed: 115
+
+# China - IFV
+ZBL08:
+	Inherits: 1TNK
+	RenderSprites:
+		Image: zbl08
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 119
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-zbl08.description
+	Valued:
+		Cost: 1300
+	Tooltip:
+		Name: actor-zbl08.name
+		GenericName: actor-zbl08.generic-name
+	Health:
+		HP: 32000
+	Mobile:
+		Speed: 115
+
+# USA - IFV
+BRADLEY:
+	Inherits: 1TNK
+	RenderSprites:
+		Image: bradley
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 120
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-bradley.description
+	Valued:
+		Cost: 1400
+	Tooltip:
+		Name: actor-bradley.name
+		GenericName: actor-bradley.generic-name
+	Health:
+		HP: 35000
+	Mobile:
+		Speed: 105
+
+# Sweden - IFV
+CV90:
+	Inherits: 1TNK
+	RenderSprites:
+		Image: cv90
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 121
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-cv90.description
+	Valued:
+		Cost: 1350
+	Tooltip:
+		Name: actor-cv90.name
+		GenericName: actor-cv90.generic-name
+	Health:
+		HP: 33000
+	Mobile:
+		Speed: 115
+
+# UK - IFV
+WARRIOR:
+	Inherits: 1TNK
+	RenderSprites:
+		Image: warrior
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 122
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-warrior.description
+	Valued:
+		Cost: 1300
+	Tooltip:
+		Name: actor-warrior.name
+		GenericName: actor-warrior.generic-name
+	Health:
+		HP: 32000
+	Mobile:
+		Speed: 110
+
+# Germany - IFV
+MARDER:
+	Inherits: 1TNK
+	RenderSprites:
+		Image: marder
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 123
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-marder.description
+	Valued:
+		Cost: 1250
+	Tooltip:
+		Name: actor-marder.name
+		GenericName: actor-marder.generic-name
+	Health:
+		HP: 30000
+	Mobile:
+		Speed: 110
+
+# Indonesia - IFV
+BADAK:
+	Inherits: 1TNK
+	RenderSprites:
+		Image: badak
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 124
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-badak.description
+	Valued:
+		Cost: 1200
+	Tooltip:
+		Name: actor-badak.name
+		GenericName: actor-badak.generic-name
+	Health:
+		HP: 30000
+	Mobile:
+		Speed: 110
+
+# South Korea - IFV
+K21:
+	Inherits: 1TNK
+	RenderSprites:
+		Image: k21
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 125
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-k21.description
+	Valued:
+		Cost: 1400
+	Tooltip:
+		Name: actor-k21.name
+		GenericName: actor-k21.generic-name
+	Health:
+		HP: 35000
+	Mobile:
+		Speed: 115
+
+# China - IFV
+TYPE04:
+	Inherits: 1TNK
+	RenderSprites:
+		Image: type04
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 126
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-type04.description
+	Valued:
+		Cost: 1300
+	Tooltip:
+		Name: actor-type04.name
+		GenericName: actor-type04.generic-name
+	Health:
+		HP: 32000
+	Mobile:
+		Speed: 115
+
+# Russia - Airborne IFV
+BMD4M:
+	Inherits: 1TNK
+	RenderSprites:
+		Image: bmd4m
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 127
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-bmd4m.description
+	Valued:
+		Cost: 1350
+	Tooltip:
+		Name: actor-bmd4m.name
+		GenericName: actor-bmd4m.generic-name
+	Health:
+		HP: 30000
+	Mobile:
+		Speed: 120
+
+# USA - AA IFV
+LAVAD:
+	Inherits: 1TNK
+	RenderSprites:
+		Image: lavad
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 128
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-lavad.description
+	Valued:
+		Cost: 1500
+	Tooltip:
+		Name: actor-lavad.name
+		GenericName: actor-lavad.generic-name
+	Health:
+		HP: 30000
+	Mobile:
+		Speed: 115
+
+# USA - MBT
+M1A2:
+	Inherits: 3TNK
+	RenderSprites:
+		Image: m1a2
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 129
+		Prerequisites: fix, ~vehicles.allies, stek, ~techlevel.high
+		Description: actor-m1a2.description
+	Valued:
+		Cost: 3200
+	Tooltip:
+		Name: actor-m1a2.name
+		GenericName: actor-m1a2.generic-name
+	Health:
+		HP: 105000
+	Mobile:
+		Speed: 70
+
+# Germany - MBT
+LEO2A7:
+	Inherits: 3TNK
+	RenderSprites:
+		Image: leo2a7
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 130
+		Prerequisites: fix, ~vehicles.allies, stek, ~techlevel.high
+		Description: actor-leo2a7.description
+	Valued:
+		Cost: 3100
+	Tooltip:
+		Name: actor-leo2a7.name
+		GenericName: actor-leo2a7.generic-name
+	Health:
+		HP: 100000
+	Mobile:
+		Speed: 72
+
+# UK - MBT
+CHAL3:
+	Inherits: 3TNK
+	RenderSprites:
+		Image: chal3
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 131
+		Prerequisites: fix, ~vehicles.allies, stek, ~techlevel.high
+		Description: actor-chal3.description
+	Valued:
+		Cost: 3200
+	Tooltip:
+		Name: actor-chal3.name
+		GenericName: actor-chal3.generic-name
+	Health:
+		HP: 105000
+	Mobile:
+		Speed: 65
+
+# Russia - MBT (most modern)
+T14A:
+	Inherits: 3TNK
+	RenderSprites:
+		Image: t14
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 132
+		Prerequisites: fix, ~vehicles.allies, stek, ~techlevel.high
+		Description: actor-t14a.description
+	Valued:
+		Cost: 3500
+	Tooltip:
+		Name: actor-t14a.name
+		GenericName: actor-t14a.generic-name
+	Health:
+		HP: 110000
+	Mobile:
+		Speed: 78
+
+# South Korea - MBT
+K2:
+	Inherits: 3TNK
+	RenderSprites:
+		Image: k2
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 133
+		Prerequisites: fix, ~vehicles.allies, stek, ~techlevel.high
+		Description: actor-k2.description
+	Valued:
+		Cost: 3100
+	Tooltip:
+		Name: actor-k2.name
+		GenericName: actor-k2.generic-name
+	Health:
+		HP: 100000
+	Mobile:
+		Speed: 75
+
+# China - MBT
+TYPE99A:
+	Inherits: 3TNK
+	RenderSprites:
+		Image: type99a
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 134
+		Prerequisites: fix, ~vehicles.allies, stek, ~techlevel.high
+		Description: actor-type99a.description
+	Valued:
+		Cost: 3000
+	Tooltip:
+		Name: actor-type99a.name
+		GenericName: actor-type99a.generic-name
+	Health:
+		HP: 98000
+	Mobile:
+		Speed: 72
+
+# France - MBT
+LECLERC:
+	Inherits: 3TNK
+	RenderSprites:
+		Image: leclerc
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 135
+		Prerequisites: fix, ~vehicles.allies, stek, ~techlevel.high
+		Description: actor-leclerc.description
+	Valued:
+		Cost: 3000
+	Tooltip:
+		Name: actor-leclerc.name
+		GenericName: actor-leclerc.generic-name
+	Health:
+		HP: 98000
+	Mobile:
+		Speed: 74
+
+# Israel - MBT
+MERKAVA:
+	Inherits: 3TNK
+	RenderSprites:
+		Image: merkava
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 136
+		Prerequisites: fix, ~vehicles.allies, stek, ~techlevel.high
+		Description: actor-merkava.description
+	Valued:
+		Cost: 3200
+	Tooltip:
+		Name: actor-merkava.name
+		GenericName: actor-merkava.generic-name
+	Health:
+		HP: 110000
+	Mobile:
+		Speed: 60
+
+# Malaysia - MBT
+PT91:
+	Inherits: 3TNK
+	RenderSprites:
+		Image: pt91
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 137
+		Prerequisites: fix, ~vehicles.allies, stek, ~techlevel.high
+		Description: actor-pt91.description
+	Valued:
+		Cost: 2800
+	Tooltip:
+		Name: actor-pt91.name
+		GenericName: actor-pt91.generic-name
+	Health:
+		HP: 90000
+	Mobile:
+		Speed: 68
+
+# Russia - SPAA
+PANTSIR:
+	Inherits: AAD
+	RenderSprites:
+		Image: pantsir
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 138
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-pantsir.description
+	Valued:
+		Cost: 1800
+	Tooltip:
+		Name: actor-pantsir.name
+		GenericName: actor-pantsir.generic-name
+	Health:
+		HP: 40000
+	Mobile:
+		Speed: 100
+
+# USA - Rocket launcher
+M270:
+	Inherits: V2RL
+	RenderSprites:
+		Image: m270
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 139
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-m270.description
+	Valued:
+		Cost: 1800
+	Tooltip:
+		Name: actor-m270.name
+		GenericName: actor-m270.generic-name
+	Health:
+		HP: 35000
+	Mobile:
+		Speed: 85
+
+# Russia - SAM
+S400:
+	Inherits: AAD
+	RenderSprites:
+		Image: s400
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 140
+		Prerequisites: fix, ~vehicles.allies, stek, ~techlevel.high
+		Description: actor-s400.description
+	Valued:
+		Cost: 2500
+	Tooltip:
+		Name: actor-s400.name
+		GenericName: actor-s400.generic-name
+	Health:
+		HP: 45000
+	Mobile:
+		Speed: 80

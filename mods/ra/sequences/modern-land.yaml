@@ -1,0 +1,602 @@
+humvee:
+	idle:
+		Filename: humvee-idle.png
+		Facings: -8
+	turret:
+		Filename: humvee-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: humvee-idle.png
+		Frame: 0
+	icon:
+		Filename: humvee-idle.png
+		Frame: 0
+
+jltv:
+	idle:
+		Filename: jltv-idle.png
+		Facings: -8
+	turret:
+		Filename: jltv-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: jltv-idle.png
+		Frame: 0
+	icon:
+		Filename: jltv-idle.png
+		Frame: 0
+
+gwagen:
+	idle:
+		Filename: gwagen-idle.png
+		Facings: -8
+	turret:
+		Filename: gwagen-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: gwagen-idle.png
+		Frame: 0
+	icon:
+		Filename: gwagen-idle.png
+		Frame: 0
+
+defender:
+	idle:
+		Filename: defender-idle.png
+		Facings: -8
+	turret:
+		Filename: defender-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: defender-idle.png
+		Frame: 0
+	icon:
+		Filename: defender-idle.png
+		Frame: 0
+
+tigr:
+	idle:
+		Filename: tigr-idle.png
+		Facings: -8
+	turret:
+		Filename: tigr-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: tigr-idle.png
+		Frame: 0
+	icon:
+		Filename: tigr-idle.png
+		Frame: 0
+
+oshlatv:
+	idle:
+		Filename: oshlatv-idle.png
+		Facings: -8
+	turret:
+		Filename: oshlatv-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: oshlatv-idle.png
+		Frame: 0
+	icon:
+		Filename: oshlatv-idle.png
+		Frame: 0
+
+m113:
+	idle:
+		Filename: m113-idle.png
+		Facings: -8
+	turret:
+		Filename: m113-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: m113-idle.png
+		Frame: 0
+	icon:
+		Filename: m113-idle.png
+		Frame: 0
+
+stryker:
+	idle:
+		Filename: stryker-idle.png
+		Facings: -8
+	turret:
+		Filename: stryker-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: stryker-idle.png
+		Frame: 0
+	icon:
+		Filename: stryker-idle.png
+		Frame: 0
+
+btr80:
+	idle:
+		Filename: btr80-idle.png
+		Facings: -8
+	turret:
+		Filename: btr80-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: btr80-idle.png
+		Frame: 0
+	icon:
+		Filename: btr80-idle.png
+		Frame: 0
+
+piranha:
+	idle:
+		Filename: piranha-idle.png
+		Facings: -8
+	turret:
+		Filename: piranha-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: piranha-idle.png
+		Frame: 0
+	icon:
+		Filename: piranha-idle.png
+		Frame: 0
+
+boxer:
+	idle:
+		Filename: boxer-idle.png
+		Facings: -8
+	turret:
+		Filename: boxer-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: boxer-idle.png
+		Frame: 0
+	icon:
+		Filename: boxer-idle.png
+		Frame: 0
+
+pandur:
+	idle:
+		Filename: pandur-idle.png
+		Facings: -8
+	turret:
+		Filename: pandur-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: pandur-idle.png
+		Frame: 0
+	icon:
+		Filename: pandur-idle.png
+		Frame: 0
+
+anoa:
+	idle:
+		Filename: anoa-idle.png
+		Facings: -8
+	turret:
+		Filename: anoa-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: anoa-idle.png
+		Frame: 0
+	icon:
+		Filename: anoa-idle.png
+		Frame: 0
+
+komodo:
+	idle:
+		Filename: komodo-idle.png
+		Facings: -8
+	turret:
+		Filename: komodo-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: komodo-idle.png
+		Frame: 0
+	icon:
+		Filename: komodo-idle.png
+		Frame: 0
+
+v150:
+	idle:
+		Filename: v150-idle.png
+		Facings: -8
+	turret:
+		Filename: v150-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: v150-idle.png
+		Frame: 0
+	icon:
+		Filename: v150-idle.png
+		Frame: 0
+
+buffalo:
+	idle:
+		Filename: buffalo-idle.png
+		Facings: -8
+	turret:
+		Filename: buffalo-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: buffalo-idle.png
+		Frame: 0
+	icon:
+		Filename: buffalo-idle.png
+		Frame: 0
+
+bmp2:
+	idle:
+		Filename: bmp2-idle.png
+		Facings: -8
+	turret:
+		Filename: bmp2-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: bmp2-idle.png
+		Frame: 0
+	icon:
+		Filename: bmp2-idle.png
+		Frame: 0
+
+vbci:
+	idle:
+		Filename: vbci-idle.png
+		Facings: -8
+	turret:
+		Filename: vbci-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: vbci-idle.png
+		Frame: 0
+	icon:
+		Filename: vbci-idle.png
+		Frame: 0
+
+zbl08:
+	idle:
+		Filename: zbl08-idle.png
+		Facings: -8
+	turret:
+		Filename: zbl08-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: zbl08-idle.png
+		Frame: 0
+	icon:
+		Filename: zbl08-idle.png
+		Frame: 0
+
+bradley:
+	idle:
+		Filename: bradley-idle.png
+		Facings: -8
+	turret:
+		Filename: bradley-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: bradley-idle.png
+		Frame: 0
+	icon:
+		Filename: bradley-idle.png
+		Frame: 0
+
+cv90:
+	idle:
+		Filename: cv90-idle.png
+		Facings: -8
+	turret:
+		Filename: cv90-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: cv90-idle.png
+		Frame: 0
+	icon:
+		Filename: cv90-idle.png
+		Frame: 0
+
+warrior:
+	idle:
+		Filename: warrior-idle.png
+		Facings: -8
+	turret:
+		Filename: warrior-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: warrior-idle.png
+		Frame: 0
+	icon:
+		Filename: warrior-idle.png
+		Frame: 0
+
+marder:
+	idle:
+		Filename: marder-idle.png
+		Facings: -8
+	turret:
+		Filename: marder-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: marder-idle.png
+		Frame: 0
+	icon:
+		Filename: marder-idle.png
+		Frame: 0
+
+badak:
+	idle:
+		Filename: badak-idle.png
+		Facings: -8
+	turret:
+		Filename: badak-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: badak-idle.png
+		Frame: 0
+	icon:
+		Filename: badak-idle.png
+		Frame: 0
+
+k21:
+	idle:
+		Filename: k21-idle.png
+		Facings: -8
+	turret:
+		Filename: k21-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: k21-idle.png
+		Frame: 0
+	icon:
+		Filename: k21-idle.png
+		Frame: 0
+
+type04:
+	idle:
+		Filename: type04-idle.png
+		Facings: -8
+	turret:
+		Filename: type04-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: type04-idle.png
+		Frame: 0
+	icon:
+		Filename: type04-idle.png
+		Frame: 0
+
+bmd4m:
+	idle:
+		Filename: bmd4m-idle.png
+		Facings: -8
+	turret:
+		Filename: bmd4m-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: bmd4m-idle.png
+		Frame: 0
+	icon:
+		Filename: bmd4m-idle.png
+		Frame: 0
+
+lavad:
+	idle:
+		Filename: lavad-idle.png
+		Facings: -8
+	turret:
+		Filename: lavad-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: lavad-idle.png
+		Frame: 0
+	icon:
+		Filename: lavad-idle.png
+		Frame: 0
+
+m1a2:
+	idle:
+		Filename: m1a2-idle.png
+		Facings: -8
+	turret:
+		Filename: m1a2-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: m1a2-idle.png
+		Frame: 0
+	icon:
+		Filename: m1a2-idle.png
+		Frame: 0
+
+leo2a7:
+	idle:
+		Filename: leo2a7-idle.png
+		Facings: -8
+	turret:
+		Filename: leo2a7-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: leo2a7-idle.png
+		Frame: 0
+	icon:
+		Filename: leo2a7-idle.png
+		Frame: 0
+
+chal3:
+	idle:
+		Filename: chal3-idle.png
+		Facings: -8
+	turret:
+		Filename: chal3-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: chal3-idle.png
+		Frame: 0
+	icon:
+		Filename: chal3-idle.png
+		Frame: 0
+
+t14:
+	idle:
+		Filename: t14-idle.png
+		Facings: -8
+	turret:
+		Filename: t14-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: t14-idle.png
+		Frame: 0
+	icon:
+		Filename: t14-idle.png
+		Frame: 0
+
+k2:
+	idle:
+		Filename: k2-idle.png
+		Facings: -8
+	turret:
+		Filename: k2-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: k2-idle.png
+		Frame: 0
+	icon:
+		Filename: k2-idle.png
+		Frame: 0
+
+type99a:
+	idle:
+		Filename: type99a-idle.png
+		Facings: -8
+	turret:
+		Filename: type99a-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: type99a-idle.png
+		Frame: 0
+	icon:
+		Filename: type99a-idle.png
+		Frame: 0
+
+leclerc:
+	idle:
+		Filename: leclerc-idle.png
+		Facings: -8
+	turret:
+		Filename: leclerc-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: leclerc-idle.png
+		Frame: 0
+	icon:
+		Filename: leclerc-idle.png
+		Frame: 0
+
+merkava:
+	idle:
+		Filename: merkava-idle.png
+		Facings: -8
+	turret:
+		Filename: merkava-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: merkava-idle.png
+		Frame: 0
+	icon:
+		Filename: merkava-idle.png
+		Frame: 0
+
+pt91:
+	idle:
+		Filename: pt91-idle.png
+		Facings: -8
+	turret:
+		Filename: pt91-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: pt91-idle.png
+		Frame: 0
+	icon:
+		Filename: pt91-idle.png
+		Frame: 0
+
+pantsir:
+	idle:
+		Filename: pantsir-idle.png
+		Facings: -8
+	turret:
+		Filename: pantsir-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: pantsir-idle.png
+		Frame: 0
+	icon:
+		Filename: pantsir-idle.png
+		Frame: 0
+
+m270:
+	idle:
+		Filename: m270-idle.png
+		Facings: -8
+	turret:
+		Filename: m270-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: m270-idle.png
+		Frame: 0
+	empty-idle:
+		Filename: m270-idle.png
+		Frame: 0
+	icon:
+		Filename: m270-idle.png
+		Frame: 0
+
+s400:
+	idle:
+		Filename: s400-idle.png
+		Facings: -8
+	turret:
+		Filename: s400-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: s400-idle.png
+		Frame: 0
+	icon:
+		Filename: s400-idle.png
+		Frame: 0

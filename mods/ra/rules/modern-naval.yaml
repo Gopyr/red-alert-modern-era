@@ -1,0 +1,1081 @@
+# USA - Supercarrier
+CVN78:
+	Inherits: LST
+	RenderSprites:
+		Image: cvn78
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 301
+		Prerequisites: ~syrd, atek, ~techlevel.high
+		Description: actor-cvn78.description
+	Valued:
+		Cost: 7500
+	Tooltip:
+		Name: actor-cvn78.name
+		GenericName: actor-cvn78.generic-name
+	Health:
+		HP: 220000
+	Mobile:
+		Speed: 32
+	Armament@STRIKE:
+		Weapon: CarrierStrike
+		LocalOffset: 0,-200,0, 0,200,0
+	AttackFrontal:
+		FacingTolerance: 1
+
+# USA - Supercarrier
+CVN68:
+	Inherits: LST
+	RenderSprites:
+		Image: cvn68
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 302
+		Prerequisites: ~syrd, atek, ~techlevel.high
+		Description: actor-cvn68.description
+	Valued:
+		Cost: 6200
+	Tooltip:
+		Name: actor-cvn68.name
+		GenericName: actor-cvn68.generic-name
+	Health:
+		HP: 205000
+	Mobile:
+		Speed: 32
+	Armament@STRIKE:
+		Weapon: CarrierStrike
+		LocalOffset: 0,-200,0, 0,200,0
+	AttackFrontal:
+		FacingTolerance: 1
+
+# USA - Supercarrier
+CVN69:
+	Inherits: LST
+	RenderSprites:
+		Image: cvn69
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 303
+		Prerequisites: ~syrd, atek, ~techlevel.high
+		Description: actor-cvn69.description
+	Valued:
+		Cost: 6200
+	Tooltip:
+		Name: actor-cvn69.name
+		GenericName: actor-cvn69.generic-name
+	Health:
+		HP: 205000
+	Mobile:
+		Speed: 32
+	Armament@STRIKE:
+		Weapon: CarrierStrike
+		LocalOffset: 0,-200,0, 0,200,0
+	AttackFrontal:
+		FacingTolerance: 1
+
+# USA - Supercarrier
+CVN75:
+	Inherits: LST
+	RenderSprites:
+		Image: cvn75
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 304
+		Prerequisites: ~syrd, atek, ~techlevel.high
+		Description: actor-cvn75.description
+	Valued:
+		Cost: 6200
+	Tooltip:
+		Name: actor-cvn75.name
+		GenericName: actor-cvn75.generic-name
+	Health:
+		HP: 205000
+	Mobile:
+		Speed: 32
+	Armament@STRIKE:
+		Weapon: CarrierStrike
+		LocalOffset: 0,-200,0, 0,200,0
+	AttackFrontal:
+		FacingTolerance: 1
+
+# USA - Supercarrier
+CVN76:
+	Inherits: LST
+	RenderSprites:
+		Image: cvn76
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 305
+		Prerequisites: ~syrd, atek, ~techlevel.high
+		Description: actor-cvn76.description
+	Valued:
+		Cost: 6200
+	Tooltip:
+		Name: actor-cvn76.name
+		GenericName: actor-cvn76.generic-name
+	Health:
+		HP: 205000
+	Mobile:
+		Speed: 32
+	Armament@STRIKE:
+		Weapon: CarrierStrike
+		LocalOffset: 0,-200,0, 0,200,0
+	AttackFrontal:
+		FacingTolerance: 1
+
+# UK - Carrier
+QELIZ:
+	Inherits: LST
+	RenderSprites:
+		Image: qeliz
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 306
+		Prerequisites: ~syrd, atek, ~techlevel.high
+		Description: actor-qeliz.description
+	Valued:
+		Cost: 5800
+	Tooltip:
+		Name: actor-qeliz.name
+		GenericName: actor-qeliz.generic-name
+	Health:
+		HP: 190000
+	Mobile:
+		Speed: 34
+	Armament@STRIKE:
+		Weapon: CarrierStrike
+		LocalOffset: 0,-200,0, 0,200,0
+	AttackFrontal:
+		FacingTolerance: 1
+
+# France - Nuclear carrier
+CDG:
+	Inherits: LST
+	RenderSprites:
+		Image: cdg
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 307
+		Prerequisites: ~syrd, atek, ~techlevel.high
+		Description: actor-cdg.description
+	Valued:
+		Cost: 6000
+	Tooltip:
+		Name: actor-cdg.name
+		GenericName: actor-cdg.generic-name
+	Health:
+		HP: 195000
+	Mobile:
+		Speed: 35
+	Armament@STRIKE:
+		Weapon: CarrierStrike
+		LocalOffset: 0,-200,0, 0,200,0
+	AttackFrontal:
+		FacingTolerance: 1
+
+# Russia - Heavy carrier
+KUZNETSOV:
+	Inherits: LST
+	RenderSprites:
+		Image: kuznetsov
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 308
+		Prerequisites: ~syrd, atek, ~techlevel.high
+		Description: actor-kuznetsov.description
+	Valued:
+		Cost: 6000
+	Tooltip:
+		Name: actor-kuznetsov.name
+		GenericName: actor-kuznetsov.generic-name
+	Health:
+		HP: 200000
+	Mobile:
+		Speed: 30
+	Armament@STRIKE:
+		Weapon: CarrierStrike
+		LocalOffset: 0,-200,0, 0,200,0
+	AttackFrontal:
+		FacingTolerance: 1
+
+# China - Carrier
+LIAONING:
+	Inherits: LST
+	RenderSprites:
+		Image: liaoning
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 309
+		Prerequisites: ~syrd, atek, ~techlevel.high
+		Description: actor-liaoning.description
+	Valued:
+		Cost: 5800
+	Tooltip:
+		Name: actor-liaoning.name
+		GenericName: actor-liaoning.generic-name
+	Health:
+		HP: 195000
+	Mobile:
+		Speed: 33
+	Armament@STRIKE:
+		Weapon: CarrierStrike
+		LocalOffset: 0,-200,0, 0,200,0
+	AttackFrontal:
+		FacingTolerance: 1
+
+# China - Carrier
+SHANDONG:
+	Inherits: LST
+	RenderSprites:
+		Image: shandong
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 310
+		Prerequisites: ~syrd, atek, ~techlevel.high
+		Description: actor-shandong.description
+	Valued:
+		Cost: 5800
+	Tooltip:
+		Name: actor-shandong.name
+		GenericName: actor-shandong.generic-name
+	Health:
+		HP: 195000
+	Mobile:
+		Speed: 33
+	Armament@STRIKE:
+		Weapon: CarrierStrike
+		LocalOffset: 0,-200,0, 0,200,0
+	AttackFrontal:
+		FacingTolerance: 1
+
+# China - Carrier (EMALS)
+FUJIAN:
+	Inherits: LST
+	RenderSprites:
+		Image: fujian
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 311
+		Prerequisites: ~syrd, atek, ~techlevel.high
+		Description: actor-fujian.description
+	Valued:
+		Cost: 6200
+	Tooltip:
+		Name: actor-fujian.name
+		GenericName: actor-fujian.generic-name
+	Health:
+		HP: 200000
+	Mobile:
+		Speed: 35
+	Armament@STRIKE:
+		Weapon: CarrierStrike
+		LocalOffset: 0,-200,0, 0,200,0
+	AttackFrontal:
+		FacingTolerance: 1
+
+# USA - Ballistic sub
+OHIO:
+	Inherits: MSUB
+	RenderSprites:
+		Image: ohio
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 312
+		Prerequisites: ~spen, atek, ~techlevel.high
+		Description: actor-ohio.description
+	Valued:
+		Cost: 4200
+	Tooltip:
+		Name: actor-ohio.name
+		GenericName: actor-ohio.generic-name
+	Health:
+		HP: 55000
+	Mobile:
+		Speed: 40
+
+# USA - Attack sub
+VIRGINIA:
+	Inherits: MSUB
+	RenderSprites:
+		Image: virginia
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 313
+		Prerequisites: ~spen, atek, ~techlevel.high
+		Description: actor-virginia.description
+	Valued:
+		Cost: 3800
+	Tooltip:
+		Name: actor-virginia.name
+		GenericName: actor-virginia.generic-name
+	Health:
+		HP: 48000
+	Mobile:
+		Speed: 45
+	Armament@PRIMARY:
+		Weapon: TorpTube
+		LocalOffset: 0,-171,0, 0,171,0
+		FireDelay: 2
+	AttackFrontal:
+		FacingTolerance: 0
+
+# USA - Attack sub
+SEAWOLF:
+	Inherits: MSUB
+	RenderSprites:
+		Image: seawolf
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 314
+		Prerequisites: ~spen, atek, ~techlevel.high
+		Description: actor-seawolf.description
+	Valued:
+		Cost: 4000
+	Tooltip:
+		Name: actor-seawolf.name
+		GenericName: actor-seawolf.generic-name
+	Health:
+		HP: 52000
+	Mobile:
+		Speed: 42
+	Armament@PRIMARY:
+		Weapon: TorpTube
+		LocalOffset: 0,-171,0, 0,171,0
+		FireDelay: 2
+	AttackFrontal:
+		FacingTolerance: 0
+
+# Russia - Ballistic sub
+BOREI:
+	Inherits: MSUB
+	RenderSprites:
+		Image: borei
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 315
+		Prerequisites: ~spen, atek, ~techlevel.high
+		Description: actor-borei.description
+	Valued:
+		Cost: 4300
+	Tooltip:
+		Name: actor-borei.name
+		GenericName: actor-borei.generic-name
+	Health:
+		HP: 56000
+	Mobile:
+		Speed: 38
+
+# Russia - Attack sub
+YASEN:
+	Inherits: MSUB
+	RenderSprites:
+		Image: yasen
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 316
+		Prerequisites: ~spen, atek, ~techlevel.high
+		Description: actor-yasen.description
+	Valued:
+		Cost: 3900
+	Tooltip:
+		Name: actor-yasen.name
+		GenericName: actor-yasen.generic-name
+	Health:
+		HP: 49000
+	Mobile:
+		Speed: 44
+	Armament@PRIMARY:
+		Weapon: TorpTube
+		LocalOffset: 0,-171,0, 0,171,0
+		FireDelay: 2
+	AttackFrontal:
+		FacingTolerance: 0
+
+# UK - Attack sub
+ASTUTE:
+	Inherits: MSUB
+	RenderSprites:
+		Image: astute
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 317
+		Prerequisites: ~spen, atek, ~techlevel.high
+		Description: actor-astute.description
+	Valued:
+		Cost: 3900
+	Tooltip:
+		Name: actor-astute.name
+		GenericName: actor-astute.generic-name
+	Health:
+		HP: 49000
+	Mobile:
+		Speed: 44
+	Armament@PRIMARY:
+		Weapon: TorpTube
+		LocalOffset: 0,-171,0, 0,171,0
+		FireDelay: 2
+	AttackFrontal:
+		FacingTolerance: 0
+
+# France - Ballistic sub
+TRIOMPHANT:
+	Inherits: MSUB
+	RenderSprites:
+		Image: triomphant
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 318
+		Prerequisites: ~spen, atek, ~techlevel.high
+		Description: actor-triomphant.description
+	Valued:
+		Cost: 4300
+	Tooltip:
+		Name: actor-triomphant.name
+		GenericName: actor-triomphant.generic-name
+	Health:
+		HP: 56000
+	Mobile:
+		Speed: 38
+
+# China - Ballistic sub
+TYPE094:
+	Inherits: MSUB
+	RenderSprites:
+		Image: type094
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 319
+		Prerequisites: ~spen, atek, ~techlevel.high
+		Description: actor-type094.description
+	Valued:
+		Cost: 4200
+	Tooltip:
+		Name: actor-type094.name
+		GenericName: actor-type094.generic-name
+	Health:
+		HP: 55000
+	Mobile:
+		Speed: 38
+
+# China - Attack sub
+TYPE095:
+	Inherits: MSUB
+	RenderSprites:
+		Image: type095
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 320
+		Prerequisites: ~spen, atek, ~techlevel.high
+		Description: actor-type095.description
+	Valued:
+		Cost: 3800
+	Tooltip:
+		Name: actor-type095.name
+		GenericName: actor-type095.generic-name
+	Health:
+		HP: 48000
+	Mobile:
+		Speed: 42
+	Armament@PRIMARY:
+		Weapon: TorpTube
+		LocalOffset: 0,-171,0, 0,171,0
+		FireDelay: 2
+	AttackFrontal:
+		FacingTolerance: 0
+
+# Russia - Nuclear battlecruiser
+KIROV:
+	Inherits: CA
+	RenderSprites:
+		Image: kirov
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 321
+		Prerequisites: ~syrd, atek, ~techlevel.high
+		Description: actor-kirov.description
+	Valued:
+		Cost: 5200
+	Tooltip:
+		Name: actor-kirov.name
+		GenericName: actor-kirov.generic-name
+	Health:
+		HP: 150000
+	Mobile:
+		Speed: 35
+	Armament@PRIMARY:
+		Weapon: 8Inch
+	Armament@SECONDARY:
+		Weapon: CGNMissile
+		LocalOffset: 0,-100,0, 0,100,0
+	Armament@TERTIARY:
+		Weapon: StingerAA
+		LocalOffset: 0,-100,0, 0,100,0
+	AttackTurreted:
+
+# USA - Nuclear cruiser (retired)
+LONGBEACH:
+	Inherits: CA
+	RenderSprites:
+		Image: longbeach
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 322
+		Prerequisites: ~syrd, atek, ~techlevel.high
+		Description: actor-longbeach.description
+	Valued:
+		Cost: 3800
+	Tooltip:
+		Name: actor-longbeach.name
+		GenericName: actor-longbeach.generic-name
+	Health:
+		HP: 90000
+	Mobile:
+		Speed: 40
+	Armament@PRIMARY:
+		Weapon: 8Inch
+	Armament@SECONDARY:
+		Weapon: CGNMissile
+		LocalOffset: 0,-100,0, 0,100,0
+	Armament@TERTIARY:
+		Weapon: StingerAA
+		LocalOffset: 0,-100,0, 0,100,0
+	AttackTurreted:
+
+# USA - Nuclear carrier (retired)
+ENTERPRISE65:
+	Inherits: LST
+	RenderSprites:
+		Image: enterprise65
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 323
+		Prerequisites: ~syrd, atek, ~techlevel.high
+		Description: actor-enterprise65.description
+	Valued:
+		Cost: 6500
+	Tooltip:
+		Name: actor-enterprise65.name
+		GenericName: actor-enterprise65.generic-name
+	Health:
+		HP: 210000
+	Mobile:
+		Speed: 33
+	Armament@STRIKE:
+		Weapon: CarrierStrike
+		LocalOffset: 0,-200,0, 0,200,0
+	AttackFrontal:
+		FacingTolerance: 1
+
+# USA - Battleship
+MISSOURI:
+	Inherits: CA
+	RenderSprites:
+		Image: missouri
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 324
+		Prerequisites: ~syrd, atek, ~techlevel.high
+		Description: actor-missouri.description
+	Valued:
+		Cost: 4600
+	Tooltip:
+		Name: actor-missouri.name
+		GenericName: actor-missouri.generic-name
+	Health:
+		HP: 145000
+	Mobile:
+		Speed: 32
+	Armament:
+		Weapon: 8Inch
+
+# USA - Cruiser
+TICONDEROGA:
+	Inherits: CA
+	RenderSprites:
+		Image: ticonderoga
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 325
+		Prerequisites: ~syrd, atek, ~techlevel.high
+		Description: actor-ticonderoga.description
+	Valued:
+		Cost: 3000
+	Tooltip:
+		Name: actor-ticonderoga.name
+		GenericName: actor-ticonderoga.generic-name
+	Health:
+		HP: 80000
+	Mobile:
+		Speed: 42
+	Armament@TERTIARY:
+		Weapon: CGNMissile
+		LocalOffset: 0,-100,0, 0,100,0
+	AttackTurreted:
+
+# Russia - Cruiser
+SLAVA:
+	Inherits: CA
+	RenderSprites:
+		Image: slava
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 326
+		Prerequisites: ~syrd, atek, ~techlevel.high
+		Description: actor-slava.description
+	Valued:
+		Cost: 2900
+	Tooltip:
+		Name: actor-slava.name
+		GenericName: actor-slava.generic-name
+	Health:
+		HP: 78000
+	Mobile:
+		Speed: 42
+	Armament@TERTIARY:
+		Weapon: CGNMissile
+		LocalOffset: 0,-100,0, 0,100,0
+	AttackTurreted:
+
+# USA - Destroyer
+BURKE:
+	Inherits: DD
+	RenderSprites:
+		Image: burke
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 327
+		Prerequisites: ~syrd, atek, ~techlevel.high
+		Description: actor-burke.description
+	Valued:
+		Cost: 2200
+	Tooltip:
+		Name: actor-burke.name
+		GenericName: actor-burke.generic-name
+	Health:
+		HP: 55000
+	Mobile:
+		Speed: 48
+
+# China - Destroyer
+TYPE055:
+	Inherits: DD
+	RenderSprites:
+		Image: type055
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 328
+		Prerequisites: ~syrd, atek, ~techlevel.high
+		Description: actor-type055.description
+	Valued:
+		Cost: 2500
+	Tooltip:
+		Name: actor-type055.name
+		GenericName: actor-type055.generic-name
+	Health:
+		HP: 60000
+	Mobile:
+		Speed: 46
+
+# South Korea - Destroyer
+KDX3:
+	Inherits: DD
+	RenderSprites:
+		Image: kdx3
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 329
+		Prerequisites: ~syrd, atek, ~techlevel.high
+		Description: actor-kdx3.description
+	Valued:
+		Cost: 2400
+	Tooltip:
+		Name: actor-kdx3.name
+		GenericName: actor-kdx3.generic-name
+	Health:
+		HP: 58000
+	Mobile:
+		Speed: 46
+
+# UK - Destroyer
+TYPE45:
+	Inherits: DD
+	RenderSprites:
+		Image: type45
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 330
+		Prerequisites: ~syrd, atek, ~techlevel.high
+		Description: actor-type45.description
+	Valued:
+		Cost: 2300
+	Tooltip:
+		Name: actor-type45.name
+		GenericName: actor-type45.generic-name
+	Health:
+		HP: 56000
+	Mobile:
+		Speed: 46
+
+# USA - Frigate
+CONSTELLATION:
+	Inherits: FFG
+	RenderSprites:
+		Image: constellation
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 331
+		Prerequisites: ~syrd, ~techlevel.medium
+		Description: actor-constellation.description
+	Valued:
+		Cost: 1500
+	Tooltip:
+		Name: actor-constellation.name
+		GenericName: actor-constellation.generic-name
+	Health:
+		HP: 42000
+	Mobile:
+		Speed: 50
+
+# France/Italy - Frigate
+FREMM:
+	Inherits: FFG
+	RenderSprites:
+		Image: fremm
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 332
+		Prerequisites: ~syrd, ~techlevel.medium
+		Description: actor-fremm.description
+	Valued:
+		Cost: 1400
+	Tooltip:
+		Name: actor-fremm.name
+		GenericName: actor-fremm.generic-name
+	Health:
+		HP: 40000
+	Mobile:
+		Speed: 50
+
+# Indonesia (TNI AL) - Frigate
+MARTADINATA:
+	Inherits: FFG
+	RenderSprites:
+		Image: martadinata
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 333
+		Prerequisites: ~syrd, ~techlevel.medium
+		Description: actor-martadinata.description
+	Valued:
+		Cost: 1300
+	Tooltip:
+		Name: actor-martadinata.name
+		GenericName: actor-martadinata.generic-name
+	Health:
+		HP: 38000
+	Mobile:
+		Speed: 50
+
+# Denmark - Frigate
+HUITFELDT:
+	Inherits: FFG
+	RenderSprites:
+		Image: huitfeldt
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 334
+		Prerequisites: ~syrd, ~techlevel.medium
+		Description: actor-huitfeldt.description
+	Valued:
+		Cost: 1600
+	Tooltip:
+		Name: actor-huitfeldt.name
+		GenericName: actor-huitfeldt.generic-name
+	Health:
+		HP: 45000
+	Mobile:
+		Speed: 48
+
+# Indonesia (TNI AL) - Corvette
+SIGMA:
+	Inherits: COR
+	RenderSprites:
+		Image: sigma
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 335
+		Prerequisites: ~syrd, ~techlevel.medium
+		Description: actor-sigma.description
+	Valued:
+		Cost: 900
+	Tooltip:
+		Name: actor-sigma.name
+		GenericName: actor-sigma.generic-name
+	Health:
+		HP: 30000
+	Mobile:
+		Speed: 60
+
+# France - Corvette
+GOWIND:
+	Inherits: COR
+	RenderSprites:
+		Image: gowind
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 336
+		Prerequisites: ~syrd, ~techlevel.medium
+		Description: actor-gowind.description
+	Valued:
+		Cost: 900
+	Tooltip:
+		Name: actor-gowind.name
+		GenericName: actor-gowind.generic-name
+	Health:
+		HP: 30000
+	Mobile:
+		Speed: 60
+
+# Russia - Corvette
+STEREGUSHCHIY:
+	Inherits: COR
+	RenderSprites:
+		Image: steregushchiy
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 337
+		Prerequisites: ~syrd, ~techlevel.medium
+		Description: actor-steregushchiy.description
+	Valued:
+		Cost: 950
+	Tooltip:
+		Name: actor-steregushchiy.name
+		GenericName: actor-steregushchiy.generic-name
+	Health:
+		HP: 31000
+	Mobile:
+		Speed: 58
+
+# USA - Amphibious assault
+AMERICA:
+	Inherits: LST
+	RenderSprites:
+		Image: america
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 338
+		Prerequisites: ~syrd, atek, ~techlevel.high
+		Description: actor-america.description
+	Valued:
+		Cost: 5000
+	Tooltip:
+		Name: actor-america.name
+		GenericName: actor-america.generic-name
+	Health:
+		HP: 180000
+	Mobile:
+		Speed: 30
+	Armament:
+		Weapon: Stinger
+		LocalOffset: 0,-100,0, 0,100,0
+	AttackFrontal:
+		FacingTolerance: 2
+
+# USA - Amphibious assault
+WASP:
+	Inherits: LST
+	RenderSprites:
+		Image: wasp
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 339
+		Prerequisites: ~syrd, atek, ~techlevel.high
+		Description: actor-wasp.description
+	Valued:
+		Cost: 4800
+	Tooltip:
+		Name: actor-wasp.name
+		GenericName: actor-wasp.generic-name
+	Health:
+		HP: 175000
+	Mobile:
+		Speed: 30
+	Armament:
+		Weapon: Stinger
+		LocalOffset: 0,-100,0, 0,100,0
+	AttackFrontal:
+		FacingTolerance: 2
+
+# China - Amphibious assault
+TYPE075:
+	Inherits: LST
+	RenderSprites:
+		Image: type075
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 340
+		Prerequisites: ~syrd, atek, ~techlevel.high
+		Description: actor-type075.description
+	Valued:
+		Cost: 4800
+	Tooltip:
+		Name: actor-type075.name
+		GenericName: actor-type075.generic-name
+	Health:
+		HP: 175000
+	Mobile:
+		Speed: 30
+	Armament:
+		Weapon: Stinger
+		LocalOffset: 0,-100,0, 0,100,0
+	AttackFrontal:
+		FacingTolerance: 2
+
+# USA - Amphibious transport
+SANANTONIO:
+	Inherits: LST
+	RenderSprites:
+		Image: sanantonio
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 341
+		Prerequisites: ~syrd, atek, ~techlevel.high
+		Description: actor-sanantonio.description
+	Valued:
+		Cost: 3200
+	Tooltip:
+		Name: actor-sanantonio.name
+		GenericName: actor-sanantonio.generic-name
+	Health:
+		HP: 100000
+	Mobile:
+		Speed: 34
+	Armament:
+		Weapon: Stinger
+		LocalOffset: 0,-100,0, 0,100,0
+	AttackFrontal:
+		FacingTolerance: 2
+
+# Indonesia (TNI AL) - LST
+TELUKBINTUNI:
+	Inherits: LST
+	RenderSprites:
+		Image: telukbintuni
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 342
+		Prerequisites: ~syrd, ~techlevel.medium
+		Description: actor-telukbintuni.description
+	Valued:
+		Cost: 1200
+	Tooltip:
+		Name: actor-telukbintuni.name
+		GenericName: actor-telukbintuni.generic-name
+	Health:
+		HP: 60000
+	Mobile:
+		Speed: 25
+
+# France - Diesel sub
+SCORPENE:
+	Inherits: MSUB
+	RenderSprites:
+		Image: scorpene
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 343
+		Prerequisites: ~spen, ~techlevel.medium
+		Description: actor-scorpene.description
+	Valued:
+		Cost: 1800
+	Tooltip:
+		Name: actor-scorpene.name
+		GenericName: actor-scorpene.generic-name
+	Health:
+		HP: 30000
+	Mobile:
+		Speed: 30
+	Armament@PRIMARY:
+		Weapon: TorpTube
+		LocalOffset: 0,-171,0, 0,171,0
+		FireDelay: 2
+	AttackFrontal:
+		FacingTolerance: 0
+
+# Germany - Diesel sub
+TYPE209:
+	Inherits: MSUB
+	RenderSprites:
+		Image: type209
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 344
+		Prerequisites: ~spen, ~techlevel.medium
+		Description: actor-type209.description
+	Valued:
+		Cost: 1800
+	Tooltip:
+		Name: actor-type209.name
+		GenericName: actor-type209.generic-name
+	Health:
+		HP: 30000
+	Mobile:
+		Speed: 30
+	Armament@PRIMARY:
+		Weapon: TorpTube
+		LocalOffset: 0,-171,0, 0,171,0
+		FireDelay: 2
+	AttackFrontal:
+		FacingTolerance: 0
+
+# Russia - Diesel sub
+KILO:
+	Inherits: MSUB
+	RenderSprites:
+		Image: kilo
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 345
+		Prerequisites: ~spen, ~techlevel.medium
+		Description: actor-kilo.description
+	Valued:
+		Cost: 1900
+	Tooltip:
+		Name: actor-kilo.name
+		GenericName: actor-kilo.generic-name
+	Health:
+		HP: 32000
+	Mobile:
+		Speed: 28
+	Armament@PRIMARY:
+		Weapon: TorpTube
+		LocalOffset: 0,-171,0, 0,171,0
+		FireDelay: 2
+	AttackFrontal:
+		FacingTolerance: 0
+
+# Indonesia (TNI AL) - Diesel sub
+NAGAPASA:
+	Inherits: MSUB
+	RenderSprites:
+		Image: nagapasa
+	Buildable:
+		Queue: Ship
+		BuildPaletteOrder: 346
+		Prerequisites: ~spen, ~techlevel.medium
+		Description: actor-nagapasa.description
+	Valued:
+		Cost: 2000
+	Tooltip:
+		Name: actor-nagapasa.name
+		GenericName: actor-nagapasa.generic-name
+	Health:
+		HP: 33000
+	Mobile:
+		Speed: 28
+	Armament@PRIMARY:
+		Weapon: TorpTube
+		LocalOffset: 0,-171,0, 0,171,0
+		FireDelay: 2
+	AttackFrontal:
+		FacingTolerance: 0

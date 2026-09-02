@@ -1,0 +1,842 @@
+cvn78:
+	idle:
+		Filename: cvn78-idle.png
+		Facings: -8
+	turret:
+		Filename: cvn78-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: cvn78-idle.png
+		Frame: 0
+	open:
+		Filename: cvn78-idle.png
+		Frame: 0
+	close:
+		Filename: cvn78-idle.png
+		Frame: 0
+	unload:
+		Filename: cvn78-idle.png
+		Frame: 0
+	icon:
+		Filename: cvn78-idle.png
+		Frame: 0
+
+cvn68:
+	idle:
+		Filename: cvn68-idle.png
+		Facings: -8
+	turret:
+		Filename: cvn68-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: cvn68-idle.png
+		Frame: 0
+	open:
+		Filename: cvn68-idle.png
+		Frame: 0
+	close:
+		Filename: cvn68-idle.png
+		Frame: 0
+	unload:
+		Filename: cvn68-idle.png
+		Frame: 0
+	icon:
+		Filename: cvn68-idle.png
+		Frame: 0
+
+cvn69:
+	idle:
+		Filename: cvn69-idle.png
+		Facings: -8
+	turret:
+		Filename: cvn69-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: cvn69-idle.png
+		Frame: 0
+	open:
+		Filename: cvn69-idle.png
+		Frame: 0
+	close:
+		Filename: cvn69-idle.png
+		Frame: 0
+	unload:
+		Filename: cvn69-idle.png
+		Frame: 0
+	icon:
+		Filename: cvn69-idle.png
+		Frame: 0
+
+cvn75:
+	idle:
+		Filename: cvn75-idle.png
+		Facings: -8
+	turret:
+		Filename: cvn75-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: cvn75-idle.png
+		Frame: 0
+	open:
+		Filename: cvn75-idle.png
+		Frame: 0
+	close:
+		Filename: cvn75-idle.png
+		Frame: 0
+	unload:
+		Filename: cvn75-idle.png
+		Frame: 0
+	icon:
+		Filename: cvn75-idle.png
+		Frame: 0
+
+cvn76:
+	idle:
+		Filename: cvn76-idle.png
+		Facings: -8
+	turret:
+		Filename: cvn76-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: cvn76-idle.png
+		Frame: 0
+	open:
+		Filename: cvn76-idle.png
+		Frame: 0
+	close:
+		Filename: cvn76-idle.png
+		Frame: 0
+	unload:
+		Filename: cvn76-idle.png
+		Frame: 0
+	icon:
+		Filename: cvn76-idle.png
+		Frame: 0
+
+qeliz:
+	idle:
+		Filename: qeliz-idle.png
+		Facings: -8
+	turret:
+		Filename: qeliz-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: qeliz-idle.png
+		Frame: 0
+	open:
+		Filename: qeliz-idle.png
+		Frame: 0
+	close:
+		Filename: qeliz-idle.png
+		Frame: 0
+	unload:
+		Filename: qeliz-idle.png
+		Frame: 0
+	icon:
+		Filename: qeliz-idle.png
+		Frame: 0
+
+cdg:
+	idle:
+		Filename: cdg-idle.png
+		Facings: -8
+	turret:
+		Filename: cdg-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: cdg-idle.png
+		Frame: 0
+	open:
+		Filename: cdg-idle.png
+		Frame: 0
+	close:
+		Filename: cdg-idle.png
+		Frame: 0
+	unload:
+		Filename: cdg-idle.png
+		Frame: 0
+	icon:
+		Filename: cdg-idle.png
+		Frame: 0
+
+kuznetsov:
+	idle:
+		Filename: kuznetsov-idle.png
+		Facings: -8
+	turret:
+		Filename: kuznetsov-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: kuznetsov-idle.png
+		Frame: 0
+	open:
+		Filename: kuznetsov-idle.png
+		Frame: 0
+	close:
+		Filename: kuznetsov-idle.png
+		Frame: 0
+	unload:
+		Filename: kuznetsov-idle.png
+		Frame: 0
+	icon:
+		Filename: kuznetsov-idle.png
+		Frame: 0
+
+liaoning:
+	idle:
+		Filename: liaoning-idle.png
+		Facings: -8
+	turret:
+		Filename: liaoning-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: liaoning-idle.png
+		Frame: 0
+	open:
+		Filename: liaoning-idle.png
+		Frame: 0
+	close:
+		Filename: liaoning-idle.png
+		Frame: 0
+	unload:
+		Filename: liaoning-idle.png
+		Frame: 0
+	icon:
+		Filename: liaoning-idle.png
+		Frame: 0
+
+shandong:
+	idle:
+		Filename: shandong-idle.png
+		Facings: -8
+	turret:
+		Filename: shandong-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: shandong-idle.png
+		Frame: 0
+	open:
+		Filename: shandong-idle.png
+		Frame: 0
+	close:
+		Filename: shandong-idle.png
+		Frame: 0
+	unload:
+		Filename: shandong-idle.png
+		Frame: 0
+	icon:
+		Filename: shandong-idle.png
+		Frame: 0
+
+fujian:
+	idle:
+		Filename: fujian-idle.png
+		Facings: -8
+	turret:
+		Filename: fujian-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: fujian-idle.png
+		Frame: 0
+	open:
+		Filename: fujian-idle.png
+		Frame: 0
+	close:
+		Filename: fujian-idle.png
+		Frame: 0
+	unload:
+		Filename: fujian-idle.png
+		Frame: 0
+	icon:
+		Filename: fujian-idle.png
+		Frame: 0
+
+ohio:
+	idle:
+		Filename: ohio-idle.png
+		Facings: -8
+	turret:
+		Filename: ohio-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: ohio-idle.png
+		Frame: 0
+	icon:
+		Filename: ohio-idle.png
+		Frame: 0
+
+virginia:
+	idle:
+		Filename: virginia-idle.png
+		Facings: -8
+	turret:
+		Filename: virginia-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: virginia-idle.png
+		Frame: 0
+	icon:
+		Filename: virginia-idle.png
+		Frame: 0
+
+seawolf:
+	idle:
+		Filename: seawolf-idle.png
+		Facings: -8
+	turret:
+		Filename: seawolf-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: seawolf-idle.png
+		Frame: 0
+	icon:
+		Filename: seawolf-idle.png
+		Frame: 0
+
+borei:
+	idle:
+		Filename: borei-idle.png
+		Facings: -8
+	turret:
+		Filename: borei-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: borei-idle.png
+		Frame: 0
+	icon:
+		Filename: borei-idle.png
+		Frame: 0
+
+yasen:
+	idle:
+		Filename: yasen-idle.png
+		Facings: -8
+	turret:
+		Filename: yasen-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: yasen-idle.png
+		Frame: 0
+	icon:
+		Filename: yasen-idle.png
+		Frame: 0
+
+astute:
+	idle:
+		Filename: astute-idle.png
+		Facings: -8
+	turret:
+		Filename: astute-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: astute-idle.png
+		Frame: 0
+	icon:
+		Filename: astute-idle.png
+		Frame: 0
+
+triomphant:
+	idle:
+		Filename: triomphant-idle.png
+		Facings: -8
+	turret:
+		Filename: triomphant-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: triomphant-idle.png
+		Frame: 0
+	icon:
+		Filename: triomphant-idle.png
+		Frame: 0
+
+type094:
+	idle:
+		Filename: type094-idle.png
+		Facings: -8
+	turret:
+		Filename: type094-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: type094-idle.png
+		Frame: 0
+	icon:
+		Filename: type094-idle.png
+		Frame: 0
+
+type095:
+	idle:
+		Filename: type095-idle.png
+		Facings: -8
+	turret:
+		Filename: type095-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: type095-idle.png
+		Frame: 0
+	icon:
+		Filename: type095-idle.png
+		Frame: 0
+
+kirov:
+	idle:
+		Filename: kirov-idle.png
+		Facings: -8
+	turret:
+		Filename: kirov-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: kirov-idle.png
+		Frame: 0
+	icon:
+		Filename: kirov-idle.png
+		Frame: 0
+
+longbeach:
+	idle:
+		Filename: longbeach-idle.png
+		Facings: -8
+	turret:
+		Filename: longbeach-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: longbeach-idle.png
+		Frame: 0
+	icon:
+		Filename: longbeach-idle.png
+		Frame: 0
+
+enterprise65:
+	idle:
+		Filename: enterprise65-idle.png
+		Facings: -8
+	turret:
+		Filename: enterprise65-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: enterprise65-idle.png
+		Frame: 0
+	open:
+		Filename: enterprise65-idle.png
+		Frame: 0
+	close:
+		Filename: enterprise65-idle.png
+		Frame: 0
+	unload:
+		Filename: enterprise65-idle.png
+		Frame: 0
+	icon:
+		Filename: enterprise65-idle.png
+		Frame: 0
+
+missouri:
+	idle:
+		Filename: missouri-idle.png
+		Facings: -8
+	turret:
+		Filename: missouri-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: missouri-idle.png
+		Frame: 0
+	icon:
+		Filename: missouri-idle.png
+		Frame: 0
+
+ticonderoga:
+	idle:
+		Filename: ticonderoga-idle.png
+		Facings: -8
+	turret:
+		Filename: ticonderoga-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: ticonderoga-idle.png
+		Frame: 0
+	icon:
+		Filename: ticonderoga-idle.png
+		Frame: 0
+
+slava:
+	idle:
+		Filename: slava-idle.png
+		Facings: -8
+	turret:
+		Filename: slava-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: slava-idle.png
+		Frame: 0
+	icon:
+		Filename: slava-idle.png
+		Frame: 0
+
+burke:
+	idle:
+		Filename: burke-idle.png
+		Facings: -8
+	turret:
+		Filename: burke-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: burke-idle.png
+		Frame: 0
+	icon:
+		Filename: burke-idle.png
+		Frame: 0
+
+type055:
+	idle:
+		Filename: type055-idle.png
+		Facings: -8
+	turret:
+		Filename: type055-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: type055-idle.png
+		Frame: 0
+	icon:
+		Filename: type055-idle.png
+		Frame: 0
+
+kdx3:
+	idle:
+		Filename: kdx3-idle.png
+		Facings: -8
+	turret:
+		Filename: kdx3-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: kdx3-idle.png
+		Frame: 0
+	icon:
+		Filename: kdx3-idle.png
+		Frame: 0
+
+type45:
+	idle:
+		Filename: type45-idle.png
+		Facings: -8
+	turret:
+		Filename: type45-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: type45-idle.png
+		Frame: 0
+	icon:
+		Filename: type45-idle.png
+		Frame: 0
+
+constellation:
+	idle:
+		Filename: constellation-idle.png
+		Facings: -8
+	turret:
+		Filename: constellation-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: constellation-idle.png
+		Frame: 0
+	icon:
+		Filename: constellation-idle.png
+		Frame: 0
+
+fremm:
+	idle:
+		Filename: fremm-idle.png
+		Facings: -8
+	turret:
+		Filename: fremm-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: fremm-idle.png
+		Frame: 0
+	icon:
+		Filename: fremm-idle.png
+		Frame: 0
+
+martadinata:
+	idle:
+		Filename: martadinata-idle.png
+		Facings: -8
+	turret:
+		Filename: martadinata-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: martadinata-idle.png
+		Frame: 0
+	icon:
+		Filename: martadinata-idle.png
+		Frame: 0
+
+huitfeldt:
+	idle:
+		Filename: huitfeldt-idle.png
+		Facings: -8
+	turret:
+		Filename: huitfeldt-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: huitfeldt-idle.png
+		Frame: 0
+	icon:
+		Filename: huitfeldt-idle.png
+		Frame: 0
+
+sigma:
+	idle:
+		Filename: sigma-idle.png
+		Facings: -8
+	turret:
+		Filename: sigma-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: sigma-idle.png
+		Frame: 0
+	icon:
+		Filename: sigma-idle.png
+		Frame: 0
+
+gowind:
+	idle:
+		Filename: gowind-idle.png
+		Facings: -8
+	turret:
+		Filename: gowind-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: gowind-idle.png
+		Frame: 0
+	icon:
+		Filename: gowind-idle.png
+		Frame: 0
+
+steregushchiy:
+	idle:
+		Filename: steregushchiy-idle.png
+		Facings: -8
+	turret:
+		Filename: steregushchiy-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: steregushchiy-idle.png
+		Frame: 0
+	icon:
+		Filename: steregushchiy-idle.png
+		Frame: 0
+
+america:
+	idle:
+		Filename: america-idle.png
+		Facings: -8
+	turret:
+		Filename: america-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: america-idle.png
+		Frame: 0
+	open:
+		Filename: america-idle.png
+		Frame: 0
+	close:
+		Filename: america-idle.png
+		Frame: 0
+	unload:
+		Filename: america-idle.png
+		Frame: 0
+	icon:
+		Filename: america-idle.png
+		Frame: 0
+
+wasp:
+	idle:
+		Filename: wasp-idle.png
+		Facings: -8
+	turret:
+		Filename: wasp-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: wasp-idle.png
+		Frame: 0
+	open:
+		Filename: wasp-idle.png
+		Frame: 0
+	close:
+		Filename: wasp-idle.png
+		Frame: 0
+	unload:
+		Filename: wasp-idle.png
+		Frame: 0
+	icon:
+		Filename: wasp-idle.png
+		Frame: 0
+
+type075:
+	idle:
+		Filename: type075-idle.png
+		Facings: -8
+	turret:
+		Filename: type075-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: type075-idle.png
+		Frame: 0
+	open:
+		Filename: type075-idle.png
+		Frame: 0
+	close:
+		Filename: type075-idle.png
+		Frame: 0
+	unload:
+		Filename: type075-idle.png
+		Frame: 0
+	icon:
+		Filename: type075-idle.png
+		Frame: 0
+
+sanantonio:
+	idle:
+		Filename: sanantonio-idle.png
+		Facings: -8
+	turret:
+		Filename: sanantonio-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: sanantonio-idle.png
+		Frame: 0
+	open:
+		Filename: sanantonio-idle.png
+		Frame: 0
+	close:
+		Filename: sanantonio-idle.png
+		Frame: 0
+	unload:
+		Filename: sanantonio-idle.png
+		Frame: 0
+	icon:
+		Filename: sanantonio-idle.png
+		Frame: 0
+
+telukbintuni:
+	idle:
+		Filename: telukbintuni-idle.png
+		Facings: -8
+	turret:
+		Filename: telukbintuni-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: telukbintuni-idle.png
+		Frame: 0
+	open:
+		Filename: telukbintuni-idle.png
+		Frame: 0
+	close:
+		Filename: telukbintuni-idle.png
+		Frame: 0
+	unload:
+		Filename: telukbintuni-idle.png
+		Frame: 0
+	icon:
+		Filename: telukbintuni-idle.png
+		Frame: 0
+
+scorpene:
+	idle:
+		Filename: scorpene-idle.png
+		Facings: -8
+	turret:
+		Filename: scorpene-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: scorpene-idle.png
+		Frame: 0
+	icon:
+		Filename: scorpene-idle.png
+		Frame: 0
+
+type209:
+	idle:
+		Filename: type209-idle.png
+		Facings: -8
+	turret:
+		Filename: type209-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: type209-idle.png
+		Frame: 0
+	icon:
+		Filename: type209-idle.png
+		Frame: 0
+
+kilo:
+	idle:
+		Filename: kilo-idle.png
+		Facings: -8
+	turret:
+		Filename: kilo-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: kilo-idle.png
+		Frame: 0
+	icon:
+		Filename: kilo-idle.png
+		Frame: 0
+
+nagapasa:
+	idle:
+		Filename: nagapasa-idle.png
+		Facings: -8
+	turret:
+		Filename: nagapasa-idle.png
+		Start: 0
+		Facings: -8
+	muzzle:
+		Filename: nagapasa-idle.png
+		Frame: 0
+	icon:
+		Filename: nagapasa-idle.png
+		Frame: 0
