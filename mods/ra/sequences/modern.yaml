@@ -8,16 +8,14 @@
 
 mbt:
 	idle:
-		FilenamePattern: mbt-{0:D4}.png
-		Count: 8
-		Facings: -8
+		Filename: mbt-idle.png
+		Facings: 8
 	icon:
-		Filename: mbt-0000.png
+		Filename: mbt-idle.png
 		Offset: -30,-30
 	turret:
-		FilenamePattern: mbt-turret-{0:D4}.png
-		Count: 8
-		Facings: -8
+		Filename: mbt-turret.png
+		Facings: 8
 
 	muzzle:
 		Filename: gunfire2.shp
@@ -26,16 +24,14 @@ mbt:
 
 ltnk:
 	idle:
-		FilenamePattern: ltnk-{0:D4}.png
-		Count: 8
-		Facings: -8
+		Filename: ltnk-idle.png
+		Facings: 8
 	icon:
-		Filename: ltnk-0000.png
+		Filename: ltnk-idle.png
 		Offset: -30,-30
 	turret:
-		FilenamePattern: ltnk-turret-{0:D4}.png
-		Count: 8
-		Facings: -8
+		Filename: ltnk-turret.png
+		Facings: 8
 
 	muzzle:
 		Filename: gunfire2.shp
@@ -44,16 +40,14 @@ ltnk:
 
 atnk:
 	idle:
-		FilenamePattern: atnk-{0:D4}.png
-		Count: 8
-		Facings: -8
+		Filename: atnk-idle.png
+		Facings: 8
 	icon:
-		Filename: atnk-0000.png
+		Filename: atnk-idle.png
 		Offset: -30,-30
 	turret:
-		FilenamePattern: atnk-turret-{0:D4}.png
-		Count: 8
-		Facings: -8
+		Filename: atnk-turret.png
+		Facings: 8
 
 	muzzle:
 		Filename: gunfire2.shp
@@ -62,16 +56,14 @@ atnk:
 
 etnk:
 	idle:
-		FilenamePattern: etnk-{0:D4}.png
-		Count: 8
-		Facings: -8
+		Filename: etnk-idle.png
+		Facings: 8
 	icon:
-		Filename: etnk-0000.png
+		Filename: etnk-idle.png
 		Offset: -30,-30
 	turret:
-		FilenamePattern: etnk-turret-{0:D4}.png
-		Count: 8
-		Facings: -8
+		Filename: etnk-turret.png
+		Facings: 8
 
 	muzzle:
 		Filename: gunfire2.shp
@@ -80,16 +72,14 @@ etnk:
 
 stnk2:
 	idle:
-		FilenamePattern: stnk2-{0:D4}.png
-		Count: 8
-		Facings: -8
+		Filename: stnk2-idle.png
+		Facings: 8
 	icon:
-		Filename: stnk2-0000.png
+		Filename: stnk2-idle.png
 		Offset: -30,-30
 	turret:
-		FilenamePattern: stnk2-turret-{0:D4}.png
-		Count: 8
-		Facings: -8
+		Filename: stnk2-turret.png
+		Facings: 8
 
 	muzzle:
 		Filename: gunfire2.shp
@@ -98,16 +88,14 @@ stnk2:
 
 spa:
 	idle:
-		FilenamePattern: spa-{0:D4}.png
-		Count: 8
-		Facings: -8
+		Filename: spa-idle.png
+		Facings: 8
 	icon:
-		Filename: spa-0000.png
+		Filename: spa-idle.png
 		Offset: -30,-30
 	turret:
-		FilenamePattern: spa-turret-{0:D4}.png
-		Count: 8
-		Facings: -8
+		Filename: spa-turret.png
+		Facings: 8
 
 	muzzle:
 		Filename: gunfire2.shp
@@ -116,20 +104,17 @@ spa:
 
 mlrs:
 	idle:
-		FilenamePattern: mlrs-{0:D4}.png
-		Count: 8
-		Facings: -8
+		Filename: mlrs-idle.png
+		Facings: 8
 	empty-idle:
-		FilenamePattern: mlrs-{0:D4}.png
-		Count: 8
-		Facings: -8
+		Filename: mlrs-idle.png
+		Facings: 8
 	icon:
-		Filename: mlrs-0000.png
+		Filename: mlrs-idle.png
 		Offset: -30,-30
 	turret:
-		FilenamePattern: mlrs-turret-{0:D4}.png
-		Count: 8
-		Facings: -8
+		Filename: mlrs-turret.png
+		Facings: 8
 
 	muzzle:
 		Filename: gunfire2.shp
@@ -138,16 +123,14 @@ mlrs:
 
 ifv:
 	idle:
-		FilenamePattern: ifv-{0:D4}.png
-		Count: 8
-		Facings: -8
+		Filename: ifv-idle.png
+		Facings: 8
 	icon:
-		Filename: ifv-0000.png
+		Filename: ifv-idle.png
 		Offset: -30,-30
 	turret:
-		FilenamePattern: ifv-turret-{0:D4}.png
-		Count: 8
-		Facings: -8
+		Filename: ifv-turret.png
+		Facings: 8
 
 	muzzle:
 		Filename: gunfire2.shp
@@ -156,16 +139,14 @@ ifv:
 
 aad:
 	idle:
-		FilenamePattern: aad-{0:D4}.png
-		Count: 8
-		Facings: -8
+		Filename: aad-idle.png
+		Facings: 8
 	icon:
-		Filename: aad-0000.png
+		Filename: aad-idle.png
 		Offset: -30,-30
 	turret:
-		FilenamePattern: aad-turret-{0:D4}.png
-		Count: 8
-		Facings: -8
+		Filename: aad-turret.png
+		Facings: 8
 
 	muzzle:
 		Filename: gunfire2.shp
@@ -174,16 +155,14 @@ aad:
 
 ffg:
 	idle:
-		FilenamePattern: ffg-{0:D4}.png
-		Count: 8
-		Facings: -8
+		Filename: ffg-idle.png
+		Facings: 8
 	icon:
-		Filename: ffg-0000.png
+		Filename: ffg-idle.png
 		Offset: -30,-30
 	turret:
-		FilenamePattern: ffg-turret-{0:D4}.png
-		Count: 8
-		Facings: -8
+		Filename: ffg-turret.png
+		Facings: 8
 
 	muzzle:
 		Filename: gunfire2.shp
@@ -192,22 +171,20 @@ ffg:
 
 cvn:
 	idle:
-		FilenamePattern: cvn-{0:D4}.png
-		Count: 8
-		Facings: -8
+		Filename: cvn-idle.png
+		Facings: 8
 	open:
-		Filename: cvn-0000.png
+		Filename: cvn-idle.png
 	close:
-		Filename: cvn-0000.png
+		Filename: cvn-idle.png
 	unload:
-		Filename: cvn-0000.png
+		Filename: cvn-idle.png
 	icon:
-		Filename: cvn-0000.png
+		Filename: cvn-idle.png
 		Offset: -30,-30
 	turret:
-		FilenamePattern: cvn-turret-{0:D4}.png
-		Count: 8
-		Facings: -8
+		Filename: cvn-turret.png
+		Facings: 8
 
 	muzzle:
 		Filename: gunfire2.shp
@@ -216,16 +193,14 @@ cvn:
 
 cor:
 	idle:
-		FilenamePattern: cor-{0:D4}.png
-		Count: 8
-		Facings: -8
+		Filename: cor-idle.png
+		Facings: 8
 	icon:
-		Filename: cor-0000.png
+		Filename: cor-idle.png
 		Offset: -30,-30
 	turret:
-		FilenamePattern: cor-turret-{0:D4}.png
-		Count: 8
-		Facings: -8
+		Filename: cor-turret.png
+		Facings: 8
 
 	muzzle:
 		Filename: gunfire2.shp
@@ -234,16 +209,14 @@ cor:
 
 ptf:
 	idle:
-		FilenamePattern: ptf-{0:D4}.png
-		Count: 8
-		Facings: -8
+		Filename: ptf-idle.png
+		Facings: 8
 	icon:
-		Filename: ptf-0000.png
+		Filename: ptf-idle.png
 		Offset: -30,-30
 	turret:
-		FilenamePattern: ptf-turret-{0:D4}.png
-		Count: 8
-		Facings: -8
+		Filename: ptf-turret.png
+		Facings: 8
 
 
 	muzzle:

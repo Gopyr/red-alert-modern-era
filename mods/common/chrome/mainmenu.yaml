@@ -15,11 +15,6 @@ Container@MAINMENU:
 			Y: 0 - 15
 			Width: WINDOW_WIDTH + 30
 			Height: WINDOW_HEIGHT + 30
-		Image@LOGO:
-			X: WINDOW_WIDTH - 296
-			Y: 30
-			ImageCollection: logos
-			ImageName: logo
 		Label@VERSION_LABEL:
 			Logic: VersionLabelLogic
 			X: WINDOW_WIDTH - 296

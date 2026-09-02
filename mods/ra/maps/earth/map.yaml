@@ -142,3 +142,23 @@ Actors:
 	Actor33: CITY
 		Owner: Neutral
 		Location: 282,176
+	ActorModCvn: cvn
+		Owner: Neutral
+		Location: 440,75
+		Facing: 64
+	ActorModCor: cor
+		Owner: Neutral
+		Location: 430,77
+		Facing: 128
+	ActorModMbt: mbt
+		Owner: Neutral
+		Location: 446,74
+		Facing: 64
+	ActorModFfg: ffg
+		Owner: Neutral
+		Location: 422,78
+		Facing: 192
+	ActorModPtf: ptf
+		Owner: Neutral
+		Location: 452,76
+		Facing: 0
