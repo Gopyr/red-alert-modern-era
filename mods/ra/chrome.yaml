@@ -613,7 +613,9 @@ scrollheader-highlighted:
 	Inherits: button
 
 logos:
-	Inherits: ^LoadScreen
+	Image: splash-logo.png
+	Image2x: splash-logo-3x.png
+	Image3x: splash-logo-3x.png
 	Regions:
 		logo: 0, 0, 256, 256
 
