@@ -1,6 +1,6 @@
 Metadata:
 	Title: mod-title
-	Version: {DEV_VERSION}
+	Version: v0.1.0-alpha
 	Website: https://www.openra.net
 	WebIcon32: https://www.openra.net/images/icons/ra_32x32.png
 	WindowTitle: mod-windowtitle
@@ -68,7 +68,7 @@ FileSystem: ContentInstallerFileSystem
 
 MapFolders:
 	ra|maps: System
-	~^SupportDir|maps/ra/{DEV_VERSION}: User
+	~^SupportDir|maps/ra/v0.1.0-alpha: User
 
 Rules:
 	ra|rules/misc.yaml
@@ -235,8 +235,6 @@ Hotkeys:
 
 LoadScreen: LogoStripeLoadScreen
 	Image: ra|bits/splash-modern.png
-	Image2x: ra|bits/splash-modern.png
-	Image3x: ra|bits/splash-modern.png
 
 ServerTraits:
 	LobbyCommands

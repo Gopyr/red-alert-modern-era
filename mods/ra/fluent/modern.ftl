@@ -42,6 +42,7 @@ actor-stnk2 =
 
 actor-gdd =
     .name = Guided Missile Destroyer
+    .generic-name = Destroyer
     .description =
     Modernized destroyer with stronger anti-air and surface missiles.
       Strong vs Aircraft and Ships
@@ -49,6 +50,7 @@ actor-gdd =
 
 actor-bcr =
     .name = Battlecruiser
+    .generic-name = Battlecruiser
     .description =
     Long-range heavy combatant with twin 8-inch turrets.
       Strong vs Ships and Buildings
@@ -56,6 +58,7 @@ actor-bcr =
 
 actor-ssbn =
     .name = Ballistic Missile Submarine
+    .generic-name = Submarine
     .description =
     Strategic submarine with long-range ballistic missiles.
     Immune to standard anti-submarine weapons.
@@ -95,6 +98,7 @@ actor-aad =
 
 actor-ffg =
     .name = Frigate
+    .generic-name = Frigate
     .description =
     Versatile escort with anti-ship and anti-submarine weapons.
       Strong vs Ships and Submarines
@@ -102,6 +106,7 @@ actor-ffg =
 
 actor-cvn =
     .name = Aircraft Carrier
+    .generic-name = Aircraft Carrier
     .description =
     Floating airbase. Slow but carries powerful strike aircraft.
       Strong vs Aircraft
@@ -109,6 +114,7 @@ actor-cvn =
 
 actor-cor =
     .name = Corvette
+    .generic-name = Corvette
     .description =
     Small, fast escort vessel with light guns.
       Strong vs Patrol Boats and Submarines
@@ -116,6 +122,7 @@ actor-cor =
 
 actor-ptf =
     .name = Patrol Boat
+    .generic-name = Patrol Boat
     .description =
     Cheap and fast gunboat for early naval control.
       Strong vs Infantry and Light Boats
