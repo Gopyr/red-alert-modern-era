@@ -2,9 +2,13 @@ MapFormat: 12
 
 RequiresMod: ra
 
-Title: Earth - World Map
+Title: Earth - World Map (Modern Era)
 
 Author: Gopyr
+
+Description: Red Alert: Modern Era - the world map. 24 real capitals
+    generate income for whoever captures them. Conquer cities, control
+    the seas with nuclear fleets, and win the Cold War for good.
 
 Tileset: TEMPERAT
 

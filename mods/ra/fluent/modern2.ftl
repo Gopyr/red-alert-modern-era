@@ -277,3 +277,17 @@ actor-ssgn =
     .name = Nuclear Missile Sub
     .generic-name = Submarine
     .description = Cruise-missile submarine. Massive long-range anti-ship missile barrage with air defense.
+
+## Lore - Red Alert: Modern Era
+lore-title = Red Alert: Modern Era
+lore-text = The Cold War never ended. 1996 changed nothing: the Allies and the Soviet Bloc
+    still glare at each other across a shattered world, and both sides now field
+    weapons their fathers only drafted on paper. Nuclear-powered fleets prowl every
+    ocean. Stealth jets cross borders before radar knows they left. Cities that once
+    meant diplomacy now mean resources: whoever holds the capital, feeds the war.
+
+    This is not the old Red Alert. The era of the lone superweapon is over. Now the
+    map itself is the battlefield: conquer cities for income, control the seas with
+    carriers and missile subs, and push ground forces through real continents.
+
+    Choose your alliance, take the world, and end the Cold War for good.
