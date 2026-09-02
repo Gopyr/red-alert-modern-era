@@ -186,6 +186,13 @@ AAD:
 		HP: 30000
 	Mobile:
 		Speed: 90
+	Armament:
+		Weapon: StingerAA
+		LocalOffset: 0,0,600
+	AttackTurreted:
+	Turreted:
+		Offset: 0,0,400
+		TurnSpeed: 30
 
 #########################################
 #  MODERN NAVY

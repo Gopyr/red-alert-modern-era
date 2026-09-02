@@ -1,0 +1,318 @@
+#########################################
+#  MODERN INFANTRY - Gopyr's OpenRA mod
+#  Tier 1 (Barracks) + Tier 2 unlocked units
+#########################################
+
+# Assault Rifleman - M4 carbine, basic frontline infantry.
+RIFLEMAN:
+	Inherits: E1
+	RenderSprites:
+		Image: rifleman
+	Buildable:
+		BuildPaletteOrder: 110
+		Prerequisites: tent, ~techlevel.low
+		Description: actor-rifleman.description
+	Valued:
+		Cost: 150
+	Tooltip:
+		Name: actor-rifleman.name
+		GenericName: actor-rifleman.generic-name
+	Health:
+		HP: 12000
+	Mobile:
+		Speed: 80
+	Armament@PRIMARY:
+		Weapon: M1Carbine
+
+# Grenadier - M203 grenade launcher, anti-infantry area damage.
+GRENADIER:
+	Inherits: E2
+	RenderSprites:
+		Image: grenadier
+	Buildable:
+		BuildPaletteOrder: 111
+		Prerequisites: tent, ~techlevel.low
+		Description: actor-grenadier.description
+	Valued:
+		Cost: 250
+	Tooltip:
+		Name: actor-grenadier.name
+		GenericName: actor-grenadier.generic-name
+	Health:
+		HP: 13000
+	Mobile:
+		Speed: 75
+
+# Rocket AT - Javelin anti-tank missile, strong vs armor.
+ROCKETAT:
+	Inherits: E3
+	RenderSprites:
+		Image: rocketat
+	Buildable:
+		BuildPaletteOrder: 112
+		Prerequisites: tent, ~techlevel.low
+		Description: actor-rocketat.description
+	Valued:
+		Cost: 350
+	Tooltip:
+		Name: actor-rocketat.name
+		GenericName: actor-rocketat.generic-name
+	Health:
+		HP: 12000
+	Mobile:
+		Speed: 70
+	Armament@PRIMARY:
+		Weapon: Dragon
+
+# Heavy Machine Gun Team - M240, suppression fire.
+HMG:
+	Inherits: E2
+	RenderSprites:
+		Image: hmg
+	Buildable:
+		BuildPaletteOrder: 113
+		Prerequisites: tent, ~techlevel.low
+		Description: actor-hmg.description
+	Valued:
+		Cost: 280
+	Tooltip:
+		Name: actor-hmg.name
+		GenericName: actor-hmg.generic-name
+	Health:
+		HP: 14000
+	Mobile:
+		Speed: 60
+	Armament@PRIMARY:
+		Weapon: M60mg
+
+# Combat Medic - heals nearby infantry.
+MEDIC:
+	Inherits: MEDI
+	RenderSprites:
+		Image: medic
+	Buildable:
+		BuildPaletteOrder: 114
+		Prerequisites: tent, ~techlevel.low
+		Description: actor-medic.description
+	Valued:
+		Cost: 200
+	Tooltip:
+		Name: actor-medic.name
+		GenericName: actor-medic.generic-name
+	Health:
+		HP: 10000
+	Mobile:
+		Speed: 80
+
+# Combat Engineer - captures buildings and repairs.
+ENGINEER:
+	Inherits: E6
+	RenderSprites:
+		Image: engineer
+	Buildable:
+		BuildPaletteOrder: 115
+		Prerequisites: tent, ~techlevel.medium
+		Description: actor-engineer.description
+	Valued:
+		Cost: 400
+	Tooltip:
+		Name: actor-engineer.name
+		GenericName: actor-engineer.generic-name
+	Health:
+		HP: 10000
+	Mobile:
+		Speed: 70
+
+# Sniper - M2010, long range anti-infantry. Tier 2 unlock.
+SNIPER:
+	Inherits: E7
+	RenderSprites:
+		Image: sniper
+	Buildable:
+		BuildPaletteOrder: 116
+		Prerequisites: tent, ~techlevel.medium
+		Description: actor-sniper.description
+	Valued:
+		Cost: 1800
+	Tooltip:
+		Name: actor-sniper.name
+		GenericName: actor-sniper.generic-name
+	Health:
+		HP: 10000
+	Mobile:
+		Speed: 68
+	Armament@PRIMARY:
+		Weapon: M24Sniper
+
+# Mortar Team - M120 mortar, indirect area bombardment.
+MORTAR:
+	Inherits: E2
+	RenderSprites:
+		Image: mortar
+	Buildable:
+		BuildPaletteOrder: 117
+		Prerequisites: tent, ~techlevel.medium
+		Description: actor-mortar.description
+	Valued:
+		Cost: 600
+	Tooltip:
+		Name: actor-mortar.name
+		GenericName: actor-mortar.generic-name
+	Health:
+		HP: 12000
+	Mobile:
+		Speed: 55
+	Armament@PRIMARY:
+		Weapon: M120Mortar
+
+#########################################
+#  MODERN INFANTRY VARIANTS
+#  Multiple weapons per role (user request)
+#########################################
+
+# Light Support Weapon - M249 SAW, suppression.
+LSW:
+	Inherits: E2
+	RenderSprites:
+		Image: lsw
+	Buildable:
+		BuildPaletteOrder: 118
+		Prerequisites: tent, ~techlevel.low
+		Description: actor-lsw.description
+	Valued:
+		Cost: 320
+	Tooltip:
+		Name: actor-lsw.name
+		GenericName: actor-lsw.generic-name
+	Health:
+		HP: 14000
+	Mobile:
+		Speed: 60
+	Armament@PRIMARY:
+		Weapon: M60mg
+
+# Submachine Gun - P90, fast & cheap urban assault.
+SMG:
+	Inherits: E1
+	RenderSprites:
+		Image: smg
+	Buildable:
+		BuildPaletteOrder: 119
+		Prerequisites: tent, ~techlevel.low
+		Description: actor-smg.description
+	Valued:
+		Cost: 180
+	Tooltip:
+		Name: actor-smg.name
+		GenericName: actor-smg.generic-name
+	Health:
+		HP: 11000
+	Mobile:
+		Speed: 90
+	Armament@PRIMARY:
+		Weapon: M1Carbine
+
+# Sniper M24 - bolt action, long range.
+SNIPERM24:
+	Inherits: E7
+	RenderSprites:
+		Image: sniperm24
+	Buildable:
+		BuildPaletteOrder: 120
+		Prerequisites: tent, ~techlevel.medium
+		Description: actor-sniperm24.description
+	Valued:
+		Cost: 1600
+	Tooltip:
+		Name: actor-sniperm24.name
+		GenericName: actor-sniperm24.generic-name
+	Health:
+		HP: 10000
+	Mobile:
+		Speed: 68
+	Armament@PRIMARY:
+		Weapon: M24Sniper
+
+# Barrett M82 - anti-material sniper, strong vs vehicles too.
+SNIPERBARRETT:
+	Inherits: E7
+	RenderSprites:
+		Image: sniperbarrett
+	Buildable:
+		BuildPaletteOrder: 121
+		Prerequisites: tent, ~techlevel.medium
+		Description: actor-sniperbarrett.description
+	Valued:
+		Cost: 2200
+	Tooltip:
+		Name: actor-sniperbarrett.name
+		GenericName: actor-sniperbarrett.generic-name
+	Health:
+		HP: 11000
+	Mobile:
+		Speed: 60
+	Armament@PRIMARY:
+		Weapon: BarrettM82
+
+# AWM - arctic sniper, longest range.
+SNIPERAWM:
+	Inherits: E7
+	RenderSprites:
+		Image: sniperawm
+	Buildable:
+		BuildPaletteOrder: 122
+		Prerequisites: tent, ~techlevel.high
+		Description: actor-sniperawm.description
+	Valued:
+		Cost: 2400
+	Tooltip:
+		Name: actor-sniperawm.name
+		GenericName: actor-sniperawm.generic-name
+	Health:
+		HP: 10000
+	Mobile:
+		Speed: 65
+	Armament@PRIMARY:
+		Weapon: AWMSniper
+
+# SVD - soviet dragunov, mid range marksman.
+SNIPERSVD:
+	Inherits: E7
+	RenderSprites:
+		Image: snipersvd
+	Buildable:
+		BuildPaletteOrder: 123
+		Prerequisites: tent, ~techlevel.medium
+		Description: actor-snipersvd.description
+	Valued:
+		Cost: 1400
+	Tooltip:
+		Name: actor-snipersvd.name
+		GenericName: actor-snipersvd.generic-name
+	Health:
+		HP: 10000
+	Mobile:
+		Speed: 72
+	Armament@PRIMARY:
+		Weapon: SVDMarksman
+
+# M202 FLASH - 4-barrel incendiary rocket launcher.
+FLASH:
+	Inherits: E4
+	RenderSprites:
+		Image: flash
+	Buildable:
+		BuildPaletteOrder: 124
+		Prerequisites: tent, ~techlevel.medium
+		Description: actor-flash.description
+	Valued:
+		Cost: 700
+	Tooltip:
+		Name: actor-flash.name
+		GenericName: actor-flash.generic-name
+	Health:
+		HP: 13000
+	Mobile:
+		Speed: 65
+	Armament@PRIMARY:
+		Weapon: Flamer

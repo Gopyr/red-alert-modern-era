@@ -88,6 +88,7 @@ Rules:
 	ra|rules/fakes.yaml
 	ra|rules/map-generators.yaml
 	ra|rules/modern-units.yaml
+	ra|rules/modern-infantry.yaml
 
 Sequences:
 	ra|sequences/ships.yaml
@@ -96,6 +97,7 @@ Sequences:
 	ra|sequences/infantry.yaml
 	ra|sequences/aircraft.yaml
 	ra|sequences/modern.yaml
+	ra|sequences/modern-infantry.yaml
 	ra|sequences/misc.yaml
 	ra|sequences/decorations.yaml
 
@@ -190,6 +192,7 @@ Weapons:
 	ra|weapons/missiles.yaml
 	ra|weapons/other.yaml
 	ra|weapons/smallcaliber.yaml
+	ra|weapons/modern-weapons.yaml
 	ra|weapons/superweapons.yaml
 
 Voices:

@@ -1,0 +1,658 @@
+# Modern infantry sequences
+# Generated PNG sheets with all sequence aliases.
+
+rifleman:
+	stand:
+		Filename: rifleman-stand.png
+		Facings: 8
+	stand2:
+		Filename: rifleman-stand.png
+		Facings: 8
+	idle1:
+		Filename: rifleman-stand.png
+		Facings: 8
+		Tick: 120
+	idle2:
+		Filename: rifleman-stand.png
+		Facings: 8
+		Tick: 120
+	run:
+		Filename: rifleman-run.png
+		Facings: 8
+		Tick: 100
+	walk:
+		Filename: rifleman-run.png
+		Facings: 8
+		Tick: 100
+	shoot:
+		Filename: rifleman-shoot.png
+		Facings: 8
+	throw:
+		Filename: rifleman-shoot.png
+		Facings: 8
+	die1:
+		Filename: rifleman-die.png
+	die-crushed:
+		Filename: rifleman-die.png
+	parachute:
+		Filename: rifleman-stand.png
+		Frame: 0
+	garrison-muzzle:
+		Filename: rifleman-stand.png
+		Frame: 0
+	icon:
+		Filename: rifleman-stand.png
+		Frame: 0
+
+grenadier:
+	stand:
+		Filename: grenadier-stand.png
+		Facings: 8
+	stand2:
+		Filename: grenadier-stand.png
+		Facings: 8
+	idle1:
+		Filename: grenadier-stand.png
+		Facings: 8
+		Tick: 120
+	idle2:
+		Filename: grenadier-stand.png
+		Facings: 8
+		Tick: 120
+	run:
+		Filename: grenadier-run.png
+		Facings: 8
+		Tick: 100
+	walk:
+		Filename: grenadier-run.png
+		Facings: 8
+		Tick: 100
+	shoot:
+		Filename: grenadier-shoot.png
+		Facings: 8
+	throw:
+		Filename: grenadier-shoot.png
+		Facings: 8
+	die1:
+		Filename: grenadier-die.png
+	die-crushed:
+		Filename: grenadier-die.png
+	parachute:
+		Filename: grenadier-stand.png
+		Frame: 0
+	garrison-muzzle:
+		Filename: grenadier-stand.png
+		Frame: 0
+	icon:
+		Filename: grenadier-stand.png
+		Frame: 0
+
+rocketat:
+	stand:
+		Filename: rocketat-stand.png
+		Facings: 8
+	stand2:
+		Filename: rocketat-stand.png
+		Facings: 8
+	idle1:
+		Filename: rocketat-stand.png
+		Facings: 8
+		Tick: 120
+	idle2:
+		Filename: rocketat-stand.png
+		Facings: 8
+		Tick: 120
+	run:
+		Filename: rocketat-run.png
+		Facings: 8
+		Tick: 100
+	walk:
+		Filename: rocketat-run.png
+		Facings: 8
+		Tick: 100
+	shoot:
+		Filename: rocketat-shoot.png
+		Facings: 8
+	throw:
+		Filename: rocketat-shoot.png
+		Facings: 8
+	die1:
+		Filename: rocketat-die.png
+	die-crushed:
+		Filename: rocketat-die.png
+	parachute:
+		Filename: rocketat-stand.png
+		Frame: 0
+	garrison-muzzle:
+		Filename: rocketat-stand.png
+		Frame: 0
+	icon:
+		Filename: rocketat-stand.png
+		Frame: 0
+
+sniper:
+	stand:
+		Filename: sniper-stand.png
+		Facings: 8
+	stand2:
+		Filename: sniper-stand.png
+		Facings: 8
+	idle1:
+		Filename: sniper-stand.png
+		Facings: 8
+		Tick: 120
+	idle2:
+		Filename: sniper-stand.png
+		Facings: 8
+		Tick: 120
+	run:
+		Filename: sniper-run.png
+		Facings: 8
+		Tick: 100
+	walk:
+		Filename: sniper-run.png
+		Facings: 8
+		Tick: 100
+	shoot:
+		Filename: sniper-shoot.png
+		Facings: 8
+	throw:
+		Filename: sniper-shoot.png
+		Facings: 8
+	die1:
+		Filename: sniper-die.png
+	die-crushed:
+		Filename: sniper-die.png
+	parachute:
+		Filename: sniper-stand.png
+		Frame: 0
+	garrison-muzzle:
+		Filename: sniper-stand.png
+		Frame: 0
+	icon:
+		Filename: sniper-stand.png
+		Frame: 0
+
+hmg:
+	stand:
+		Filename: hmg-stand.png
+		Facings: 8
+	stand2:
+		Filename: hmg-stand.png
+		Facings: 8
+	idle1:
+		Filename: hmg-stand.png
+		Facings: 8
+		Tick: 120
+	idle2:
+		Filename: hmg-stand.png
+		Facings: 8
+		Tick: 120
+	run:
+		Filename: hmg-run.png
+		Facings: 8
+		Tick: 100
+	walk:
+		Filename: hmg-run.png
+		Facings: 8
+		Tick: 100
+	shoot:
+		Filename: hmg-shoot.png
+		Facings: 8
+	throw:
+		Filename: hmg-shoot.png
+		Facings: 8
+	die1:
+		Filename: hmg-die.png
+	die-crushed:
+		Filename: hmg-die.png
+	parachute:
+		Filename: hmg-stand.png
+		Frame: 0
+	garrison-muzzle:
+		Filename: hmg-stand.png
+		Frame: 0
+	icon:
+		Filename: hmg-stand.png
+		Frame: 0
+
+medic:
+	stand:
+		Filename: medic-stand.png
+		Facings: 8
+	idle:
+		Filename: medic-stand.png
+		Facings: 8
+		Tick: 120
+	heal:
+		Filename: medic-shoot.png
+		Facings: 8
+	stand2:
+		Filename: medic-stand.png
+		Facings: 8
+	idle1:
+		Filename: medic-stand.png
+		Facings: 8
+		Tick: 120
+	idle2:
+		Filename: medic-stand.png
+		Facings: 8
+		Tick: 120
+	run:
+		Filename: medic-run.png
+		Facings: 8
+		Tick: 100
+	walk:
+		Filename: medic-run.png
+		Facings: 8
+		Tick: 100
+	shoot:
+		Filename: medic-shoot.png
+		Facings: 8
+	throw:
+		Filename: medic-shoot.png
+		Facings: 8
+	die1:
+		Filename: medic-die.png
+	die-crushed:
+		Filename: medic-die.png
+	parachute:
+		Filename: medic-stand.png
+		Frame: 0
+	garrison-muzzle:
+		Filename: medic-stand.png
+		Frame: 0
+	icon:
+		Filename: medic-stand.png
+		Frame: 0
+
+engineer:
+	stand:
+		Filename: engineer-stand.png
+		Facings: 8
+	idle:
+		Filename: engineer-stand.png
+		Facings: 8
+		Tick: 120
+	stand2:
+		Filename: engineer-stand.png
+		Facings: 8
+	idle1:
+		Filename: engineer-stand.png
+		Facings: 8
+		Tick: 120
+	idle2:
+		Filename: engineer-stand.png
+		Facings: 8
+		Tick: 120
+	run:
+		Filename: engineer-run.png
+		Facings: 8
+		Tick: 100
+	walk:
+		Filename: engineer-run.png
+		Facings: 8
+		Tick: 100
+	shoot:
+		Filename: engineer-shoot.png
+		Facings: 8
+	throw:
+		Filename: engineer-shoot.png
+		Facings: 8
+	die1:
+		Filename: engineer-die.png
+	die-crushed:
+		Filename: engineer-die.png
+	parachute:
+		Filename: engineer-stand.png
+		Frame: 0
+	garrison-muzzle:
+		Filename: engineer-stand.png
+		Frame: 0
+	icon:
+		Filename: engineer-stand.png
+		Frame: 0
+
+mortar:
+	stand:
+		Filename: mortar-stand.png
+		Facings: 8
+	stand2:
+		Filename: mortar-stand.png
+		Facings: 8
+	idle1:
+		Filename: mortar-stand.png
+		Facings: 8
+		Tick: 120
+	idle2:
+		Filename: mortar-stand.png
+		Facings: 8
+		Tick: 120
+	run:
+		Filename: mortar-run.png
+		Facings: 8
+		Tick: 100
+	walk:
+		Filename: mortar-run.png
+		Facings: 8
+		Tick: 100
+	shoot:
+		Filename: mortar-shoot.png
+		Facings: 8
+	throw:
+		Filename: mortar-shoot.png
+		Facings: 8
+	die1:
+		Filename: mortar-die.png
+	die-crushed:
+		Filename: mortar-die.png
+	parachute:
+		Filename: mortar-stand.png
+		Frame: 0
+	garrison-muzzle:
+		Filename: mortar-stand.png
+		Frame: 0
+	icon:
+		Filename: mortar-stand.png
+		Frame: 0
+
+lsw:
+	stand:
+		Filename: lsw-stand.png
+		Facings: 8
+	stand2:
+		Filename: lsw-stand.png
+		Facings: 8
+	idle1:
+		Filename: lsw-stand.png
+		Facings: 8
+		Tick: 120
+	idle2:
+		Filename: lsw-stand.png
+		Facings: 8
+		Tick: 120
+	run:
+		Filename: lsw-run.png
+		Facings: 8
+		Tick: 100
+	walk:
+		Filename: lsw-run.png
+		Facings: 8
+		Tick: 100
+	shoot:
+		Filename: lsw-shoot.png
+		Facings: 8
+	throw:
+		Filename: lsw-shoot.png
+		Facings: 8
+	die1:
+		Filename: lsw-die.png
+	die-crushed:
+		Filename: lsw-die.png
+	parachute:
+		Filename: lsw-stand.png
+		Frame: 0
+	garrison-muzzle:
+		Filename: lsw-stand.png
+		Frame: 0
+	icon:
+		Filename: lsw-stand.png
+		Frame: 0
+
+smg:
+	stand:
+		Filename: smg-stand.png
+		Facings: 8
+	stand2:
+		Filename: smg-stand.png
+		Facings: 8
+	idle1:
+		Filename: smg-stand.png
+		Facings: 8
+		Tick: 120
+	idle2:
+		Filename: smg-stand.png
+		Facings: 8
+		Tick: 120
+	run:
+		Filename: smg-run.png
+		Facings: 8
+		Tick: 100
+	walk:
+		Filename: smg-run.png
+		Facings: 8
+		Tick: 100
+	shoot:
+		Filename: smg-shoot.png
+		Facings: 8
+	throw:
+		Filename: smg-shoot.png
+		Facings: 8
+	die1:
+		Filename: smg-die.png
+	die-crushed:
+		Filename: smg-die.png
+	parachute:
+		Filename: smg-stand.png
+		Frame: 0
+	garrison-muzzle:
+		Filename: smg-stand.png
+		Frame: 0
+	icon:
+		Filename: smg-stand.png
+		Frame: 0
+
+sniperm24:
+	stand:
+		Filename: sniperm24-stand.png
+		Facings: 8
+	stand2:
+		Filename: sniperm24-stand.png
+		Facings: 8
+	idle1:
+		Filename: sniperm24-stand.png
+		Facings: 8
+		Tick: 120
+	idle2:
+		Filename: sniperm24-stand.png
+		Facings: 8
+		Tick: 120
+	run:
+		Filename: sniperm24-run.png
+		Facings: 8
+		Tick: 100
+	walk:
+		Filename: sniperm24-run.png
+		Facings: 8
+		Tick: 100
+	shoot:
+		Filename: sniperm24-shoot.png
+		Facings: 8
+	throw:
+		Filename: sniperm24-shoot.png
+		Facings: 8
+	die1:
+		Filename: sniperm24-die.png
+	die-crushed:
+		Filename: sniperm24-die.png
+	parachute:
+		Filename: sniperm24-stand.png
+		Frame: 0
+	garrison-muzzle:
+		Filename: sniperm24-stand.png
+		Frame: 0
+	icon:
+		Filename: sniperm24-stand.png
+		Frame: 0
+
+sniperbarrett:
+	stand:
+		Filename: sniperbarrett-stand.png
+		Facings: 8
+	stand2:
+		Filename: sniperbarrett-stand.png
+		Facings: 8
+	idle1:
+		Filename: sniperbarrett-stand.png
+		Facings: 8
+		Tick: 120
+	idle2:
+		Filename: sniperbarrett-stand.png
+		Facings: 8
+		Tick: 120
+	run:
+		Filename: sniperbarrett-run.png
+		Facings: 8
+		Tick: 100
+	walk:
+		Filename: sniperbarrett-run.png
+		Facings: 8
+		Tick: 100
+	shoot:
+		Filename: sniperbarrett-shoot.png
+		Facings: 8
+	throw:
+		Filename: sniperbarrett-shoot.png
+		Facings: 8
+	die1:
+		Filename: sniperbarrett-die.png
+	die-crushed:
+		Filename: sniperbarrett-die.png
+	parachute:
+		Filename: sniperbarrett-stand.png
+		Frame: 0
+	garrison-muzzle:
+		Filename: sniperbarrett-stand.png
+		Frame: 0
+	icon:
+		Filename: sniperbarrett-stand.png
+		Frame: 0
+
+sniperawm:
+	stand:
+		Filename: sniperawm-stand.png
+		Facings: 8
+	stand2:
+		Filename: sniperawm-stand.png
+		Facings: 8
+	idle1:
+		Filename: sniperawm-stand.png
+		Facings: 8
+		Tick: 120
+	idle2:
+		Filename: sniperawm-stand.png
+		Facings: 8
+		Tick: 120
+	run:
+		Filename: sniperawm-run.png
+		Facings: 8
+		Tick: 100
+	walk:
+		Filename: sniperawm-run.png
+		Facings: 8
+		Tick: 100
+	shoot:
+		Filename: sniperawm-shoot.png
+		Facings: 8
+	throw:
+		Filename: sniperawm-shoot.png
+		Facings: 8
+	die1:
+		Filename: sniperawm-die.png
+	die-crushed:
+		Filename: sniperawm-die.png
+	parachute:
+		Filename: sniperawm-stand.png
+		Frame: 0
+	garrison-muzzle:
+		Filename: sniperawm-stand.png
+		Frame: 0
+	icon:
+		Filename: sniperawm-stand.png
+		Frame: 0
+
+snipersvd:
+	stand:
+		Filename: snipersvd-stand.png
+		Facings: 8
+	stand2:
+		Filename: snipersvd-stand.png
+		Facings: 8
+	idle1:
+		Filename: snipersvd-stand.png
+		Facings: 8
+		Tick: 120
+	idle2:
+		Filename: snipersvd-stand.png
+		Facings: 8
+		Tick: 120
+	run:
+		Filename: snipersvd-run.png
+		Facings: 8
+		Tick: 100
+	walk:
+		Filename: snipersvd-run.png
+		Facings: 8
+		Tick: 100
+	shoot:
+		Filename: snipersvd-shoot.png
+		Facings: 8
+	throw:
+		Filename: snipersvd-shoot.png
+		Facings: 8
+	die1:
+		Filename: snipersvd-die.png
+	die-crushed:
+		Filename: snipersvd-die.png
+	parachute:
+		Filename: snipersvd-stand.png
+		Frame: 0
+	garrison-muzzle:
+		Filename: snipersvd-stand.png
+		Frame: 0
+	icon:
+		Filename: snipersvd-stand.png
+		Frame: 0
+
+flash:
+	stand:
+		Filename: flash-stand.png
+		Facings: 8
+	stand2:
+		Filename: flash-stand.png
+		Facings: 8
+	idle1:
+		Filename: flash-stand.png
+		Facings: 8
+		Tick: 120
+	idle2:
+		Filename: flash-stand.png
+		Facings: 8
+		Tick: 120
+	run:
+		Filename: flash-run.png
+		Facings: 8
+		Tick: 100
+	walk:
+		Filename: flash-run.png
+		Facings: 8
+		Tick: 100
+	shoot:
+		Filename: flash-shoot.png
+		Facings: 8
+	throw:
+		Filename: flash-shoot.png
+		Facings: 8
+	die1:
+		Filename: flash-die.png
+	die-crushed:
+		Filename: flash-die.png
+	parachute:
+		Filename: flash-stand.png
+		Frame: 0
+	garrison-muzzle:
+		Filename: flash-stand.png
+		Frame: 0
+	icon:
+		Filename: flash-stand.png
+		Frame: 0

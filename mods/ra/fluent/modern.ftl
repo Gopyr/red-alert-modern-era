@@ -121,3 +121,123 @@ actor-ptf =
       Strong vs Infantry and Light Boats
       Weak vs Larger Ships
 
+
+actor-rifleman =
+    .name = Assault Rifleman
+    .generic-name = Infantry
+    .description =
+    Basic frontline infantry with M4 carbine.
+      Strong vs Infantry
+      Weak vs Vehicles and Aircraft
+
+actor-grenadier =
+    .name = Grenadier
+    .generic-name = Infantry
+    .description =
+    M203 grenadier with area damage.
+      Strong vs Infantry and Buildings
+      Weak vs Tanks
+
+actor-rocketat =
+    .name = Rocket AT (Javelin)
+    .generic-name = Infantry
+    .description =
+    Anti-tank missile infantry.
+      Strong vs Tanks and Vehicles
+      Weak vs Infantry and Aircraft
+
+actor-hmg =
+    .name = Heavy Machine Gun Team
+    .generic-name = Infantry
+    .description =
+    M240 HMG team with suppression fire.
+      Strong vs Infantry
+      Weak vs Tanks and Aircraft
+
+actor-medic =
+    .name = Combat Medic
+    .generic-name = Infantry
+    .description =
+    Heals nearby infantry on the battlefield.
+      No weapon
+
+actor-engineer =
+    .name = Combat Engineer
+    .generic-name = Infantry
+    .description =
+    Captures and repairs buildings.
+      No weapon
+
+actor-sniper =
+    .name = Sniper (M2010)
+    .generic-name = Infantry
+    .description =
+    Long-range anti-infantry sniper.
+      Strong vs Infantry
+      Weak vs Vehicles
+
+actor-mortar =
+    .name = Mortar Team (M120)
+    .generic-name = Infantry
+    .description =
+    Indirect area bombardment.
+      Strong vs Infantry and Buildings
+      Weak vs Tanks
+
+
+actor-lsw =
+    .name = Light Support Weapon
+    .generic-name = Infantry
+    .description =
+    M249 SAW gunner with suppression fire.
+      Strong vs Infantry
+      Weak vs Tanks and Aircraft
+
+actor-smg =
+    .name = SMG Assault (P90)
+    .generic-name = Infantry
+    .description =
+    Fast urban assault with P90 submachine gun.
+      Strong vs Infantry
+      Weak vs Vehicles
+
+actor-sniperm24 =
+    .name = Sniper (M24)
+    .generic-name = Infantry
+    .description =
+    Bolt-action M24, long range precision.
+      Strong vs Infantry
+      Weak vs Vehicles
+
+actor-sniperbarrett =
+    .name = Sniper (Barrett M82)
+    .generic-name = Infantry
+    .description =
+    Anti-material .50 cal, damages vehicles.
+      Strong vs Infantry and Light Vehicles
+      Weak vs Heavy Tanks
+
+actor-sniperawm =
+    .name = Sniper (AWM)
+    .generic-name = Infantry
+    .description =
+    Arctic AWM, extreme long range.
+      Strong vs Infantry
+      Weak vs Vehicles
+
+actor-snipersvd =
+    .name = Sniper (SVD Dragunov)
+    .generic-name = Infantry
+    .description =
+    Soviet marksman rifle, mid range.
+      Strong vs Infantry
+      Weak vs Vehicles
+
+actor-flash =
+    .name = M202 FLASH
+    .generic-name = Infantry
+    .description =
+    4-barrel incendiary rocket launcher.
+      Strong vs Infantry and Buildings
+      Weak vs Tanks
+

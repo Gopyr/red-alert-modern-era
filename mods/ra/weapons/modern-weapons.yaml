@@ -1,0 +1,91 @@
+# Modern weapons added by Gopyr's mod
+# Long-range infantry weapons
+
+M24Sniper:
+	Inherits: ^LightMG
+	ReloadDelay: 50
+	Range: 8c0
+	Report: sniper.aud
+	Burst: 1
+	Warhead@1Dam: SpreadDamage
+		Spread: 64
+		Versus:
+			None: 100
+			Wood: 25
+			Light: 15
+			Heavy: 5
+	Warhead@2Eff: CreateEffect
+		Explosions: sniperhit
+		ImpactSounds: sniper.aud
+		InvalidTargets: Vehicle, Structure
+
+M120Mortar:
+	Inherits: ^Artillery
+	ReloadDelay: 120
+	Range: 7c0
+	Projectile: Bullet
+		Speed: 240
+		Inaccuracy: 1c0
+	Warhead@1Dam: SpreadDamage
+		Spread: 256
+		Versus:
+			None: 40
+			Wood: 80
+			Light: 40
+			Heavy: 10
+			Concrete: 60
+	Warhead@2Eff: CreateEffect
+		Explosions: arty_air
+		ImpactSounds: explode8.aud
+
+BarrettM82:
+	Inherits: ^LightMG
+	ReloadDelay: 70
+	Range: 7c0
+	Report: sniper.aud
+	Burst: 1
+	Warhead@1Dam: SpreadDamage
+		Spread: 64
+		Versus:
+			None: 100
+			Wood: 40
+			Light: 45
+			Heavy: 20
+			Concrete: 10
+	Warhead@2Eff: CreateEffect
+		Explosions: sniperhit
+		ImpactSounds: sniper.aud
+
+AWMSniper:
+	Inherits: ^LightMG
+	ReloadDelay: 60
+	Range: 9c0
+	Report: sniper.aud
+	Burst: 1
+	Warhead@1Dam: SpreadDamage
+		Spread: 32
+		Versus:
+			None: 110
+			Wood: 30
+			Light: 18
+			Heavy: 8
+	Warhead@2Eff: CreateEffect
+		Explosions: sniperhit
+		ImpactSounds: sniper.aud
+
+SVDMarksman:
+	Inherits: ^LightMG
+	ReloadDelay: 40
+	Range: 6c0
+	Report: sniper.aud
+	Burst: 1
+	Warhead@1Dam: SpreadDamage
+		Spread: 96
+		Versus:
+			None: 90
+			Wood: 25
+			Light: 12
+			Heavy: 5
+	Warhead@2Eff: CreateEffect
+		Explosions: sniperhit
+		ImpactSounds: sniper.aud
