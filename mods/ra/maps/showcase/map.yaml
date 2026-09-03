@@ -1,0 +1,1044 @@
+MapFormat: 12
+
+RequiresMod: ra
+
+Title: Showcase - All Modern Units (Small to Large)
+
+Author: Gopyr
+
+Description: Red Alert: Modern Era - unit showcase. Every modern unit
+    from the smallest infantryman to the largest aircraft carrier,
+    displayed small to large across the field. 202 units total.
+
+Tileset: TEMPERAT
+
+MapSize: 512,256
+
+Bounds: 16,16,480,224
+
+Visibility: Lobby
+
+Categories: Showcase
+
+Players:
+	PlayerReference@Neutral:
+		Name: Neutral
+		OwnsWorld: True
+		NonCombatant: True
+		Faction: allies
+Actors:
+	Actor0: mpspawn
+		Owner: Neutral
+		Location: 250,120
+		Facing: 0
+
+	ActorSC0: POWSOLDIER
+		Owner: Neutral
+		Location: 44,42
+		Facing: 96
+
+	ActorSC1: HEAVYSOLDIER
+		Owner: Neutral
+		Location: 48,42
+		Facing: 96
+
+	ActorSC2: EXOSOLDIER
+		Owner: Neutral
+		Location: 52,42
+		Facing: 96
+
+	ActorSC3: SUPERSOLDIER
+		Owner: Neutral
+		Location: 56,42
+		Facing: 96
+
+	ActorSC4: RIFLEMAN
+		Owner: Neutral
+		Location: 60,42
+		Facing: 96
+
+	ActorSC5: GRENADIER
+		Owner: Neutral
+		Location: 64,42
+		Facing: 96
+
+	ActorSC6: ROCKETAT
+		Owner: Neutral
+		Location: 68,42
+		Facing: 96
+
+	ActorSC7: HMG
+		Owner: Neutral
+		Location: 72,42
+		Facing: 96
+
+	ActorSC8: SNIPER
+		Owner: Neutral
+		Location: 76,42
+		Facing: 96
+
+	ActorSC9: LSW
+		Owner: Neutral
+		Location: 80,42
+		Facing: 96
+
+	ActorSC10: SMG
+		Owner: Neutral
+		Location: 84,42
+		Facing: 96
+
+	ActorSC11: SNIPERM24
+		Owner: Neutral
+		Location: 88,42
+		Facing: 96
+
+	ActorSC12: SNIPERBARRETT
+		Owner: Neutral
+		Location: 92,42
+		Facing: 96
+
+	ActorSC13: SNIPERAWM
+		Owner: Neutral
+		Location: 96,42
+		Facing: 96
+
+	ActorSC14: SNIPERSVD
+		Owner: Neutral
+		Location: 100,42
+		Facing: 96
+
+	ActorSC15: FLASH
+		Owner: Neutral
+		Location: 104,42
+		Facing: 96
+
+	ActorSC16: MEDIC
+		Owner: Neutral
+		Location: 108,42
+		Facing: 96
+
+	ActorSC17: ENGINEER
+		Owner: Neutral
+		Location: 112,42
+		Facing: 96
+
+	ActorSC18: COMBATENGINEER
+		Owner: Neutral
+		Location: 116,42
+		Facing: 96
+
+	ActorSC19: BUMBAR
+		Owner: Neutral
+		Location: 120,42
+		Facing: 96
+
+	ActorSC20: HUMVEE
+		Owner: Neutral
+		Location: 124,42
+		Facing: 96
+
+	ActorSC21: JLTV
+		Owner: Neutral
+		Location: 128,42
+		Facing: 96
+
+	ActorSC22: GWAGEN
+		Owner: Neutral
+		Location: 132,42
+		Facing: 96
+
+	ActorSC23: DEFENDER
+		Owner: Neutral
+		Location: 136,42
+		Facing: 96
+
+	ActorSC24: TIGR
+		Owner: Neutral
+		Location: 140,42
+		Facing: 96
+
+	ActorSC25: OSHLATV
+		Owner: Neutral
+		Location: 144,42
+		Facing: 96
+
+	ActorSC26: SWITCHBLADE
+		Owner: Neutral
+		Location: 148,42
+		Facing: 96
+
+	ActorSC27: M113
+		Owner: Neutral
+		Location: 152,42
+		Facing: 96
+
+	ActorSC28: STRYKER
+		Owner: Neutral
+		Location: 156,42
+		Facing: 96
+
+	ActorSC29: BTR80
+		Owner: Neutral
+		Location: 160,42
+		Facing: 96
+
+	ActorSC30: PIRANHA
+		Owner: Neutral
+		Location: 164,42
+		Facing: 96
+
+	ActorSC31: BOXER
+		Owner: Neutral
+		Location: 168,42
+		Facing: 96
+
+	ActorSC32: PANDUR
+		Owner: Neutral
+		Location: 172,42
+		Facing: 96
+
+	ActorSC33: ANOA
+		Owner: Neutral
+		Location: 176,42
+		Facing: 96
+
+	ActorSC34: KOMODO
+		Owner: Neutral
+		Location: 180,42
+		Facing: 96
+
+	ActorSC35: V150
+		Owner: Neutral
+		Location: 184,42
+		Facing: 96
+
+	ActorSC36: BUFFALO
+		Owner: Neutral
+		Location: 188,42
+		Facing: 96
+
+	ActorSC37: BTR82A
+		Owner: Neutral
+		Location: 192,42
+		Facing: 96
+
+	ActorSC38: AAV7A1
+		Owner: Neutral
+		Location: 196,42
+		Facing: 96
+
+	ActorSC39: AAV7A1RAM
+		Owner: Neutral
+		Location: 200,42
+		Facing: 96
+
+	ActorSC40: LAV25
+		Owner: Neutral
+		Location: 204,42
+		Facing: 96
+
+	ActorSC41: LAV25COYOTE
+		Owner: Neutral
+		Location: 208,42
+		Facing: 96
+
+	ActorSC42: STRYKERMC
+		Owner: Neutral
+		Location: 212,42
+		Facing: 96
+
+	ActorSC43: BMP2
+		Owner: Neutral
+		Location: 216,42
+		Facing: 96
+
+	ActorSC44: VBCI
+		Owner: Neutral
+		Location: 220,42
+		Facing: 96
+
+	ActorSC45: ZBL08
+		Owner: Neutral
+		Location: 224,42
+		Facing: 96
+
+	ActorSC46: BRADLEY
+		Owner: Neutral
+		Location: 228,42
+		Facing: 96
+
+	ActorSC47: CV90
+		Owner: Neutral
+		Location: 232,42
+		Facing: 96
+
+	ActorSC48: WARRIOR
+		Owner: Neutral
+		Location: 236,42
+		Facing: 96
+
+	ActorSC49: MARDER
+		Owner: Neutral
+		Location: 240,42
+		Facing: 96
+
+	ActorSC50: BADAK
+		Owner: Neutral
+		Location: 244,42
+		Facing: 96
+
+	ActorSC51: K21
+		Owner: Neutral
+		Location: 248,42
+		Facing: 96
+
+	ActorSC52: TYPE04
+		Owner: Neutral
+		Location: 252,42
+		Facing: 96
+
+	ActorSC53: BMD4M
+		Owner: Neutral
+		Location: 256,42
+		Facing: 96
+
+	ActorSC54: LAVAD
+		Owner: Neutral
+		Location: 260,42
+		Facing: 96
+
+	ActorSC55: T15IFV
+		Owner: Neutral
+		Location: 264,42
+		Facing: 96
+
+	ActorSC56: T15ARMATA
+		Owner: Neutral
+		Location: 268,42
+		Facing: 96
+
+	ActorSC57: BMPT
+		Owner: Neutral
+		Location: 272,42
+		Facing: 96
+
+	ActorSC58: KURGANETS
+		Owner: Neutral
+		Location: 276,42
+		Facing: 96
+
+	ActorSC59: QUAD
+		Owner: Neutral
+		Location: 280,42
+		Facing: 96
+
+	ActorSC60: M1A2
+		Owner: Neutral
+		Location: 284,42
+		Facing: 96
+
+	ActorSC61: LEO2A7
+		Owner: Neutral
+		Location: 288,42
+		Facing: 96
+
+	ActorSC62: CHAL3
+		Owner: Neutral
+		Location: 292,42
+		Facing: 96
+
+	ActorSC63: T14A
+		Owner: Neutral
+		Location: 296,42
+		Facing: 96
+
+	ActorSC64: K2
+		Owner: Neutral
+		Location: 300,42
+		Facing: 96
+
+	ActorSC65: TYPE99A
+		Owner: Neutral
+		Location: 304,42
+		Facing: 96
+
+	ActorSC66: LECLERC
+		Owner: Neutral
+		Location: 308,42
+		Facing: 96
+
+	ActorSC67: MERKAVA
+		Owner: Neutral
+		Location: 312,42
+		Facing: 96
+
+	ActorSC68: PT91
+		Owner: Neutral
+		Location: 316,42
+		Facing: 96
+
+	ActorSC69: M777A2
+		Owner: Neutral
+		Location: 320,42
+		Facing: 96
+
+	ActorSC70: FH70
+		Owner: Neutral
+		Location: 324,42
+		Facing: 96
+
+	ActorSC71: TRF1
+		Owner: Neutral
+		Location: 328,42
+		Facing: 96
+
+	ActorSC72: LG1
+		Owner: Neutral
+		Location: 332,42
+		Facing: 96
+
+	ActorSC73: D30
+		Owner: Neutral
+		Location: 336,42
+		Facing: 96
+
+	ActorSC74: M46
+		Owner: Neutral
+		Location: 340,42
+		Facing: 96
+
+	ActorSC75: JKR155
+		Owner: Neutral
+		Location: 344,42
+		Facing: 96
+
+	ActorSC76: ABEREG
+		Owner: Neutral
+		Location: 348,42
+		Facing: 96
+
+	ActorSC77: M109A7
+		Owner: Neutral
+		Location: 352,42
+		Facing: 96
+
+	ActorSC78: PZH2000
+		Owner: Neutral
+		Location: 356,42
+		Facing: 96
+
+	ActorSC79: CAESAR8X8
+		Owner: Neutral
+		Location: 360,42
+		Facing: 96
+
+	ActorSC80: CAESAR6X6
+		Owner: Neutral
+		Location: 364,42
+		Facing: 96
+
+	ActorSC81: ARCHER
+		Owner: Neutral
+		Location: 368,42
+		Facing: 96
+
+	ActorSC82: K9A1
+		Owner: Neutral
+		Location: 372,42
+		Facing: 96
+
+	ActorSC83: K9A2
+		Owner: Neutral
+		Location: 376,42
+		Facing: 96
+
+	ActorSC84: FIRTINA
+		Owner: Neutral
+		Location: 380,42
+		Facing: 96
+
+	ActorSC85: PLZ05
+		Owner: Neutral
+		Location: 384,42
+		Facing: 96
+
+	ActorSC86: PLZ52
+		Owner: Neutral
+		Location: 388,42
+		Facing: 96
+
+	ActorSC87: G6RHINO
+		Owner: Neutral
+		Location: 392,42
+		Facing: 96
+
+	ActorSC88: ATMOS
+		Owner: Neutral
+		Location: 396,42
+		Facing: 96
+
+	ActorSC89: MSTA2S19
+		Owner: Neutral
+		Location: 400,42
+		Facing: 96
+
+	ActorSC90: KOALITSIYA
+		Owner: Neutral
+		Location: 44,52
+		Facing: 96
+
+	ActorSC91: KRAB
+		Owner: Neutral
+		Location: 48,52
+		Facing: 96
+
+	ActorSC92: ZUZANA
+		Owner: Neutral
+		Location: 52,52
+		Facing: 96
+
+	ActorSC93: HIMARS
+		Owner: Neutral
+		Location: 56,52
+		Facing: 96
+
+	ActorSC94: M270A2
+		Owner: Neutral
+		Location: 60,52
+		Facing: 96
+
+	ActorSC95: M270B1
+		Owner: Neutral
+		Location: 64,52
+		Facing: 96
+
+	ActorSC96: MARS2
+		Owner: Neutral
+		Location: 68,52
+		Facing: 96
+
+	ActorSC97: CHUNMOO
+		Owner: Neutral
+		Location: 72,52
+		Facing: 96
+
+	ActorSC98: CHUNMOOA1
+		Owner: Neutral
+		Location: 76,52
+		Facing: 96
+
+	ActorSC99: PHL03
+		Owner: Neutral
+		Location: 80,52
+		Facing: 96
+
+	ActorSC100: PHL11
+		Owner: Neutral
+		Location: 84,52
+		Facing: 96
+
+	ActorSC101: PHL16
+		Owner: Neutral
+		Location: 88,52
+		Facing: 96
+
+	ActorSC102: BM21GRAD
+		Owner: Neutral
+		Location: 92,52
+		Facing: 96
+
+	ActorSC103: BM27URAGAN
+		Owner: Neutral
+		Location: 96,52
+		Facing: 96
+
+	ActorSC104: BM30SMERCH
+		Owner: Neutral
+		Location: 100,52
+		Facing: 96
+
+	ActorSC105: TORNADOS
+		Owner: Neutral
+		Location: 104,52
+		Facing: 96
+
+	ActorSC106: ASTROS
+		Owner: Neutral
+		Location: 108,52
+		Facing: 96
+
+	ActorSC107: LAR160
+		Owner: Neutral
+		Location: 112,52
+		Facing: 96
+
+	ActorSC108: MORTAR2R2M
+		Owner: Neutral
+		Location: 116,52
+		Facing: 96
+
+	ActorSC109: CARDOM10
+		Owner: Neutral
+		Location: 120,52
+		Facing: 96
+
+	ActorSC110: CARDOM120
+		Owner: Neutral
+		Location: 124,52
+		Facing: 96
+
+	ActorSC111: SPGVENA
+		Owner: Neutral
+		Location: 128,52
+		Facing: 96
+
+	ActorSC112: NEMO
+		Owner: Neutral
+		Location: 132,52
+		Facing: 96
+
+	ActorSC113: AMOS
+		Owner: Neutral
+		Location: 136,52
+		Facing: 96
+
+	ActorSC114: M125A1
+		Owner: Neutral
+		Location: 140,52
+		Facing: 96
+
+	ActorSC115: PLZ500
+		Owner: Neutral
+		Location: 144,52
+		Facing: 96
+
+	ActorSC116: HQ17A
+		Owner: Neutral
+		Location: 148,52
+		Facing: 96
+
+	ActorSC117: HQ16FE
+		Owner: Neutral
+		Location: 152,52
+		Facing: 96
+
+	ActorSC118: HQ9FE
+		Owner: Neutral
+		Location: 156,52
+		Facing: 96
+
+	ActorSC119: PANTSIRM2
+		Owner: Neutral
+		Location: 160,52
+		Facing: 96
+
+	ActorSC120: TUNGUSKAM1
+		Owner: Neutral
+		Location: 164,52
+		Facing: 96
+
+	ActorSC121: S400
+		Owner: Neutral
+		Location: 168,52
+		Facing: 96
+
+	ActorSC122: APACHE
+		Owner: Neutral
+		Location: 172,52
+		Facing: 96
+
+	ActorSC123: COBRA
+		Owner: Neutral
+		Location: 176,52
+		Facing: 96
+
+	ActorSC124: BLACKHAWK
+		Owner: Neutral
+		Location: 180,52
+		Facing: 96
+
+	ActorSC125: CHINOOK
+		Owner: Neutral
+		Location: 184,52
+		Facing: 96
+
+	ActorSC126: KA52
+		Owner: Neutral
+		Location: 188,52
+		Facing: 96
+
+	ActorSC127: MILMI24
+		Owner: Neutral
+		Location: 192,52
+		Facing: 96
+
+	ActorSC128: UH60
+		Owner: Neutral
+		Location: 196,52
+		Facing: 96
+
+	ActorSC129: EUROCOPTER
+		Owner: Neutral
+		Location: 200,52
+		Facing: 96
+
+	ActorSC130: AH1Z
+		Owner: Neutral
+		Location: 204,52
+		Facing: 96
+
+	ActorSC131: NH90
+		Owner: Neutral
+		Location: 208,52
+		Facing: 96
+
+	ActorSC132: MQ9
+		Owner: Neutral
+		Location: 212,52
+		Facing: 96
+
+	ActorSC133: F16
+		Owner: Neutral
+		Location: 216,52
+		Facing: 96
+
+	ActorSC134: F22
+		Owner: Neutral
+		Location: 220,52
+		Facing: 96
+
+	ActorSC135: SU27
+		Owner: Neutral
+		Location: 224,52
+		Facing: 96
+
+	ActorSC136: RAFALE
+		Owner: Neutral
+		Location: 228,52
+		Facing: 96
+
+	ActorSC137: F15
+		Owner: Neutral
+		Location: 232,52
+		Facing: 96
+
+	ActorSC138: SPITFIRE
+		Owner: Neutral
+		Location: 236,52
+		Facing: 96
+
+	ActorSC139: B2
+		Owner: Neutral
+		Location: 240,52
+		Facing: 96
+
+	ActorSC140: F117
+		Owner: Neutral
+		Location: 244,52
+		Facing: 96
+
+	ActorSC141: HARRIER
+		Owner: Neutral
+		Location: 248,52
+		Facing: 96
+
+	ActorSC142: MIG29
+		Owner: Neutral
+		Location: 252,52
+		Facing: 96
+
+	ActorSC143: OHIO
+		Owner: Neutral
+		Location: 44,180
+		Facing: 96
+
+	ActorSC144: VIRGINIA
+		Owner: Neutral
+		Location: 51,180
+		Facing: 96
+
+	ActorSC145: SEAWOLF
+		Owner: Neutral
+		Location: 58,180
+		Facing: 96
+
+	ActorSC146: BOREI
+		Owner: Neutral
+		Location: 65,180
+		Facing: 96
+
+	ActorSC147: YASEN
+		Owner: Neutral
+		Location: 72,180
+		Facing: 96
+
+	ActorSC148: ASTUTE
+		Owner: Neutral
+		Location: 79,180
+		Facing: 96
+
+	ActorSC149: TRIOMPHANT
+		Owner: Neutral
+		Location: 86,180
+		Facing: 96
+
+	ActorSC150: TYPE094
+		Owner: Neutral
+		Location: 93,180
+		Facing: 96
+
+	ActorSC151: TYPE095
+		Owner: Neutral
+		Location: 100,180
+		Facing: 96
+
+	ActorSC152: SCORPENE
+		Owner: Neutral
+		Location: 107,180
+		Facing: 96
+
+	ActorSC153: TYPE209
+		Owner: Neutral
+		Location: 114,180
+		Facing: 96
+
+	ActorSC154: KILO
+		Owner: Neutral
+		Location: 121,180
+		Facing: 96
+
+	ActorSC155: NAGAPASA
+		Owner: Neutral
+		Location: 128,180
+		Facing: 96
+
+	ActorSC156: AKIZUKI
+		Owner: Neutral
+		Location: 135,180
+		Facing: 96
+
+	ActorSC157: ATAGO
+		Owner: Neutral
+		Location: 142,180
+		Facing: 96
+
+	ActorSC158: DAEWOO
+		Owner: Neutral
+		Location: 149,180
+		Facing: 96
+
+	ActorSC159: MEKOA200
+		Owner: Neutral
+		Location: 156,180
+		Facing: 96
+
+	ActorSC160: BELHARRAS
+		Owner: Neutral
+		Location: 163,180
+		Facing: 96
+
+	ActorSC161: SIGMA10514
+		Owner: Neutral
+		Location: 170,180
+		Facing: 96
+
+	ActorSC162: FREMM
+		Owner: Neutral
+		Location: 177,180
+		Facing: 96
+
+	ActorSC163: KERNOX
+		Owner: Neutral
+		Location: 184,180
+		Facing: 96
+
+	ActorSC164: BABUR
+		Owner: Neutral
+		Location: 191,180
+		Facing: 96
+
+	ActorSC165: KEDIRI
+		Owner: Neutral
+		Location: 198,180
+		Facing: 96
+
+	ActorSC166: CONSTELLATION
+		Owner: Neutral
+		Location: 205,180
+		Facing: 96
+
+	ActorSC167: ABAYA
+		Owner: Neutral
+		Location: 212,180
+		Facing: 96
+
+	ActorSC168: TERMITEOPV
+		Owner: Neutral
+		Location: 219,180
+		Facing: 96
+
+	ActorSC169: MARTADINATA
+		Owner: Neutral
+		Location: 226,180
+		Facing: 96
+
+	ActorSC170: HUITFELDT
+		Owner: Neutral
+		Location: 233,180
+		Facing: 96
+
+	ActorSC171: GOWIND
+		Owner: Neutral
+		Location: 240,180
+		Facing: 96
+
+	ActorSC172: STEREGUSHCHIY
+		Owner: Neutral
+		Location: 247,180
+		Facing: 96
+
+	ActorSC173: BURKE
+		Owner: Neutral
+		Location: 254,180
+		Facing: 96
+
+	ActorSC174: TYPE055
+		Owner: Neutral
+		Location: 261,180
+		Facing: 96
+
+	ActorSC175: KDX3
+		Owner: Neutral
+		Location: 268,180
+		Facing: 96
+
+	ActorSC176: TYPE45
+		Owner: Neutral
+		Location: 275,180
+		Facing: 96
+
+	ActorSC177: TICONDEROGA
+		Owner: Neutral
+		Location: 282,180
+		Facing: 96
+
+	ActorSC178: SLAVA
+		Owner: Neutral
+		Location: 289,180
+		Facing: 96
+
+	ActorSC179: KIROV
+		Owner: Neutral
+		Location: 296,180
+		Facing: 96
+
+	ActorSC180: LONGBEACH
+		Owner: Neutral
+		Location: 303,180
+		Facing: 96
+
+	ActorSC181: YAMATO
+		Owner: Neutral
+		Location: 310,180
+		Facing: 96
+
+	ActorSC182: IOWA
+		Owner: Neutral
+		Location: 317,180
+		Facing: 96
+
+	ActorSC183: MISSOURI
+		Owner: Neutral
+		Location: 324,180
+		Facing: 96
+
+	ActorSC184: BISMARCK
+		Owner: Neutral
+		Location: 331,180
+		Facing: 96
+
+	ActorSC185: NC
+		Owner: Neutral
+		Location: 338,180
+		Facing: 96
+
+	ActorSC186: VANGUARD
+		Owner: Neutral
+		Location: 345,180
+		Facing: 96
+
+	ActorSC187: KINGGV
+		Owner: Neutral
+		Location: 352,180
+		Facing: 96
+
+	ActorSC188: SOVETSKY
+		Owner: Neutral
+		Location: 359,180
+		Facing: 96
+
+	ActorSC189: RICHELIEU
+		Owner: Neutral
+		Location: 366,180
+		Facing: 96
+
+	ActorSC190: LITTORIO
+		Owner: Neutral
+		Location: 373,180
+		Facing: 96
+
+	ActorSC191: CVB
+		Owner: Neutral
+		Location: 380,180
+		Facing: 96
+
+	ActorSC192: LHB1
+		Owner: Neutral
+		Location: 387,180
+		Facing: 96
+
+	ActorSC193: LHB2
+		Owner: Neutral
+		Location: 44,188
+		Facing: 96
+
+	ActorSC194: LHB3
+		Owner: Neutral
+		Location: 51,188
+		Facing: 96
+
+	ActorSC195: LHA
+		Owner: Neutral
+		Location: 58,188
+		Facing: 96
+
+	ActorSC196: LHA1
+		Owner: Neutral
+		Location: 65,188
+		Facing: 96
+
+	ActorSC197: LHA2
+		Owner: Neutral
+		Location: 72,188
+		Facing: 96
+
+	ActorSC198: PLXBMB
+		Owner: Neutral
+		Location: 79,188
+		Facing: 96
+
+	ActorSC199: NIMITZY
+		Owner: Neutral
+		Location: 86,188
+		Facing: 96
+
+	ActorSC200: FORD
+		Owner: Neutral
+		Location: 93,188
+		Facing: 96
+
+	ActorSC201: QUEENELIZ
+		Owner: Neutral
+		Location: 100,188
+		Facing: 96
+ActorCount: 203
