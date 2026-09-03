@@ -416,3 +416,157 @@ Actors:
 		Location: 345,152
 		Facing: 64
 
+	ActorB250: M777A2
+		Owner: Neutral
+		Location: 352,156
+		Facing: 64
+
+	ActorB251: FH70
+		Owner: Neutral
+		Location: 356,156
+		Facing: 64
+
+	ActorB252: TRF1
+		Owner: Neutral
+		Location: 360,156
+		Facing: 64
+
+	ActorB253: LG1
+		Owner: Neutral
+		Location: 364,156
+		Facing: 64
+
+	ActorB254: D30
+		Owner: Neutral
+		Location: 368,156
+		Facing: 64
+
+	ActorB255: M46
+		Owner: Neutral
+		Location: 372,156
+		Facing: 64
+
+	ActorB256: JKR155
+		Owner: Neutral
+		Location: 376,156
+		Facing: 64
+
+	ActorB257: HIMARS
+		Owner: Neutral
+		Location: 352,164
+		Facing: 64
+
+	ActorB258: M270A2
+		Owner: Neutral
+		Location: 356,164
+		Facing: 64
+
+	ActorB259: M270B1
+		Owner: Neutral
+		Location: 360,164
+		Facing: 64
+
+	ActorB2510: MARS2
+		Owner: Neutral
+		Location: 364,164
+		Facing: 64
+
+	ActorB2511: CHUNMOO
+		Owner: Neutral
+		Location: 368,164
+		Facing: 64
+
+	ActorB2512: CHUNMOOA1
+		Owner: Neutral
+		Location: 352,168
+		Facing: 64
+
+	ActorB2513: PHL03
+		Owner: Neutral
+		Location: 356,168
+		Facing: 64
+
+	ActorB2514: PHL11
+		Owner: Neutral
+		Location: 360,168
+		Facing: 64
+
+	ActorB2515: PHL16
+		Owner: Neutral
+		Location: 364,168
+		Facing: 64
+
+	ActorB2516: BM21GRAD
+		Owner: Neutral
+		Location: 368,168
+		Facing: 64
+
+	ActorB2517: BM27URAGAN
+		Owner: Neutral
+		Location: 352,172
+		Facing: 64
+
+	ActorB2518: BM30SMERCH
+		Owner: Neutral
+		Location: 356,172
+		Facing: 64
+
+	ActorB2519: TORNADOS
+		Owner: Neutral
+		Location: 360,172
+		Facing: 64
+
+	ActorB2520: ASTROS
+		Owner: Neutral
+		Location: 364,172
+		Facing: 64
+
+	ActorB2521: LAR160
+		Owner: Neutral
+		Location: 368,172
+		Facing: 64
+
+	ActorB2522: MORTAR2R2M
+		Owner: Neutral
+		Location: 352,180
+		Facing: 64
+
+	ActorB2523: CARDOM10
+		Owner: Neutral
+		Location: 356,180
+		Facing: 64
+
+	ActorB2524: CARDOM120
+		Owner: Neutral
+		Location: 360,180
+		Facing: 64
+
+	ActorB2525: SPGVENA
+		Owner: Neutral
+		Location: 364,180
+		Facing: 64
+
+	ActorB2526: NEMO
+		Owner: Neutral
+		Location: 352,184
+		Facing: 64
+
+	ActorB2527: AMOS
+		Owner: Neutral
+		Location: 356,184
+		Facing: 64
+
+	ActorB2528: M125A1
+		Owner: Neutral
+		Location: 360,184
+		Facing: 64
+
+	ActorB2529: STRYKERMC
+		Owner: Neutral
+		Location: 364,184
+		Facing: 64
+
+	ActorB2530: ABEREGG
+		Owner: Neutral
+		Location: 380,186
+		Facing: 64

@@ -1,0 +1,622 @@
+# Modern Era - Towed Artillery, MLRS, SP Mortars, Coastal Gun (Batch 2-5)
+# Towed/coastal inherit ARTY (artillery), MLRS inherit V2RL (rocket SCUD).
+
+M777A2:
+	Inherits: ARTY
+	RenderSprites:
+		Image: m777a2
+	Buildable:
+		BuildPaletteOrder: 250
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-m777a2.description
+	Valued:
+		Cost: 950
+	Tooltip:
+		Name: actor-m777a2.name
+		GenericName: actor-m777a2.generic-name
+	Health:
+		HP: 12000
+	Mobile:
+		Speed: 40
+	Armament:
+		Weapon: 155mm
+
+FH70:
+	Inherits: ARTY
+	RenderSprites:
+		Image: fh70
+	Buildable:
+		BuildPaletteOrder: 251
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-fh70.description
+	Valued:
+		Cost: 930
+	Tooltip:
+		Name: actor-fh70.name
+		GenericName: actor-fh70.generic-name
+	Health:
+		HP: 12000
+	Mobile:
+		Speed: 38
+	Armament:
+		Weapon: 155mm
+
+TRF1:
+	Inherits: ARTY
+	RenderSprites:
+		Image: trf1
+	Buildable:
+		BuildPaletteOrder: 252
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-trf1.description
+	Valued:
+		Cost: 900
+	Tooltip:
+		Name: actor-trf1.name
+		GenericName: actor-trf1.generic-name
+	Health:
+		HP: 11000
+	Mobile:
+		Speed: 40
+	Armament:
+		Weapon: 155mm
+
+LG1:
+	Inherits: ARTY
+	RenderSprites:
+		Image: lg1
+	Buildable:
+		BuildPaletteOrder: 253
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-lg1.description
+	Valued:
+		Cost: 840
+	Tooltip:
+		Name: actor-lg1.name
+		GenericName: actor-lg1.generic-name
+	Health:
+		HP: 10000
+	Mobile:
+		Speed: 42
+	Armament:
+		Weapon: 155mm
+
+D30:
+	Inherits: ARTY
+	RenderSprites:
+		Image: d30
+	Buildable:
+		BuildPaletteOrder: 254
+		Prerequisites: fix, ~vehicles.soviet, ~techlevel.medium
+		Description: actor-d30.description
+	Valued:
+		Cost: 880
+	Tooltip:
+		Name: actor-d30.name
+		GenericName: actor-d30.generic-name
+	Health:
+		HP: 11000
+	Mobile:
+		Speed: 40
+	Armament:
+		Weapon: 152mm
+
+M46:
+	Inherits: ARTY
+	RenderSprites:
+		Image: m46
+	Buildable:
+		BuildPaletteOrder: 255
+		Prerequisites: fix, ~vehicles.soviet, ~techlevel.medium
+		Description: actor-m46.description
+	Valued:
+		Cost: 900
+	Tooltip:
+		Name: actor-m46.name
+		GenericName: actor-m46.generic-name
+	Health:
+		HP: 11500
+	Mobile:
+		Speed: 38
+	Armament:
+		Weapon: 152mm
+
+JKR155:
+	Inherits: ARTY
+	RenderSprites:
+		Image: jkr155
+	Buildable:
+		BuildPaletteOrder: 256
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-jkr155.description
+	Valued:
+		Cost: 920
+	Tooltip:
+		Name: actor-jkr155.name
+		GenericName: actor-jkr155.generic-name
+	Health:
+		HP: 11500
+	Mobile:
+		Speed: 40
+	Armament:
+		Weapon: 155mm
+
+HIMARS:
+	Inherits: V2RL
+	RenderSprites:
+		Image: himars
+	Buildable:
+		BuildPaletteOrder: 257
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.high
+		Description: actor-himars.description
+	Valued:
+		Cost: 1400
+	Tooltip:
+		Name: actor-himars.name
+		GenericName: actor-himars.generic-name
+	Health:
+		HP: 26000
+	Mobile:
+		Speed: 70
+	Armament:
+		Weapon: SCUD
+
+M270A2:
+	Inherits: V2RL
+	RenderSprites:
+		Image: m270a2
+	Buildable:
+		BuildPaletteOrder: 258
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.high
+		Description: actor-m270a2.description
+	Valued:
+		Cost: 1300
+	Tooltip:
+		Name: actor-m270a2.name
+		GenericName: actor-m270a2.generic-name
+	Health:
+		HP: 26000
+	Mobile:
+		Speed: 60
+	Armament:
+		Weapon: SCUD
+
+M270B1:
+	Inherits: V2RL
+	RenderSprites:
+		Image: m270b1
+	Buildable:
+		BuildPaletteOrder: 259
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.high
+		Description: actor-m270b1.description
+	Valued:
+		Cost: 1320
+	Tooltip:
+		Name: actor-m270b1.name
+		GenericName: actor-m270b1.generic-name
+	Health:
+		HP: 26000
+	Mobile:
+		Speed: 60
+	Armament:
+		Weapon: SCUD
+
+MARS2:
+	Inherits: V2RL
+	RenderSprites:
+		Image: mars2
+	Buildable:
+		BuildPaletteOrder: 260
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.high
+		Description: actor-mars2.description
+	Valued:
+		Cost: 1280
+	Tooltip:
+		Name: actor-mars2.name
+		GenericName: actor-mars2.generic-name
+	Health:
+		HP: 25000
+	Mobile:
+		Speed: 62
+	Armament:
+		Weapon: SCUD
+
+CHUNMOO:
+	Inherits: V2RL
+	RenderSprites:
+		Image: chunmoo
+	Buildable:
+		BuildPaletteOrder: 261
+		Prerequisites: fix, ~vehicles.soviet, ~techlevel.high
+		Description: actor-chunmoo.description
+	Valued:
+		Cost: 1400
+	Tooltip:
+		Name: actor-chunmoo.name
+		GenericName: actor-chunmoo.generic-name
+	Health:
+		HP: 27000
+	Mobile:
+		Speed: 58
+	Armament:
+		Weapon: SCUD
+
+CHUNMOOA1:
+	Inherits: V2RL
+	RenderSprites:
+		Image: chunmooa1
+	Buildable:
+		BuildPaletteOrder: 262
+		Prerequisites: fix, ~vehicles.soviet, ~techlevel.high
+		Description: actor-chunmooa1.description
+	Valued:
+		Cost: 1450
+	Tooltip:
+		Name: actor-chunmooa1.name
+		GenericName: actor-chunmooa1.generic-name
+	Health:
+		HP: 28000
+	Mobile:
+		Speed: 58
+	Armament:
+		Weapon: SCUD
+
+PHL03:
+	Inherits: V2RL
+	RenderSprites:
+		Image: phl03
+	Buildable:
+		BuildPaletteOrder: 263
+		Prerequisites: fix, ~vehicles.soviet, ~techlevel.high
+		Description: actor-phl03.description
+	Valued:
+		Cost: 1320
+	Tooltip:
+		Name: actor-phl03.name
+		GenericName: actor-phl03.generic-name
+	Health:
+		HP: 26000
+	Mobile:
+		Speed: 55
+	Armament:
+		Weapon: SCUD
+
+PHL11:
+	Inherits: V2RL
+	RenderSprites:
+		Image: phl11
+	Buildable:
+		BuildPaletteOrder: 264
+		Prerequisites: fix, ~vehicles.soviet, ~techlevel.high
+		Description: actor-phl11.description
+	Valued:
+		Cost: 1380
+	Tooltip:
+		Name: actor-phl11.name
+		GenericName: actor-phl11.generic-name
+	Health:
+		HP: 27000
+	Mobile:
+		Speed: 56
+	Armament:
+		Weapon: SCUD
+
+PHL16:
+	Inherits: V2RL
+	RenderSprites:
+		Image: phl16
+	Buildable:
+		BuildPaletteOrder: 265
+		Prerequisites: fix, ~vehicles.soviet, ~techlevel.high
+		Description: actor-phl16.description
+	Valued:
+		Cost: 1550
+	Tooltip:
+		Name: actor-phl16.name
+		GenericName: actor-phl16.generic-name
+	Health:
+		HP: 30000
+	Mobile:
+		Speed: 52
+	Armament:
+		Weapon: SCUD
+
+BM21GRAD:
+	Inherits: V2RL
+	RenderSprites:
+		Image: bm21grad
+	Buildable:
+		BuildPaletteOrder: 266
+		Prerequisites: fix, ~vehicles.soviet, ~techlevel.medium
+		Description: actor-bm21grad.description
+	Valued:
+		Cost: 1100
+	Tooltip:
+		Name: actor-bm21grad.name
+		GenericName: actor-bm21grad.generic-name
+	Health:
+		HP: 22000
+	Mobile:
+		Speed: 75
+	Armament:
+		Weapon: SCUD
+
+BM27URAGAN:
+	Inherits: V2RL
+	RenderSprites:
+		Image: bm27uragan
+	Buildable:
+		BuildPaletteOrder: 267
+		Prerequisites: fix, ~vehicles.soviet, ~techlevel.high
+		Description: actor-bm27uragan.description
+	Valued:
+		Cost: 1250
+	Tooltip:
+		Name: actor-bm27uragan.name
+		GenericName: actor-bm27uragan.generic-name
+	Health:
+		HP: 25000
+	Mobile:
+		Speed: 62
+	Armament:
+		Weapon: SCUD
+
+BM30SMERCH:
+	Inherits: V2RL
+	RenderSprites:
+		Image: bm30smerch
+	Buildable:
+		BuildPaletteOrder: 268
+		Prerequisites: fix, ~vehicles.soviet, ~techlevel.high
+		Description: actor-bm30smerch.description
+	Valued:
+		Cost: 1450
+	Tooltip:
+		Name: actor-bm30smerch.name
+		GenericName: actor-bm30smerch.generic-name
+	Health:
+		HP: 28000
+	Mobile:
+		Speed: 55
+	Armament:
+		Weapon: SCUD
+
+TORNADOS:
+	Inherits: V2RL
+	RenderSprites:
+		Image: tornados
+	Buildable:
+		BuildPaletteOrder: 269
+		Prerequisites: fix, ~vehicles.soviet, ~techlevel.high
+		Description: actor-tornados.description
+	Valued:
+		Cost: 1500
+	Tooltip:
+		Name: actor-tornados.name
+		GenericName: actor-tornados.generic-name
+	Health:
+		HP: 30000
+	Mobile:
+		Speed: 55
+	Armament:
+		Weapon: SCUD
+
+ASTROS:
+	Inherits: V2RL
+	RenderSprites:
+		Image: astros
+	Buildable:
+		BuildPaletteOrder: 270
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.high
+		Description: actor-astros.description
+	Valued:
+		Cost: 1380
+	Tooltip:
+		Name: actor-astros.name
+		GenericName: actor-astros.generic-name
+	Health:
+		HP: 26000
+	Mobile:
+		Speed: 60
+	Armament:
+		Weapon: SCUD
+
+LAR160:
+	Inherits: V2RL
+	RenderSprites:
+		Image: lar160
+	Buildable:
+		BuildPaletteOrder: 271
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.high
+		Description: actor-lar160.description
+	Valued:
+		Cost: 1300
+	Tooltip:
+		Name: actor-lar160.name
+		GenericName: actor-lar160.generic-name
+	Health:
+		HP: 25000
+	Mobile:
+		Speed: 62
+	Armament:
+		Weapon: SCUD
+
+MORTAR2R2M:
+	Inherits: ARTY
+	RenderSprites:
+		Image: mortar2r2m
+	Buildable:
+		BuildPaletteOrder: 272
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-mortar2r2m.description
+	Valued:
+		Cost: 700
+	Tooltip:
+		Name: actor-mortar2r2m.name
+		GenericName: actor-mortar2r2m.generic-name
+	Health:
+		HP: 15000
+	Mobile:
+		Speed: 55
+	Armament:
+		Weapon: M120Mortar
+
+CARDOM10:
+	Inherits: ARTY
+	RenderSprites:
+		Image: cardom10
+	Buildable:
+		BuildPaletteOrder: 273
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-cardom10.description
+	Valued:
+		Cost: 650
+	Tooltip:
+		Name: actor-cardom10.name
+		GenericName: actor-cardom10.generic-name
+	Health:
+		HP: 14000
+	Mobile:
+		Speed: 58
+	Armament:
+		Weapon: M120Mortar
+
+CARDOM120:
+	Inherits: ARTY
+	RenderSprites:
+		Image: cardom120
+	Buildable:
+		BuildPaletteOrder: 274
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-cardom120.description
+	Valued:
+		Cost: 720
+	Tooltip:
+		Name: actor-cardom120.name
+		GenericName: actor-cardom120.generic-name
+	Health:
+		HP: 15000
+	Mobile:
+		Speed: 56
+	Armament:
+		Weapon: M120Mortar
+
+SPGVENA:
+	Inherits: ARTY
+	RenderSprites:
+		Image: spgvena
+	Buildable:
+		BuildPaletteOrder: 275
+		Prerequisites: fix, ~vehicles.soviet, ~techlevel.medium
+		Description: actor-spgvena.description
+	Valued:
+		Cost: 780
+	Tooltip:
+		Name: actor-spgvena.name
+		GenericName: actor-spgvena.generic-name
+	Health:
+		HP: 16000
+	Mobile:
+		Speed: 52
+	Armament:
+		Weapon: M120Mortar
+
+NEMO:
+	Inherits: ARTY
+	RenderSprites:
+		Image: nemo
+	Buildable:
+		BuildPaletteOrder: 276
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-nemo.description
+	Valued:
+		Cost: 760
+	Tooltip:
+		Name: actor-nemo.name
+		GenericName: actor-nemo.generic-name
+	Health:
+		HP: 15000
+	Mobile:
+		Speed: 55
+	Armament:
+		Weapon: M120Mortar
+
+AMOS:
+	Inherits: ARTY
+	RenderSprites:
+		Image: amos
+	Buildable:
+		BuildPaletteOrder: 277
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-amos.description
+	Valued:
+		Cost: 800
+	Tooltip:
+		Name: actor-amos.name
+		GenericName: actor-amos.generic-name
+	Health:
+		HP: 16000
+	Mobile:
+		Speed: 54
+	Armament:
+		Weapon: M120Mortar
+
+M125A1:
+	Inherits: ARTY
+	RenderSprites:
+		Image: m125a1
+	Buildable:
+		BuildPaletteOrder: 278
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-m125a1.description
+	Valued:
+		Cost: 720
+	Tooltip:
+		Name: actor-m125a1.name
+		GenericName: actor-m125a1.generic-name
+	Health:
+		HP: 15000
+	Mobile:
+		Speed: 52
+	Armament:
+		Weapon: M120Mortar
+
+STRYKERMC:
+	Inherits: ARTY
+	RenderSprites:
+		Image: strykermc
+	Buildable:
+		BuildPaletteOrder: 279
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-strykermc.description
+	Valued:
+		Cost: 800
+	Tooltip:
+		Name: actor-strykermc.name
+		GenericName: actor-strykermc.generic-name
+	Health:
+		HP: 18000
+	Mobile:
+		Speed: 65
+	Armament:
+		Weapon: M120Mortar
+
+ABEREG:
+	Inherits: ARTY
+	RenderSprites:
+		Image: aberegg
+	Buildable:
+		BuildPaletteOrder: 280
+		Prerequisites: fix, ~vehicles.soviet, ~techlevel.high
+		Description: actor-abereg.description
+	Valued:
+		Cost: 2000
+	Tooltip:
+		Name: actor-abereg.name
+		GenericName: actor-abereg.generic-name
+	Health:
+		HP: 50000
+	Mobile:
+		Speed: 40
+	Armament:
+		Weapon: 130mm

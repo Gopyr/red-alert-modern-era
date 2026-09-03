@@ -1,0 +1,387 @@
+# Modern Era artillery batch 2-5 sequences
+
+m777a2:
+	idle:
+		Filename: m777a2-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: m777a2-idle.png
+		Offset: -30,-30
+
+fh70:
+	idle:
+		Filename: fh70-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: fh70-idle.png
+		Offset: -30,-30
+
+trf1:
+	idle:
+		Filename: trf1-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: trf1-idle.png
+		Offset: -30,-30
+
+lg1:
+	idle:
+		Filename: lg1-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: lg1-idle.png
+		Offset: -30,-30
+
+d30:
+	idle:
+		Filename: d30-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: d30-idle.png
+		Offset: -30,-30
+
+m46:
+	idle:
+		Filename: m46-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: m46-idle.png
+		Offset: -30,-30
+
+jkr155:
+	idle:
+		Filename: jkr155-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: jkr155-idle.png
+		Offset: -30,-30
+
+himars:
+	idle:
+		Filename: himars-idle.png
+		Facings: 8
+	empty-idle:
+		Filename: himars-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: himars-idle.png
+		Offset: -30,-30
+
+m270a2:
+	idle:
+		Filename: m270a2-idle.png
+		Facings: 8
+	empty-idle:
+		Filename: m270a2-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: m270a2-idle.png
+		Offset: -30,-30
+
+m270b1:
+	idle:
+		Filename: m270b1-idle.png
+		Facings: 8
+	empty-idle:
+		Filename: m270b1-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: m270b1-idle.png
+		Offset: -30,-30
+
+mars2:
+	idle:
+		Filename: mars2-idle.png
+		Facings: 8
+	empty-idle:
+		Filename: mars2-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: mars2-idle.png
+		Offset: -30,-30
+
+chunmoo:
+	idle:
+		Filename: chunmoo-idle.png
+		Facings: 8
+	empty-idle:
+		Filename: chunmoo-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: chunmoo-idle.png
+		Offset: -30,-30
+
+chunmooa1:
+	idle:
+		Filename: chunmooa1-idle.png
+		Facings: 8
+	empty-idle:
+		Filename: chunmooa1-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: chunmooa1-idle.png
+		Offset: -30,-30
+
+phl03:
+	idle:
+		Filename: phl03-idle.png
+		Facings: 8
+	empty-idle:
+		Filename: phl03-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: phl03-idle.png
+		Offset: -30,-30
+
+phl11:
+	idle:
+		Filename: phl11-idle.png
+		Facings: 8
+	empty-idle:
+		Filename: phl11-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: phl11-idle.png
+		Offset: -30,-30
+
+phl16:
+	idle:
+		Filename: phl16-idle.png
+		Facings: 8
+	empty-idle:
+		Filename: phl16-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: phl16-idle.png
+		Offset: -30,-30
+
+bm21grad:
+	idle:
+		Filename: bm21grad-idle.png
+		Facings: 8
+	empty-idle:
+		Filename: bm21grad-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: bm21grad-idle.png
+		Offset: -30,-30
+
+bm27uragan:
+	idle:
+		Filename: bm27uragan-idle.png
+		Facings: 8
+	empty-idle:
+		Filename: bm27uragan-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: bm27uragan-idle.png
+		Offset: -30,-30
+
+bm30smerch:
+	idle:
+		Filename: bm30smerch-idle.png
+		Facings: 8
+	empty-idle:
+		Filename: bm30smerch-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: bm30smerch-idle.png
+		Offset: -30,-30
+
+tornados:
+	idle:
+		Filename: tornados-idle.png
+		Facings: 8
+	empty-idle:
+		Filename: tornados-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: tornados-idle.png
+		Offset: -30,-30
+
+astros:
+	idle:
+		Filename: astros-idle.png
+		Facings: 8
+	empty-idle:
+		Filename: astros-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: astros-idle.png
+		Offset: -30,-30
+
+lar160:
+	idle:
+		Filename: lar160-idle.png
+		Facings: 8
+	empty-idle:
+		Filename: lar160-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: lar160-idle.png
+		Offset: -30,-30
+
+mortar2r2m:
+	idle:
+		Filename: mortar2r2m-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: mortar2r2m-idle.png
+		Offset: -30,-30
+
+cardom10:
+	idle:
+		Filename: cardom10-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: cardom10-idle.png
+		Offset: -30,-30
+
+cardom120:
+	idle:
+		Filename: cardom120-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: cardom120-idle.png
+		Offset: -30,-30
+
+spgvena:
+	idle:
+		Filename: spgvena-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: spgvena-idle.png
+		Offset: -30,-30
+
+nemo:
+	idle:
+		Filename: nemo-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: nemo-idle.png
+		Offset: -30,-30
+
+amos:
+	idle:
+		Filename: amos-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: amos-idle.png
+		Offset: -30,-30
+
+m125a1:
+	idle:
+		Filename: m125a1-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: m125a1-idle.png
+		Offset: -30,-30
+
+strykermc:
+	idle:
+		Filename: strykermc-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: strykermc-idle.png
+		Offset: -30,-30
+
+aberegg:
+	idle:
+		Filename: aberegg-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: aberegg-idle.png
+		Offset: -30,-30

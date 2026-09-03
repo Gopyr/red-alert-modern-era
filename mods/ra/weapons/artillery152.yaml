@@ -12,3 +12,19 @@
 		Falloff: 100, 55, 20, 5
 		Versus:
 			None: 70
+
+
+# 130mm coastal gun (A-222 Bereg)
+130mm:
+	Inherits: ^Artillery
+	MinRange: 4c0
+	Report: tank5.aud
+	TargetActorCenter: true
+	Projectile: Bullet
+		ContrailLength: 30
+		Speed: 200
+		Inaccuracy: 1c100
+	Warhead@1Dam: SpreadDamage
+		Falloff: 100, 60, 30, 10
+		Versus:
+			None: 80
