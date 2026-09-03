@@ -519,10 +519,10 @@ v150:
 pantsir:
 	idle:
 		Filename: pantsir-idle.png
-		Facings: -8
+		Facings: 8
 	turret:
 		Filename: pantsir-turret.png
-		Facings: -8
+		Facings: 8
 	muzzle:
 		Filename: pantsir-turret.png
 		Frame: 0

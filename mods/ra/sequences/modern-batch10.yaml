@@ -130,7 +130,7 @@ b2uses:
 		Filename: 81mm-idle.png
 		Offset: -32,-32
 
-120mm:
+d120mm:
 	Defaults:
 		Filename: 120mm-idle.png
 	idle:

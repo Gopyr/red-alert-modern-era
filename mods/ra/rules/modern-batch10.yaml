@@ -204,7 +204,7 @@ D81MM:
 D120MM:
 	Inherits: ARTY
 	RenderSprites:
-		Image: 120mm
+		Image: d120mm
 	Buildable:
 		BuildPaletteOrder: 410
 		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
