@@ -1,0 +1,323 @@
+# Modern Era - Self-Propelled Artillery (Batch 1, 16 SPG)
+# All inherit ARTY (vanilla self-propelled artillery).
+# 152mm Soviet variants use 152mm weapon; others 155mm.
+
+M109A7:
+	Inherits: ARTY
+	RenderSprites:
+		Image: m109a7
+	Buildable:
+		BuildPaletteOrder: 234
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.high
+		Description: actor-m109a7.description
+	Valued:
+		Cost: 1450
+	Tooltip:
+		Name: actor-m109a7.name
+		GenericName: actor-m109a7.generic-name
+	Health:
+		HP: 46000
+	Mobile:
+		Speed: 52
+	Armament:
+		Weapon: 155mm
+
+PZH2000:
+	Inherits: ARTY
+	RenderSprites:
+		Image: pzh2000
+	Buildable:
+		BuildPaletteOrder: 235
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.high
+		Description: actor-pzh2000.description
+	Valued:
+		Cost: 1550
+	Tooltip:
+		Name: actor-pzh2000.name
+		GenericName: actor-pzh2000.generic-name
+	Health:
+		HP: 48000
+	Mobile:
+		Speed: 50
+	Armament:
+		Weapon: 155mm
+
+CAESAR8X8:
+	Inherits: ARTY
+	RenderSprites:
+		Image: caesar8x8
+	Buildable:
+		BuildPaletteOrder: 236
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-caesar8x8.description
+	Valued:
+		Cost: 1250
+	Tooltip:
+		Name: actor-caesar8x8.name
+		GenericName: actor-caesar8x8.generic-name
+	Health:
+		HP: 32000
+	Mobile:
+		Speed: 72
+	Armament:
+		Weapon: 155mm
+
+CAESAR6X6:
+	Inherits: ARTY
+	RenderSprites:
+		Image: caesar6x6
+	Buildable:
+		BuildPaletteOrder: 237
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-caesar6x6.description
+	Valued:
+		Cost: 1200
+	Tooltip:
+		Name: actor-caesar6x6.name
+		GenericName: actor-caesar6x6.generic-name
+	Health:
+		HP: 30000
+	Mobile:
+		Speed: 70
+	Armament:
+		Weapon: 155mm
+
+ARCHER:
+	Inherits: ARTY
+	RenderSprites:
+		Image: archer
+	Buildable:
+		BuildPaletteOrder: 238
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-archer.description
+	Valued:
+		Cost: 1350
+	Tooltip:
+		Name: actor-archer.name
+		GenericName: actor-archer.generic-name
+	Health:
+		HP: 34000
+	Mobile:
+		Speed: 66
+	Armament:
+		Weapon: 155mm
+
+K9A1:
+	Inherits: ARTY
+	RenderSprites:
+		Image: k9a1
+	Buildable:
+		BuildPaletteOrder: 239
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-k9a1.description
+	Valued:
+		Cost: 1400
+	Tooltip:
+		Name: actor-k9a1.name
+		GenericName: actor-k9a1.generic-name
+	Health:
+		HP: 46000
+	Mobile:
+		Speed: 58
+	Armament:
+		Weapon: 155mm
+
+K9A2:
+	Inherits: ARTY
+	RenderSprites:
+		Image: k9a2
+	Buildable:
+		BuildPaletteOrder: 240
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.high
+		Description: actor-k9a2.description
+	Valued:
+		Cost: 1500
+	Tooltip:
+		Name: actor-k9a2.name
+		GenericName: actor-k9a2.generic-name
+	Health:
+		HP: 47000
+	Mobile:
+		Speed: 58
+	Armament:
+		Weapon: 155mm
+
+FIRTINA:
+	Inherits: ARTY
+	RenderSprites:
+		Image: firtina
+	Buildable:
+		BuildPaletteOrder: 241
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-firtina.description
+	Valued:
+		Cost: 1480
+	Tooltip:
+		Name: actor-firtina.name
+		GenericName: actor-firtina.generic-name
+	Health:
+		HP: 46000
+	Mobile:
+		Speed: 55
+	Armament:
+		Weapon: 155mm
+
+PLZ05:
+	Inherits: ARTY
+	RenderSprites:
+		Image: plz05
+	Buildable:
+		BuildPaletteOrder: 242
+		Prerequisites: fix, ~vehicles.soviet, ~techlevel.high
+		Description: actor-plz05.description
+	Valued:
+		Cost: 1450
+	Tooltip:
+		Name: actor-plz05.name
+		GenericName: actor-plz05.generic-name
+	Health:
+		HP: 47000
+	Mobile:
+		Speed: 52
+	Armament:
+		Weapon: 155mm
+
+PLZ52:
+	Inherits: ARTY
+	RenderSprites:
+		Image: plz52
+	Buildable:
+		BuildPaletteOrder: 243
+		Prerequisites: fix, ~vehicles.soviet, ~techlevel.high
+		Description: actor-plz52.description
+	Valued:
+		Cost: 1500
+	Tooltip:
+		Name: actor-plz52.name
+		GenericName: actor-plz52.generic-name
+	Health:
+		HP: 48000
+	Mobile:
+		Speed: 50
+	Armament:
+		Weapon: 155mm
+
+G6RHINO:
+	Inherits: ARTY
+	RenderSprites:
+		Image: g6rhino
+	Buildable:
+		BuildPaletteOrder: 244
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-g6rhino.description
+	Valued:
+		Cost: 1330
+	Tooltip:
+		Name: actor-g6rhino.name
+		GenericName: actor-g6rhino.generic-name
+	Health:
+		HP: 33000
+	Mobile:
+		Speed: 68
+	Armament:
+		Weapon: 155mm
+
+ATMOS:
+	Inherits: ARTY
+	RenderSprites:
+		Image: atmos
+	Buildable:
+		BuildPaletteOrder: 245
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-atmos.description
+	Valued:
+		Cost: 1280
+	Tooltip:
+		Name: actor-atmos.name
+		GenericName: actor-atmos.generic-name
+	Health:
+		HP: 32000
+	Mobile:
+		Speed: 70
+	Armament:
+		Weapon: 155mm
+
+MSTA2S19:
+	Inherits: ARTY
+	RenderSprites:
+		Image: msta2s19
+	Buildable:
+		BuildPaletteOrder: 246
+		Prerequisites: fix, ~vehicles.soviet, ~techlevel.high
+		Description: actor-msta2s19.description
+	Valued:
+		Cost: 1420
+	Tooltip:
+		Name: actor-msta2s19.name
+		GenericName: actor-msta2s19.generic-name
+	Health:
+		HP: 46000
+	Mobile:
+		Speed: 50
+	Armament:
+		Weapon: 152mm
+
+KOALITSIYA:
+	Inherits: ARTY
+	RenderSprites:
+		Image: koalitsiya
+	Buildable:
+		BuildPaletteOrder: 247
+		Prerequisites: fix, ~vehicles.soviet, ~techlevel.high
+		Description: actor-koalitsiya.description
+	Valued:
+		Cost: 1600
+	Tooltip:
+		Name: actor-koalitsiya.name
+		GenericName: actor-koalitsiya.generic-name
+	Health:
+		HP: 49000
+	Mobile:
+		Speed: 46
+	Armament:
+		Weapon: 152mm
+
+KRAB:
+	Inherits: ARTY
+	RenderSprites:
+		Image: krab
+	Buildable:
+		BuildPaletteOrder: 248
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-krab.description
+	Valued:
+		Cost: 1490
+	Tooltip:
+		Name: actor-krab.name
+		GenericName: actor-krab.generic-name
+	Health:
+		HP: 47000
+	Mobile:
+		Speed: 56
+	Armament:
+		Weapon: 155mm
+
+ZUZANA:
+	Inherits: ARTY
+	RenderSprites:
+		Image: zuzana
+	Buildable:
+		BuildPaletteOrder: 249
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-zuzana.description
+	Valued:
+		Cost: 1300
+	Tooltip:
+		Name: actor-zuzana.name
+		GenericName: actor-zuzana.generic-name
+	Health:
+		HP: 33000
+	Mobile:
+		Speed: 66
+	Armament:
+		Weapon: 155mm

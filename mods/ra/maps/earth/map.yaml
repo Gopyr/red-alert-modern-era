@@ -336,3 +336,83 @@ Actors:
 	ActorB7: MARTADINATA
 		Owner: Neutral
 		Location: 241,162
+	ActorSPG0: M109A7
+		Owner: Neutral
+		Location: 300,146
+		Facing: 64
+
+	ActorSPG1: PZH2000
+		Owner: Neutral
+		Location: 303,146
+		Facing: 64
+
+	ActorSPG2: CAESAR8X8
+		Owner: Neutral
+		Location: 306,146
+		Facing: 64
+
+	ActorSPG3: CAESAR6X6
+		Owner: Neutral
+		Location: 309,146
+		Facing: 64
+
+	ActorSPG4: ARCHER
+		Owner: Neutral
+		Location: 312,146
+		Facing: 64
+
+	ActorSPG5: K9A1
+		Owner: Neutral
+		Location: 315,146
+		Facing: 64
+
+	ActorSPG6: K9A2
+		Owner: Neutral
+		Location: 318,146
+		Facing: 64
+
+	ActorSPG7: FIRTINA
+		Owner: Neutral
+		Location: 321,146
+		Facing: 64
+
+	ActorSPG8: PLZ05
+		Owner: Neutral
+		Location: 324,152
+		Facing: 64
+
+	ActorSPG9: PLZ52
+		Owner: Neutral
+		Location: 327,152
+		Facing: 64
+
+	ActorSPG10: G6RHINO
+		Owner: Neutral
+		Location: 330,152
+		Facing: 64
+
+	ActorSPG11: ATMOS
+		Owner: Neutral
+		Location: 333,152
+		Facing: 64
+
+	ActorSPG12: MSTA2S19
+		Owner: Neutral
+		Location: 336,152
+		Facing: 64
+
+	ActorSPG13: KOALITSIYA
+		Owner: Neutral
+		Location: 339,152
+		Facing: 64
+
+	ActorSPG14: KRAB
+		Owner: Neutral
+		Location: 342,152
+		Facing: 64
+
+	ActorSPG15: ZUZANA
+		Owner: Neutral
+		Location: 345,152
+		Facing: 64
+

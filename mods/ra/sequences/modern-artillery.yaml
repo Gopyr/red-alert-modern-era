@@ -1,0 +1,177 @@
+# Modern Era self-propelled artillery sequences
+
+m109a7:
+	idle:
+		Filename: m109a7-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: m109a7-idle.png
+		Offset: -30,-30
+
+pzh2000:
+	idle:
+		Filename: pzh2000-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: pzh2000-idle.png
+		Offset: -30,-30
+
+caesar8x8:
+	idle:
+		Filename: caesar8x8-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: caesar8x8-idle.png
+		Offset: -30,-30
+
+caesar6x6:
+	idle:
+		Filename: caesar6x6-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: caesar6x6-idle.png
+		Offset: -30,-30
+
+archer:
+	idle:
+		Filename: archer-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: archer-idle.png
+		Offset: -30,-30
+
+k9a1:
+	idle:
+		Filename: k9a1-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: k9a1-idle.png
+		Offset: -30,-30
+
+k9a2:
+	idle:
+		Filename: k9a2-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: k9a2-idle.png
+		Offset: -30,-30
+
+firtina:
+	idle:
+		Filename: firtina-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: firtina-idle.png
+		Offset: -30,-30
+
+plz05:
+	idle:
+		Filename: plz05-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: plz05-idle.png
+		Offset: -30,-30
+
+plz52:
+	idle:
+		Filename: plz52-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: plz52-idle.png
+		Offset: -30,-30
+
+g6rhino:
+	idle:
+		Filename: g6rhino-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: g6rhino-idle.png
+		Offset: -30,-30
+
+atmos:
+	idle:
+		Filename: atmos-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: atmos-idle.png
+		Offset: -30,-30
+
+msta2s19:
+	idle:
+		Filename: msta2s19-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: msta2s19-idle.png
+		Offset: -30,-30
+
+koalitsiya:
+	idle:
+		Filename: koalitsiya-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: koalitsiya-idle.png
+		Offset: -30,-30
+
+krab:
+	idle:
+		Filename: krab-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: krab-idle.png
+		Offset: -30,-30
+
+zuzana:
+	idle:
+		Filename: zuzana-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: zuzana-idle.png
+		Offset: -30,-30
