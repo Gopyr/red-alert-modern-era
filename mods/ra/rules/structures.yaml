@@ -572,7 +572,7 @@ TSLA:
 		Prerequisites: weap, ~structures.soviet, ~techlevel.medium
 		Description: actor-tsla.description
 	Valued:
-		Cost: 1200
+		Cost: 0
 	Tooltip:
 		Name: actor-tsla.name
 	Selectable:
@@ -720,7 +720,7 @@ PBOX:
 		Prerequisites: tent, ~structures.allies, ~techlevel.low
 		Description: actor-pbox.description
 	Valued:
-		Cost: 600
+		Cost: 0
 	CustomSellValue:
 		Value: 400
 	Health:
@@ -840,7 +840,7 @@ GUN:
 		Prerequisites: tent, ~structures.allies, ~techlevel.medium
 		Description: actor-gun.description
 	Valued:
-		Cost: 800
+		Cost: 0
 	Tooltip:
 		Name: actor-gun.name
 	Building:

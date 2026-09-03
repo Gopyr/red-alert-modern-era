@@ -1,0 +1,59 @@
+# Modern Era - Defensive Walls & Trenches
+# CONB: Reinforced Concrete Barrier (modern HESCO-style)
+# TREN: Defensive Trench (cover for infantry)
+# Gopyr's mod additions - custom PNG sprites
+
+CONB:
+	Inherits: ^Wall
+	Buildable:
+		Queue: Defense
+		BuildPaletteOrder: 31
+		Prerequisites: fact, ~techlevel.medium
+		Description: actor-conb.description
+		Icon: icon
+	Valued:
+		Cost: 150
+	CustomSellValue:
+		Value: 50
+	Tooltip:
+		Name: actor-conb.name
+		GenericName: actor-conb.generic-name
+	Health:
+		HP: 30000
+	Armor:
+		Type: Concrete
+	LineBuild:
+		NodeTypes: wall
+	LineBuildNode:
+		Types: wall
+	WithWallSpriteBody:
+		Type: wall
+
+TREN:
+	Inherits: ^Wall
+	Buildable:
+		Queue: Defense
+		BuildPaletteOrder: 32
+		Prerequisites: tent, ~techlevel.low
+		Description: actor-tren.description
+		Icon: icon
+	Valued:
+		Cost: 50
+	CustomSellValue:
+		Value: 20
+	Tooltip:
+		Name: actor-tren.name
+		GenericName: actor-tren.generic-name
+	Health:
+		HP: 12000
+	Armor:
+		Type: Wood
+	Cargo:
+		MaxWeight: 1
+		Types: Infantry
+	LineBuild:
+		NodeTypes: trench
+	LineBuildNode:
+		Types: trench
+	WithWallSpriteBody:
+		Type: trench

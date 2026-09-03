@@ -1,6 +1,6 @@
 Metadata:
 	Title: mod-title
-	Version: v0.1.0-alpha
+	Version: v0.1.0-alpha.1
 	Website: https://www.openra.net
 	WebIcon32: https://www.openra.net/images/icons/ra_32x32.png
 	WindowTitle: mod-windowtitle
@@ -68,7 +68,7 @@ FileSystem: ContentInstallerFileSystem
 
 MapFolders:
 	ra|maps: System
-	~^SupportDir|maps/ra/v0.1.0-alpha: User
+	~^SupportDir|maps/ra/v0.1.0-alpha.1: User
 
 Rules:
 	ra|rules/misc.yaml
@@ -98,6 +98,7 @@ Rules:
 	ra|rules/modern-land.yaml
 	ra|rules/modern-naval.yaml
 	ra|rules/modern-generals.yaml
+	ra|rules/modern-walls.yaml
 
 Sequences:
 	ra|sequences/ships.yaml
@@ -112,6 +113,7 @@ Sequences:
 	ra|sequences/modern-land.yaml
 	ra|sequences/modern-naval.yaml
 	ra|sequences/modern-generals.yaml
+	ra|sequences/modern-walls.yaml
 	ra|sequences/misc.yaml
 	ra|sequences/decorations.yaml
 

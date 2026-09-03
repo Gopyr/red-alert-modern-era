@@ -1,0 +1,24 @@
+# Modern Era walls sequences
+conb:
+	Defaults:
+		Filename: conb.png
+	idle:
+		Length: 16
+	damaged-idle:
+		Filename: conb-damaged.png
+		Length: 16
+	icon:
+		Filename: conbicon.png
+		Offset: -30,-30
+
+tren:
+	Defaults:
+		Filename: tren.png
+	idle:
+		Length: 16
+	damaged-idle:
+		Filename: tren-damaged.png
+		Length: 16
+	icon:
+		Filename: trenicon.png
+		Offset: -30,-30

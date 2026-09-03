@@ -248,3 +248,21 @@ actor-flash =
       Strong vs Infantry and Buildings
       Weak vs Tanks
 
+
+actor-conb =
+    .name = Concrete Barrier
+    .generic-name = Wall
+    .description =
+    Reinforced modern concrete barrier.
+    Cheap, fast wall for defense.
+      Brakable by tanks and explosives
+      Provides cover from small arms
+
+actor-tren =
+    .name = Trench
+    .generic-name = Trench
+    .description =
+    Defensive trench for infantry cover.
+    Infantry can take cover inside.
+      Strong vs Infantry
+      Breakable by vehicles
