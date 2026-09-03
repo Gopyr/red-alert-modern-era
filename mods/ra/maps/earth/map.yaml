@@ -770,3 +770,83 @@ Actors:
 		Owner: Neutral
 		Location: 224,212
 		Facing: 64
+
+	ActorB640: MAXIMPRO
+		Owner: Neutral
+		Location: 40,222
+		Facing: 64
+
+	ActorB641: FH77BW
+		Owner: Neutral
+		Location: 44,222
+		Facing: 64
+
+	ActorB642: D30A2M
+		Owner: Neutral
+		Location: 48,222
+		Facing: 64
+
+	ActorB643: ATAGS
+		Owner: Neutral
+		Location: 52,222
+		Facing: 64
+
+	ActorB644: K9A1CC
+		Owner: Neutral
+		Location: 56,222
+		Facing: 64
+
+	ActorB645: PLZ52A1
+		Owner: Neutral
+		Location: 60,222
+		Facing: 64
+
+	ActorB646: M1064
+		Owner: Neutral
+		Location: 64,222
+		Facing: 64
+
+	ActorB647: B2USES
+		Owner: Neutral
+		Location: 68,222
+		Facing: 64
+
+	ActorB648: D60MM
+		Owner: Neutral
+		Location: 72,222
+		Facing: 64
+
+	ActorB649: D81MM
+		Owner: Neutral
+		Location: 76,222
+		Facing: 64
+
+	ActorB650: D120MM
+		Owner: Neutral
+		Location: 80,222
+		Facing: 64
+
+	ActorB651: D2S9NONA
+		Owner: Neutral
+		Location: 84,222
+		Facing: 64
+
+	ActorB652: D2S31VENA
+		Owner: Neutral
+		Location: 88,222
+		Facing: 64
+
+	ActorB653: STRALKGAGGA
+		Owner: Neutral
+		Location: 92,222
+		Facing: 64
+
+	ActorB654: M101
+		Owner: Neutral
+		Location: 96,222
+		Facing: 64
+
+	ActorB655: NHSASRCM
+		Owner: Neutral
+		Location: 100,222
+		Facing: 64

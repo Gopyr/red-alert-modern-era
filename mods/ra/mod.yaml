@@ -98,6 +98,7 @@ Rules:
 	ra|rules/modern-land.yaml
 	ra|rules/modern-naval.yaml
 	ra|rules/modern-generals.yaml
+	ra|rules/modern-batch10.yaml
 	ra|rules/modern-walls.yaml
 	ra|rules/modern-artillery.yaml
 	ra|rules/modern-artillery2.yaml
@@ -120,6 +121,7 @@ Sequences:
 	ra|sequences/modern-land.yaml
 	ra|sequences/modern-naval.yaml
 	ra|sequences/modern-generals.yaml
+	ra|sequences/modern-batch10.yaml
 	ra|sequences/modern-walls.yaml
 	ra|sequences/modern-artillery2.yaml
 	ra|sequences/modern-artillery.yaml
@@ -219,6 +221,7 @@ FluentMessages:
 	ra|fluent/modern6.ftl
 	ra|fluent/modern7.ftl
 	ra|fluent/modern8.ftl
+	ra|fluent/modern-batch10.ftl
 
 AllowUnusedFluentMessagesInExternalPackages: false
 

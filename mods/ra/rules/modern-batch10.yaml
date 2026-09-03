@@ -1,0 +1,322 @@
+# Modern Era - Batch 10: Mortar & Howitzer Continuation + British modernization
+# Mixed: SPG inherit ARTY, towed inherit ARTY (with 152mm/155mm weapons), mortars inherit ARTY (M120Mortar)
+
+MAXIMPRO:
+	Inherits: ARTY
+	RenderSprites:
+		Image: maximpro
+	Buildable:
+		BuildPaletteOrder: 400
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.high
+		Description: actor-maximpro.description
+	Valued:
+		Cost: 1200
+	Tooltip:
+		Name: actor-maximpro.name
+		GenericName: actor-maximpro.generic-name
+	Health:
+		HP: 25000
+	Mobile:
+		Speed: 52
+	Armament:
+		Weapon: 155mm
+
+FH77BW:
+	Inherits: ARTY
+	RenderSprites:
+		Image: fh77bw
+	Buildable:
+		BuildPaletteOrder: 401
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.high
+		Description: actor-fh77bw.description
+	Valued:
+		Cost: 1250
+	Tooltip:
+		Name: actor-fh77bw.name
+		GenericName: actor-fh77bw.generic-name
+	Health:
+		HP: 17500
+	Mobile:
+		Speed: 58
+	Armament:
+		Weapon: 155mm
+
+D30A2M:
+	Inherits: ARTY
+	RenderSprites:
+		Image: d30a2m
+	Buildable:
+		BuildPaletteOrder: 402
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-d30a2m.description
+	Valued:
+		Cost: 900
+	Tooltip:
+		Name: actor-d30a2m.name
+		GenericName: actor-d30a2m.generic-name
+	Health:
+		HP: 13000
+	Mobile:
+		Speed: 40
+	Armament:
+		Weapon: 152mm
+
+ATAGS:
+	Inherits: ARTY
+	RenderSprites:
+		Image: atags
+	Buildable:
+		BuildPaletteOrder: 403
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-atags.description
+	Valued:
+		Cost: 980
+	Tooltip:
+		Name: actor-atags.name
+		GenericName: actor-atags.generic-name
+	Health:
+		HP: 14000
+	Mobile:
+		Speed: 40
+	Armament:
+		Weapon: 155mm
+
+K9A1CC:
+	Inherits: ARTY
+	RenderSprites:
+		Image: k9a1cc
+	Buildable:
+		BuildPaletteOrder: 404
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.high
+		Description: actor-k9a1cc.description
+	Valued:
+		Cost: 1280
+	Tooltip:
+		Name: actor-k9a1cc.name
+		GenericName: actor-k9a1cc.generic-name
+	Health:
+		HP: 26000
+	Mobile:
+		Speed: 50
+	Armament:
+		Weapon: 155mm
+
+PLZ52A1:
+	Inherits: ARTY
+	RenderSprites:
+		Image: plz52a1
+	Buildable:
+		BuildPaletteOrder: 405
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.high
+		Description: actor-plz52a1.description
+	Valued:
+		Cost: 1320
+	Tooltip:
+		Name: actor-plz52a1.name
+		GenericName: actor-plz52a1.generic-name
+	Health:
+		HP: 27000
+	Mobile:
+		Speed: 50
+	Armament:
+		Weapon: 155mm
+
+M1064:
+	Inherits: ARTY
+	RenderSprites:
+		Image: m1064
+	Buildable:
+		BuildPaletteOrder: 406
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-m1064.description
+	Valued:
+		Cost: 850
+	Tooltip:
+		Name: actor-m1064.name
+		GenericName: actor-m1064.generic-name
+	Health:
+		HP: 18000
+	Mobile:
+		Speed: 60
+	Armament:
+		Weapon: M120Mortar
+
+B2USES:
+	Inherits: ARTY
+	RenderSprites:
+		Image: b2uses
+	Buildable:
+		BuildPaletteOrder: 407
+		Prerequisites: fix, ~vehicles.soviet, ~techlevel.medium
+		Description: actor-b2uses.description
+	Valued:
+		Cost: 780
+	Tooltip:
+		Name: actor-b2uses.name
+		GenericName: actor-b2uses.generic-name
+	Health:
+		HP: 11000
+	Mobile:
+		Speed: 40
+	Armament:
+		Weapon: M120Mortar
+
+D60MM:
+	Inherits: ARTY
+	RenderSprites:
+		Image: 60mm
+	Buildable:
+		BuildPaletteOrder: 408
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.low
+		Description: actor-60mm.description
+	Valued:
+		Cost: 500
+	Tooltip:
+		Name: actor-60mm.name
+		GenericName: actor-60mm.generic-name
+	Health:
+		HP: 9000
+	Mobile:
+		Speed: 35
+	Armament:
+		Weapon: M120Mortar
+
+D81MM:
+	Inherits: ARTY
+	RenderSprites:
+		Image: 81mm
+	Buildable:
+		BuildPaletteOrder: 409
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.low
+		Description: actor-81mm.description
+	Valued:
+		Cost: 600
+	Tooltip:
+		Name: actor-81mm.name
+		GenericName: actor-81mm.generic-name
+	Health:
+		HP: 10000
+	Mobile:
+		Speed: 35
+	Armament:
+		Weapon: M120Mortar
+
+D120MM:
+	Inherits: ARTY
+	RenderSprites:
+		Image: 120mm
+	Buildable:
+		BuildPaletteOrder: 410
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-120mm.description
+	Valued:
+		Cost: 700
+	Tooltip:
+		Name: actor-120mm.name
+		GenericName: actor-120mm.generic-name
+	Health:
+		HP: 11000
+	Mobile:
+		Speed: 30
+	Armament:
+		Weapon: M120Mortar
+
+D2S9NONA:
+	Inherits: ARTY
+	RenderSprites:
+		Image: 2s9nona
+	Buildable:
+		BuildPaletteOrder: 411
+		Prerequisites: fix, ~vehicles.soviet, ~techlevel.medium
+		Description: actor-2s9nona.description
+	Valued:
+		Cost: 990
+	Tooltip:
+		Name: actor-2s9nona.name
+		GenericName: actor-2s9nona.generic-name
+	Health:
+		HP: 20000
+	Mobile:
+		Speed: 52
+	Armament:
+		Weapon: M120Mortar
+
+D2S31VENA:
+	Inherits: ARTY
+	RenderSprites:
+		Image: 2s31vena
+	Buildable:
+		BuildPaletteOrder: 412
+		Prerequisites: fix, ~vehicles.soviet, ~techlevel.medium
+		Description: actor-2s31vena.description
+	Valued:
+		Cost: 950
+	Tooltip:
+		Name: actor-2s31vena.name
+		GenericName: actor-2s31vena.generic-name
+	Health:
+		HP: 19000
+	Mobile:
+		Speed: 52
+	Armament:
+		Weapon: M120Mortar
+
+STRALKGAGGA:
+	Inherits: ARTY
+	RenderSprites:
+		Image: stralkjagga
+	Buildable:
+		BuildPaletteOrder: 413
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.high
+		Description: actor-stralkjagga.description
+	Valued:
+		Cost: 1260
+	Tooltip:
+		Name: actor-stralkjagga.name
+		GenericName: actor-stralkjagga.generic-name
+	Health:
+		HP: 24000
+	Mobile:
+		Speed: 50
+	Armament:
+		Weapon: 155mm
+
+M101:
+	Inherits: ARTY
+	RenderSprites:
+		Image: m101
+	Buildable:
+		BuildPaletteOrder: 414
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-m101.description
+	Valued:
+		Cost: 880
+	Tooltip:
+		Name: actor-m101.name
+		GenericName: actor-m101.generic-name
+	Health:
+		HP: 11000
+	Mobile:
+		Speed: 40
+	Armament:
+		Weapon: 155mm
+
+NHSASRCM:
+	Inherits: ARTY
+	RenderSprites:
+		Image: nhsasrcm
+	Buildable:
+		BuildPaletteOrder: 415
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.high
+		Description: actor-nhsasrcm.description
+	Valued:
+		Cost: 1180
+	Tooltip:
+		Name: actor-nhsasrcm.name
+		GenericName: actor-nhsasrcm.generic-name
+	Health:
+		HP: 23000
+	Mobile:
+		Speed: 52
+	Armament:
+		Weapon: 155mm

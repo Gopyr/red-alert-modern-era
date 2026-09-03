@@ -747,6 +747,87 @@ Actors:
 		Location: 252,52
 		Facing: 96
 
+
+	ActorSC202: MAXIMPRO
+		Owner: Neutral
+		Location: 40,62
+		Facing: 96
+
+	ActorSC203: FH77BW
+		Owner: Neutral
+		Location: 44,62
+		Facing: 96
+
+	ActorSC204: D30A2M
+		Owner: Neutral
+		Location: 48,62
+		Facing: 96
+
+	ActorSC205: ATAGS
+		Owner: Neutral
+		Location: 52,62
+		Facing: 96
+
+	ActorSC206: K9A1CC
+		Owner: Neutral
+		Location: 56,62
+		Facing: 96
+
+	ActorSC207: PLZ52A1
+		Owner: Neutral
+		Location: 60,62
+		Facing: 96
+
+	ActorSC208: M1064
+		Owner: Neutral
+		Location: 64,62
+		Facing: 96
+
+	ActorSC209: B2USES
+		Owner: Neutral
+		Location: 68,62
+		Facing: 96
+
+	ActorSC210: D60MM
+		Owner: Neutral
+		Location: 72,62
+		Facing: 96
+
+	ActorSC211: D81MM
+		Owner: Neutral
+		Location: 76,62
+		Facing: 96
+
+	ActorSC212: D120MM
+		Owner: Neutral
+		Location: 80,62
+		Facing: 96
+
+	ActorSC213: D2S9NONA
+		Owner: Neutral
+		Location: 84,62
+		Facing: 96
+
+	ActorSC214: D2S31VENA
+		Owner: Neutral
+		Location: 88,62
+		Facing: 96
+
+	ActorSC215: STRALKGAGGA
+		Owner: Neutral
+		Location: 92,62
+		Facing: 96
+
+	ActorSC216: M101
+		Owner: Neutral
+		Location: 96,62
+		Facing: 96
+
+	ActorSC217: NHSASRCM
+		Owner: Neutral
+		Location: 100,62
+		Facing: 96
+
 	ActorSC143: OHIO
 		Owner: Neutral
 		Location: 44,180
@@ -1041,4 +1122,4 @@ Actors:
 		Owner: Neutral
 		Location: 100,188
 		Facing: 96
-ActorCount: 203
+ActorCount: 219
