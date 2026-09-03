@@ -566,7 +566,207 @@ Actors:
 		Location: 364,184
 		Facing: 64
 
-	ActorB2530: ABEREGG
+	ActorB2530: ABEREG
 		Owner: Neutral
 		Location: 380,186
+		Facing: 64
+
+	ActorB60: PLZ500
+		Owner: Neutral
+		Location: 200,192
+		Facing: 64
+
+	ActorB61: HQ17A
+		Owner: Neutral
+		Location: 204,192
+		Facing: 64
+
+	ActorB62: HQ16FE
+		Owner: Neutral
+		Location: 208,192
+		Facing: 64
+
+	ActorB63: HQ9FE
+		Owner: Neutral
+		Location: 212,192
+		Facing: 64
+
+	ActorB64: PANTSIRM2
+		Owner: Neutral
+		Location: 216,192
+		Facing: 64
+
+	ActorB65: TUNGUSKAM1
+		Owner: Neutral
+		Location: 220,192
+		Facing: 64
+
+	ActorB66: AKIZUKI
+		Owner: Neutral
+		Location: 200,198
+		Facing: 64
+
+	ActorB67: ATAGO
+		Owner: Neutral
+		Location: 204,198
+		Facing: 64
+
+	ActorB68: DAEWOO
+		Owner: Neutral
+		Location: 208,198
+		Facing: 64
+
+	ActorB69: MEKOA200
+		Owner: Neutral
+		Location: 212,198
+		Facing: 64
+
+	ActorB610: BELHARRAS
+		Owner: Neutral
+		Location: 216,198
+		Facing: 64
+
+	ActorB611: SIGMA10514
+		Owner: Neutral
+		Location: 220,198
+		Facing: 64
+
+	ActorB612: FREMM
+		Owner: Neutral
+		Location: 200,202
+		Facing: 64
+
+	ActorB613: KERNOX
+		Owner: Neutral
+		Location: 204,202
+		Facing: 64
+
+	ActorB614: BABUR
+		Owner: Neutral
+		Location: 208,202
+		Facing: 64
+
+	ActorB615: KEDIRI
+		Owner: Neutral
+		Location: 212,202
+		Facing: 64
+
+	ActorB616: CONSTELLATION
+		Owner: Neutral
+		Location: 216,202
+		Facing: 64
+
+	ActorB617: ABAYA
+		Owner: Neutral
+		Location: 220,202
+		Facing: 64
+
+	ActorB618: CVB
+		Owner: Neutral
+		Location: 340,178
+		Facing: 64
+
+	ActorB619: LHB1
+		Owner: Neutral
+		Location: 345,178
+		Facing: 64
+
+	ActorB620: LHB2
+		Owner: Neutral
+		Location: 350,178
+		Facing: 64
+
+	ActorB621: LHB3
+		Owner: Neutral
+		Location: 355,178
+		Facing: 64
+
+	ActorB622: LHA
+		Owner: Neutral
+		Location: 340,184
+		Facing: 64
+
+	ActorB623: LHA1
+		Owner: Neutral
+		Location: 345,184
+		Facing: 64
+
+	ActorB624: LHA2
+		Owner: Neutral
+		Location: 350,184
+		Facing: 64
+
+	ActorB625: PLXBMB
+		Owner: Neutral
+		Location: 355,184
+		Facing: 64
+
+	ActorB626: COMBATENGINEER
+		Owner: Neutral
+		Location: 200,208
+		Facing: 64
+
+	ActorB627: AAV7A1
+		Owner: Neutral
+		Location: 204,208
+		Facing: 64
+
+	ActorB628: AAV7A1RAM
+		Owner: Neutral
+		Location: 208,208
+		Facing: 64
+
+	ActorB629: LAV25
+		Owner: Neutral
+		Location: 212,208
+		Facing: 64
+
+	ActorB630: LAV25COYOTE
+		Owner: Neutral
+		Location: 216,208
+		Facing: 64
+
+	ActorB631: JLTV
+		Owner: Neutral
+		Location: 220,208
+		Facing: 64
+
+	ActorB632: BOXER
+		Owner: Neutral
+		Location: 224,208
+		Facing: 64
+
+	ActorB633: BTR82A
+		Owner: Neutral
+		Location: 200,212
+		Facing: 64
+
+	ActorB634: T15IFV
+		Owner: Neutral
+		Location: 204,212
+		Facing: 64
+
+	ActorB635: T15ARMATA
+		Owner: Neutral
+		Location: 208,212
+		Facing: 64
+
+	ActorB636: BMPT
+		Owner: Neutral
+		Location: 212,212
+		Facing: 64
+
+	ActorB637: KURGANETS
+		Owner: Neutral
+		Location: 216,212
+		Facing: 64
+
+	ActorB638: BUMBAR
+		Owner: Neutral
+		Location: 220,212
+		Facing: 64
+
+	ActorB639: TERMITEOPV
+		Owner: Neutral
+		Location: 224,212
 		Facing: 64

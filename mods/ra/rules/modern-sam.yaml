@@ -1,0 +1,170 @@
+# Modern Era - SAM tracked vehicles (Batch 6)
+
+PLZ500:
+	Inherits: ^Vehicle
+	Inherits@AUTOTARGET: ^AutoTargetAir
+	RenderSprites:
+		Image: plz500
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 281
+		Prerequisites: fix, ~vehicles.soviet, ~techlevel.high
+		Description: actor-plz500.description
+	Valued:
+		Cost: 1100
+	Tooltip:
+		Name: actor-plz500.name
+		GenericName: actor-plz500.generic-name
+	Health:
+		HP: 18000
+	Armor:
+		Type: Light
+	Mobile:
+		TurnSpeed: 35
+		Speed: 65
+	RevealsShroud:
+		Range: 7c0
+	AttackFrontal:
+	Armament:
+		Weapon: SAM
+
+HQ17A:
+	Inherits: ^Vehicle
+	Inherits@AUTOTARGET: ^AutoTargetAir
+	RenderSprites:
+		Image: hq17a
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 282
+		Prerequisites: fix, ~vehicles.soviet, ~techlevel.high
+		Description: actor-hq17a.description
+	Valued:
+		Cost: 1200
+	Tooltip:
+		Name: actor-hq17a.name
+		GenericName: actor-hq17a.generic-name
+	Health:
+		HP: 19000
+	Armor:
+		Type: Light
+	Mobile:
+		TurnSpeed: 35
+		Speed: 60
+	RevealsShroud:
+		Range: 7c0
+	AttackFrontal:
+	Armament:
+		Weapon: SAM
+
+HQ16FE:
+	Inherits: ^Vehicle
+	Inherits@AUTOTARGET: ^AutoTargetAir
+	RenderSprites:
+		Image: hq16fe
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 283
+		Prerequisites: fix, ~vehicles.soviet, ~techlevel.high
+		Description: actor-hq16fe.description
+	Valued:
+		Cost: 1250
+	Tooltip:
+		Name: actor-hq16fe.name
+		GenericName: actor-hq16fe.generic-name
+	Health:
+		HP: 20000
+	Armor:
+		Type: Light
+	Mobile:
+		TurnSpeed: 35
+		Speed: 58
+	RevealsShroud:
+		Range: 7c0
+	AttackFrontal:
+	Armament:
+		Weapon: SAMLong
+
+HQ9FE:
+	Inherits: ^Vehicle
+	Inherits@AUTOTARGET: ^AutoTargetAir
+	RenderSprites:
+		Image: hq9fe
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 284
+		Prerequisites: fix, ~vehicles.soviet, ~techlevel.high
+		Description: actor-hq9fe.description
+	Valued:
+		Cost: 1400
+	Tooltip:
+		Name: actor-hq9fe.name
+		GenericName: actor-hq9fe.generic-name
+	Health:
+		HP: 22000
+	Armor:
+		Type: Light
+	Mobile:
+		TurnSpeed: 35
+		Speed: 55
+	RevealsShroud:
+		Range: 7c0
+	AttackFrontal:
+	Armament:
+		Weapon: SAMLong
+
+PANTSIRM2:
+	Inherits: ^Vehicle
+	Inherits@AUTOTARGET: ^AutoTargetAir
+	RenderSprites:
+		Image: pantsirm2
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 285
+		Prerequisites: fix, ~vehicles.soviet, ~techlevel.high
+		Description: actor-pantsirm2.description
+	Valued:
+		Cost: 1350
+	Tooltip:
+		Name: actor-pantsirm2.name
+		GenericName: actor-pantsirm2.generic-name
+	Health:
+		HP: 21000
+	Armor:
+		Type: Light
+	Mobile:
+		TurnSpeed: 35
+		Speed: 70
+	RevealsShroud:
+		Range: 7c0
+	AttackFrontal:
+	Armament:
+		Weapon: SAM
+
+TUNGUSKAM1:
+	Inherits: ^Vehicle
+	Inherits@AUTOTARGET: ^AutoTargetAir
+	RenderSprites:
+		Image: tunguskam1
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 286
+		Prerequisites: fix, ~vehicles.soviet, ~techlevel.high
+		Description: actor-tunguskam1.description
+	Valued:
+		Cost: 1280
+	Tooltip:
+		Name: actor-tunguskam1.name
+		GenericName: actor-tunguskam1.generic-name
+	Health:
+		HP: 20000
+	Armor:
+		Type: Light
+	Mobile:
+		TurnSpeed: 35
+		Speed: 72
+	RevealsShroud:
+		Range: 7c0
+	AttackFrontal:
+	Armament:
+		Weapon: SAM
+

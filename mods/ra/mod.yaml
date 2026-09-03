@@ -101,6 +101,10 @@ Rules:
 	ra|rules/modern-walls.yaml
 	ra|rules/modern-artillery.yaml
 	ra|rules/modern-artillery2.yaml
+	ra|rules/modern-sam.yaml
+	ra|rules/modern-frigate.yaml
+	ra|rules/modern-vehicles.yaml
+	ra|rules/modern-capitalship.yaml
 	ra|rules/modern-artillery.yaml
 
 Sequences:
@@ -117,9 +121,12 @@ Sequences:
 	ra|sequences/modern-naval.yaml
 	ra|sequences/modern-generals.yaml
 	ra|sequences/modern-walls.yaml
-	ra|sequences/modern-artillery.yaml
 	ra|sequences/modern-artillery2.yaml
 	ra|sequences/modern-artillery.yaml
+	ra|sequences/modern-sam.yaml
+	ra|sequences/modern-frigate.yaml
+	ra|sequences/modern-vehicles.yaml
+	ra|sequences/modern-capitalship.yaml
 	ra|sequences/misc.yaml
 	ra|sequences/decorations.yaml
 
@@ -211,6 +218,7 @@ FluentMessages:
 	ra|fluent/modern5.ftl
 	ra|fluent/modern6.ftl
 	ra|fluent/modern7.ftl
+	ra|fluent/modern8.ftl
 
 AllowUnusedFluentMessagesInExternalPackages: false
 
@@ -223,6 +231,7 @@ Weapons:
 	ra|weapons/modern-weapons.yaml
 	ra|weapons/superweapons.yaml
 	ra|weapons/artillery152.yaml
+	ra|weapons/modern-aa.yaml
 
 Voices:
 	ra|audio/voices.yaml

@@ -1,0 +1,49 @@
+# Modern Era - SAM & autocannon weapons (Batch 6, 7, 9)
+SAM:
+	Inherits: ^AntiAirMissile
+	ReloadDelay: 45
+	Range: 10c0
+	Projectile: Missile
+		Inaccuracy: 0
+		HorizontalRateOfTurn: 100
+		Speed: 320
+		RangeLimit: 11c0
+	Warhead@1Dam: SpreadDamage
+		Damage: 3600
+		Versus:
+			None: 20
+			Wood: 15
+			Light: 75
+			Heavy: 45
+	Warhead@3Eff: CreateEffect
+		Explosions: med_explosion_air
+		ImpactSounds: kaboom25.aud
+SAMLong:
+	Inherits: ^AntiAirMissile
+	ReloadDelay: 60
+	Range: 14c0
+	Projectile: Missile
+		Inaccuracy: 0
+		Speed: 350
+		RangeLimit: 15c0
+	Warhead@1Dam: SpreadDamage
+		Damage: 5200
+		Versus:
+			None: 25
+			Wood: 20
+			Light: 90
+			Heavy: 60
+Gun30mm:
+	Inherits: ^Cannon
+	ReloadDelay: 18
+	Range: 4c0
+	Report: mgun2.aud
+	Projectile: Bullet
+		Speed: 250
+	Warhead@1Dam: SpreadDamage
+		Damage: 800
+		Versus:
+			None: 60
+			Wood: 40
+			Light: 60
+			Heavy: 30

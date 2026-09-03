@@ -1,0 +1,67 @@
+# Modern Era SAM sequences
+
+plz500:
+	idle:
+		Filename: plz500-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: plz500-idle.png
+		Offset: -30,-30
+
+hq17a:
+	idle:
+		Filename: hq17a-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: hq17a-idle.png
+		Offset: -30,-30
+
+hq16fe:
+	idle:
+		Filename: hq16fe-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: hq16fe-idle.png
+		Offset: -30,-30
+
+hq9fe:
+	idle:
+		Filename: hq9fe-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: hq9fe-idle.png
+		Offset: -30,-30
+
+pantsirm2:
+	idle:
+		Filename: pantsirm2-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: pantsirm2-idle.png
+		Offset: -30,-30
+
+tunguskam1:
+	idle:
+		Filename: tunguskam1-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: tunguskam1-idle.png
+		Offset: -30,-30

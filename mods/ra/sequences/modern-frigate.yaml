@@ -1,0 +1,109 @@
+# Modern Era frigate sequences
+
+akizuki:
+	Defaults:
+		Filename: akizuki-idle.png
+	idle:
+		Facings: 8
+	icon:
+		Filename: akizuki-idle.png
+		Offset: -48,-48
+
+atago:
+	Defaults:
+		Filename: atago-idle.png
+	idle:
+		Facings: 8
+	icon:
+		Filename: atago-idle.png
+		Offset: -48,-48
+
+daewoo:
+	Defaults:
+		Filename: daewoo-idle.png
+	idle:
+		Facings: 8
+	icon:
+		Filename: daewoo-idle.png
+		Offset: -48,-48
+
+mekoa200:
+	Defaults:
+		Filename: mekoa200-idle.png
+	idle:
+		Facings: 8
+	icon:
+		Filename: mekoa200-idle.png
+		Offset: -48,-48
+
+belharras:
+	Defaults:
+		Filename: belharras-idle.png
+	idle:
+		Facings: 8
+	icon:
+		Filename: belharras-idle.png
+		Offset: -48,-48
+
+sigma10514:
+	Defaults:
+		Filename: sigma10514-idle.png
+	idle:
+		Facings: 8
+	icon:
+		Filename: sigma10514-idle.png
+		Offset: -48,-48
+
+fremm:
+	Defaults:
+		Filename: fremm-idle.png
+	idle:
+		Facings: 8
+	icon:
+		Filename: fremm-idle.png
+		Offset: -48,-48
+
+kernox:
+	Defaults:
+		Filename: kernox-idle.png
+	idle:
+		Facings: 8
+	icon:
+		Filename: kernox-idle.png
+		Offset: -48,-48
+
+babur:
+	Defaults:
+		Filename: babur-idle.png
+	idle:
+		Facings: 8
+	icon:
+		Filename: babur-idle.png
+		Offset: -48,-48
+
+kediri:
+	Defaults:
+		Filename: kediri-idle.png
+	idle:
+		Facings: 8
+	icon:
+		Filename: kediri-idle.png
+		Offset: -48,-48
+
+constellation:
+	Defaults:
+		Filename: constellation-idle.png
+	idle:
+		Facings: 8
+	icon:
+		Filename: constellation-idle.png
+		Offset: -48,-48
+
+abaya:
+	Defaults:
+		Filename: abaya-idle.png
+	idle:
+		Facings: 8
+	icon:
+		Filename: abaya-idle.png
+		Offset: -48,-48

@@ -1,0 +1,194 @@
+# Modern Era - Capital ships as buildings (Batch 8)
+
+CVB:
+	Inherits: ^Building
+	RenderSprites:
+		Image: cvb
+	Building:
+		Footprint: xxxxxxxxxx
+		Dimensions: 5, 2
+	Buildable:
+		Queue: Building
+		BuildPaletteOrder: 317
+		Prerequisites: fix, ~techlevel.low
+		Description: actor-cvb.description
+	Valued:
+		Cost: 3000
+	Tooltip:
+		Name: actor-cvb.name
+		GenericName: actor-cvb.generic-name
+	Health:
+		HP: 200000
+	Armor:
+		Type: Heavy
+	Power:
+		Amount: 250
+
+LHB1:
+	Inherits: ^Building
+	RenderSprites:
+		Image: lhb1
+	Building:
+		Footprint: xxxxxxxxxx
+		Dimensions: 5, 2
+	Buildable:
+		Queue: Building
+		BuildPaletteOrder: 318
+		Prerequisites: fix, ~techlevel.low
+		Description: actor-lhb1.description
+	Valued:
+		Cost: 2600
+	Tooltip:
+		Name: actor-lhb1.name
+		GenericName: actor-lhb1.generic-name
+	Health:
+		HP: 150000
+	Armor:
+		Type: Heavy
+	Power:
+		Amount: 250
+
+LHB2:
+	Inherits: ^Building
+	RenderSprites:
+		Image: lhb2
+	Building:
+		Footprint: xxxxxxxxxx
+		Dimensions: 5, 2
+	Buildable:
+		Queue: Building
+		BuildPaletteOrder: 319
+		Prerequisites: fix, ~techlevel.low
+		Description: actor-lhb2.description
+	Valued:
+		Cost: 2550
+	Tooltip:
+		Name: actor-lhb2.name
+		GenericName: actor-lhb2.generic-name
+	Health:
+		HP: 148000
+	Armor:
+		Type: Heavy
+	Power:
+		Amount: 250
+
+LHB3:
+	Inherits: ^Building
+	RenderSprites:
+		Image: lhb3
+	Building:
+		Footprint: xxxxxxxxxx
+		Dimensions: 5, 2
+	Buildable:
+		Queue: Building
+		BuildPaletteOrder: 320
+		Prerequisites: fix, ~techlevel.low
+		Description: actor-lhb3.description
+	Valued:
+		Cost: 2500
+	Tooltip:
+		Name: actor-lhb3.name
+		GenericName: actor-lhb3.generic-name
+	Health:
+		HP: 145000
+	Armor:
+		Type: Heavy
+	Power:
+		Amount: 250
+
+LHA:
+	Inherits: ^Building
+	RenderSprites:
+		Image: lha
+	Building:
+		Footprint: xxxxxxxxxx
+		Dimensions: 5, 2
+	Buildable:
+		Queue: Building
+		BuildPaletteOrder: 321
+		Prerequisites: fix, ~techlevel.low
+		Description: actor-lha.description
+	Valued:
+		Cost: 2400
+	Tooltip:
+		Name: actor-lha.name
+		GenericName: actor-lha.generic-name
+	Health:
+		HP: 140000
+	Armor:
+		Type: Heavy
+	Power:
+		Amount: 250
+
+LHA1:
+	Inherits: ^Building
+	RenderSprites:
+		Image: lha1
+	Building:
+		Footprint: xxxxxxxxxx
+		Dimensions: 5, 2
+	Buildable:
+		Queue: Building
+		BuildPaletteOrder: 322
+		Prerequisites: fix, ~techlevel.low
+		Description: actor-lha1.description
+	Valued:
+		Cost: 2350
+	Tooltip:
+		Name: actor-lha1.name
+		GenericName: actor-lha1.generic-name
+	Health:
+		HP: 138000
+	Armor:
+		Type: Heavy
+	Power:
+		Amount: 250
+
+LHA2:
+	Inherits: ^Building
+	RenderSprites:
+		Image: lha2
+	Building:
+		Footprint: xxxxxxxxxx
+		Dimensions: 5, 2
+	Buildable:
+		Queue: Building
+		BuildPaletteOrder: 323
+		Prerequisites: fix, ~techlevel.low
+		Description: actor-lha2.description
+	Valued:
+		Cost: 2380
+	Tooltip:
+		Name: actor-lha2.name
+		GenericName: actor-lha2.generic-name
+	Health:
+		HP: 139000
+	Armor:
+		Type: Heavy
+	Power:
+		Amount: 250
+
+PLXBMB:
+	Inherits: ^Building
+	RenderSprites:
+		Image: plxbmb
+	Building:
+		Footprint: xxxxxxxxxx
+		Dimensions: 5, 2
+	Buildable:
+		Queue: Building
+		BuildPaletteOrder: 324
+		Prerequisites: fix, ~techlevel.low
+		Description: actor-plxbmb.description
+	Valued:
+		Cost: 2800
+	Tooltip:
+		Name: actor-plxbmb.name
+		GenericName: actor-plxbmb.generic-name
+	Health:
+		HP: 175000
+	Armor:
+		Type: Heavy
+	Power:
+		Amount: 250
+

@@ -1,0 +1,397 @@
+# Modern Era - Ground vehicles (Batch 9)
+
+COMBATENGINEER:
+	Inherits: ^Vehicle
+	Inherits@AUTOTARGET: ^AutoTargetAllAssaultMove
+	RenderSprites:
+		Image: combatengineer
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 303
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.low
+		Description: actor-combatengineer.description
+	Valued:
+		Cost: 700
+	Tooltip:
+		Name: actor-combatengineer.name
+		GenericName: actor-combatengineer.generic-name
+	Health:
+		HP: 14000
+	Armor:
+		Type: Light
+	Mobile:
+		TurnSpeed: 40
+		Speed: 60
+	RevealsShroud:
+		Range: 7c0
+	AttackFrontal:
+	Armament:
+		Weapon: M60mg
+
+AAV7A1:
+	Inherits: ^Vehicle
+	Inherits@AUTOTARGET: ^AutoTargetAllAssaultMove
+	RenderSprites:
+		Image: aav7a1
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 304
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-aav7a1.description
+	Valued:
+		Cost: 850
+	Tooltip:
+		Name: actor-aav7a1.name
+		GenericName: actor-aav7a1.generic-name
+	Health:
+		HP: 17000
+	Armor:
+		Type: Light
+	Mobile:
+		TurnSpeed: 40
+		Speed: 50
+	RevealsShroud:
+		Range: 7c0
+	AttackFrontal:
+	Armament:
+		Weapon: M60mg
+
+AAV7A1RAM:
+	Inherits: ^Vehicle
+	Inherits@AUTOTARGET: ^AutoTargetAllAssaultMove
+	RenderSprites:
+		Image: aav7a1ram
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 305
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-aav7a1ram.description
+	Valued:
+		Cost: 900
+	Tooltip:
+		Name: actor-aav7a1ram.name
+		GenericName: actor-aav7a1ram.generic-name
+	Health:
+		HP: 18000
+	Armor:
+		Type: Light
+	Mobile:
+		TurnSpeed: 40
+		Speed: 50
+	RevealsShroud:
+		Range: 7c0
+	AttackFrontal:
+	Armament:
+		Weapon: Gun30mm
+
+LAV25:
+	Inherits: ^Vehicle
+	Inherits@AUTOTARGET: ^AutoTargetAllAssaultMove
+	RenderSprites:
+		Image: lav25
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 306
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-lav25.description
+	Valued:
+		Cost: 820
+	Tooltip:
+		Name: actor-lav25.name
+		GenericName: actor-lav25.generic-name
+	Health:
+		HP: 16000
+	Armor:
+		Type: Light
+	Mobile:
+		TurnSpeed: 40
+		Speed: 72
+	RevealsShroud:
+		Range: 7c0
+	AttackFrontal:
+	Armament:
+		Weapon: Gun30mm
+
+LAV25COYOTE:
+	Inherits: ^Vehicle
+	Inherits@AUTOTARGET: ^AutoTargetAllAssaultMove
+	RenderSprites:
+		Image: lav25coyote
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 307
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-lav25coyote.description
+	Valued:
+		Cost: 850
+	Tooltip:
+		Name: actor-lav25coyote.name
+		GenericName: actor-lav25coyote.generic-name
+	Health:
+		HP: 16500
+	Armor:
+		Type: Light
+	Mobile:
+		TurnSpeed: 40
+		Speed: 74
+	RevealsShroud:
+		Range: 7c0
+	AttackFrontal:
+	Armament:
+		Weapon: Gun30mm
+
+JLTV:
+	Inherits: ^Vehicle
+	Inherits@AUTOTARGET: ^AutoTargetAllAssaultMove
+	RenderSprites:
+		Image: jltv
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 308
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.low
+		Description: actor-jltv.description
+	Valued:
+		Cost: 650
+	Tooltip:
+		Name: actor-jltv.name
+		GenericName: actor-jltv.generic-name
+	Health:
+		HP: 12000
+	Armor:
+		Type: Light
+	Mobile:
+		TurnSpeed: 40
+		Speed: 95
+	RevealsShroud:
+		Range: 7c0
+	AttackFrontal:
+	Armament:
+		Weapon: M60mg
+
+BOXER:
+	Inherits: ^Vehicle
+	Inherits@AUTOTARGET: ^AutoTargetAllAssaultMove
+	RenderSprites:
+		Image: boxer
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 309
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-boxer.description
+	Valued:
+		Cost: 950
+	Tooltip:
+		Name: actor-boxer.name
+		GenericName: actor-boxer.generic-name
+	Health:
+		HP: 19000
+	Armor:
+		Type: Light
+	Mobile:
+		TurnSpeed: 40
+		Speed: 68
+	RevealsShroud:
+		Range: 7c0
+	AttackFrontal:
+	Armament:
+		Weapon: Gun30mm
+
+BTR82A:
+	Inherits: ^Vehicle
+	Inherits@AUTOTARGET: ^AutoTargetAllAssaultMove
+	RenderSprites:
+		Image: btr82a
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 310
+		Prerequisites: fix, ~vehicles.soviet, ~techlevel.medium
+		Description: actor-btr82a.description
+	Valued:
+		Cost: 880
+	Tooltip:
+		Name: actor-btr82a.name
+		GenericName: actor-btr82a.generic-name
+	Health:
+		HP: 18000
+	Armor:
+		Type: Light
+	Mobile:
+		TurnSpeed: 40
+		Speed: 78
+	RevealsShroud:
+		Range: 7c0
+	AttackFrontal:
+	Armament:
+		Weapon: Gun30mm
+
+T15IFV:
+	Inherits: ^Vehicle
+	Inherits@AUTOTARGET: ^AutoTargetAllAssaultMove
+	RenderSprites:
+		Image: t15
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 311
+		Prerequisites: fix, ~vehicles.soviet, ~techlevel.high
+		Description: actor-t15.description
+	Valued:
+		Cost: 1300
+	Tooltip:
+		Name: actor-t15.name
+		GenericName: actor-t15.generic-name
+	Health:
+		HP: 26000
+	Armor:
+		Type: Light
+	Mobile:
+		TurnSpeed: 40
+		Speed: 55
+	RevealsShroud:
+		Range: 7c0
+	AttackFrontal:
+	Armament:
+		Weapon: 120mm
+
+T15ARMATA:
+	Inherits: ^Vehicle
+	Inherits@AUTOTARGET: ^AutoTargetAllAssaultMove
+	RenderSprites:
+		Image: t15armata
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 312
+		Prerequisites: fix, ~vehicles.soviet, ~techlevel.high
+		Description: actor-t15armata.description
+	Valued:
+		Cost: 1400
+	Tooltip:
+		Name: actor-t15armata.name
+		GenericName: actor-t15armata.generic-name
+	Health:
+		HP: 28000
+	Armor:
+		Type: Light
+	Mobile:
+		TurnSpeed: 40
+		Speed: 55
+	RevealsShroud:
+		Range: 7c0
+	AttackFrontal:
+	Armament:
+		Weapon: 120mm
+
+BMPT:
+	Inherits: ^Vehicle
+	Inherits@AUTOTARGET: ^AutoTargetAllAssaultMove
+	RenderSprites:
+		Image: bmpt
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 313
+		Prerequisites: fix, ~vehicles.soviet, ~techlevel.high
+		Description: actor-bmpt.description
+	Valued:
+		Cost: 1200
+	Tooltip:
+		Name: actor-bmpt.name
+		GenericName: actor-bmpt.generic-name
+	Health:
+		HP: 24000
+	Armor:
+		Type: Light
+	Mobile:
+		TurnSpeed: 40
+		Speed: 60
+	RevealsShroud:
+		Range: 7c0
+	AttackFrontal:
+	Armament:
+		Weapon: Maverick
+
+KURGANETS:
+	Inherits: ^Vehicle
+	Inherits@AUTOTARGET: ^AutoTargetAllAssaultMove
+	RenderSprites:
+		Image: kurganets
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 314
+		Prerequisites: fix, ~vehicles.soviet, ~techlevel.high
+		Description: actor-kurganets.description
+	Valued:
+		Cost: 1250
+	Tooltip:
+		Name: actor-kurganets.name
+		GenericName: actor-kurganets.generic-name
+	Health:
+		HP: 25000
+	Armor:
+		Type: Light
+	Mobile:
+		TurnSpeed: 40
+		Speed: 58
+	RevealsShroud:
+		Range: 7c0
+	AttackFrontal:
+	Armament:
+		Weapon: Maverick
+
+BUMBAR:
+	Inherits: ^Vehicle
+	Inherits@AUTOTARGET: ^AutoTargetAllAssaultMove
+	RenderSprites:
+		Image: bumbar
+	Buildable:
+		Queue: Vehicle
+		BuildPaletteOrder: 315
+		Prerequisites: fix, ~vehicles.allies, ~techlevel.medium
+		Description: actor-bumbar.description
+	Valued:
+		Cost: 900
+	Tooltip:
+		Name: actor-bumbar.name
+		GenericName: actor-bumbar.generic-name
+	Health:
+		HP: 18000
+	Armor:
+		Type: Light
+	Mobile:
+		TurnSpeed: 40
+		Speed: 62
+	RevealsShroud:
+		Range: 7c0
+	AttackFrontal:
+	Armament:
+		Weapon: M60mg
+
+
+TERMITEOPV:
+	Inherits: ^Ship
+	Inherits@AUTOTARGET: ^AutoTargetGroundAssaultMove
+	RenderSprites:
+		Image: termiteopv
+	Buildable:
+		Queue: Ship
+		BuildAtProductionType: Boat
+		BuildPaletteOrder: 316
+		Prerequisites: ~syrd, ~techlevel.medium
+		Description: actor-termiteopv.description
+	Valued:
+		Cost: 1450
+	Tooltip:
+		Name: actor-termiteopv.name
+		GenericName: actor-termiteopv.generic-name
+	Health:
+		HP: 40000
+	Armor:
+		Type: Heavy
+	Mobile:
+		TurnSpeed: 25
+		Speed: 90
+	RevealsShroud:
+		Range: 8c0
+	Armament@PRIMARY:
+		Weapon: Stinger
+	Armament@ANTIAIR:
+		Weapon: StingerAA
+	AttackFrontal:

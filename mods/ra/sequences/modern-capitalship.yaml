@@ -1,0 +1,73 @@
+# Modern Era capital ship building sequences
+
+cvb:
+	idle:
+		Filename: cvb-idle.png
+	make:
+		Filename: cvb-idle.png
+		Length: 1
+	icon:
+		Filename: cvb-idle.png
+
+lhb1:
+	idle:
+		Filename: lhb1-idle.png
+	make:
+		Filename: lhb1-idle.png
+		Length: 1
+	icon:
+		Filename: lhb1-idle.png
+
+lhb2:
+	idle:
+		Filename: lhb2-idle.png
+	make:
+		Filename: lhb2-idle.png
+		Length: 1
+	icon:
+		Filename: lhb2-idle.png
+
+lhb3:
+	idle:
+		Filename: lhb3-idle.png
+	make:
+		Filename: lhb3-idle.png
+		Length: 1
+	icon:
+		Filename: lhb3-idle.png
+
+lha:
+	idle:
+		Filename: lha-idle.png
+	make:
+		Filename: lha-idle.png
+		Length: 1
+	icon:
+		Filename: lha-idle.png
+
+lha1:
+	idle:
+		Filename: lha1-idle.png
+	make:
+		Filename: lha1-idle.png
+		Length: 1
+	icon:
+		Filename: lha1-idle.png
+
+lha2:
+	idle:
+		Filename: lha2-idle.png
+	make:
+		Filename: lha2-idle.png
+		Length: 1
+	icon:
+		Filename: lha2-idle.png
+
+plxbmb:
+	idle:
+		Filename: plxbmb-idle.png
+	make:
+		Filename: plxbmb-idle.png
+		Length: 1
+	icon:
+		Filename: plxbmb-idle.png

@@ -1,0 +1,153 @@
+# Modern Era vehicles sequences
+
+combatengineer:
+	idle:
+		Filename: combatengineer-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: combatengineer-idle.png
+		Offset: -30,-30
+
+aav7a1:
+	idle:
+		Filename: aav7a1-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: aav7a1-idle.png
+		Offset: -30,-30
+
+aav7a1ram:
+	idle:
+		Filename: aav7a1ram-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: aav7a1ram-idle.png
+		Offset: -30,-30
+
+lav25:
+	idle:
+		Filename: lav25-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: lav25-idle.png
+		Offset: -30,-30
+
+lav25coyote:
+	idle:
+		Filename: lav25coyote-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: lav25coyote-idle.png
+		Offset: -30,-30
+
+jltv:
+	idle:
+		Filename: jltv-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: jltv-idle.png
+		Offset: -30,-30
+
+boxer:
+	idle:
+		Filename: boxer-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: boxer-idle.png
+		Offset: -30,-30
+
+btr82a:
+	idle:
+		Filename: btr82a-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: btr82a-idle.png
+		Offset: -30,-30
+
+t15:
+	idle:
+		Filename: t15-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: t15-idle.png
+		Offset: -30,-30
+
+t15armata:
+	idle:
+		Filename: t15armata-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: t15armata-idle.png
+		Offset: -30,-30
+
+bmpt:
+	idle:
+		Filename: bmpt-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: bmpt-idle.png
+		Offset: -30,-30
+
+kurganets:
+	idle:
+		Filename: kurganets-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: kurganets-idle.png
+		Offset: -30,-30
+
+bumbar:
+	idle:
+		Filename: bumbar-idle.png
+		Facings: 8
+	muzzle:
+		Filename: gunfire2.shp
+		Length: 5
+	icon:
+		Filename: bumbar-idle.png
+		Offset: -30,-30
+
+termiteopv:
+	Defaults:
+		Filename: termiteopv-idle.png
+	idle:
+		Facings: 8
+	icon:
+		Filename: termiteopv-idle.png
+		Offset: -48,-48

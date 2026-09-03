@@ -1,0 +1,434 @@
+# Modern Era - Multirole frigates (Batch 7)
+
+AKIZUKI:
+	Inherits: ^Ship
+	Inherits@AUTOTARGET: ^AutoTargetGroundAssaultMove
+	RenderSprites:
+		Image: akizuki
+	Buildable:
+		Queue: Ship
+		BuildAtProductionType: Boat
+		BuildPaletteOrder: 291
+		Prerequisites: ~syrd, dome, ~techlevel.high
+		Description: actor-akizuki.description
+	Valued:
+		Cost: 1800
+	Tooltip:
+		Name: actor-akizuki.name
+		GenericName: actor-akizuki.generic-name
+	Health:
+		HP: 50000
+	Armor:
+		Type: Heavy
+	Mobile:
+		TurnSpeed: 25
+		Speed: 80
+	RevealsShroud:
+		Range: 8c0
+	Armament@PRIMARY:
+		Weapon: Stinger
+	Armament@SECONDARY:
+		Weapon: DepthCharge
+	Armament@ANTIAIR:
+		Weapon: StingerAA
+	AttackFrontal:
+	DetectCloaked:
+		DetectionTypes: Underwater
+		Range: 4c0
+
+ATAGO:
+	Inherits: ^Ship
+	Inherits@AUTOTARGET: ^AutoTargetGroundAssaultMove
+	RenderSprites:
+		Image: atago
+	Buildable:
+		Queue: Ship
+		BuildAtProductionType: Boat
+		BuildPaletteOrder: 292
+		Prerequisites: ~syrd, atek, ~techlevel.high
+		Description: actor-atago.description
+	Valued:
+		Cost: 2000
+	Tooltip:
+		Name: actor-atago.name
+		GenericName: actor-atago.generic-name
+	Health:
+		HP: 58000
+	Armor:
+		Type: Heavy
+	Mobile:
+		TurnSpeed: 25
+		Speed: 76
+	RevealsShroud:
+		Range: 8c0
+	Armament@PRIMARY:
+		Weapon: Stinger
+	Armament@SECONDARY:
+		Weapon: DepthCharge
+	Armament@ANTIAIR:
+		Weapon: StingerAA
+	AttackFrontal:
+	DetectCloaked:
+		DetectionTypes: Underwater
+		Range: 4c0
+
+DAEWOO:
+	Inherits: ^Ship
+	Inherits@AUTOTARGET: ^AutoTargetGroundAssaultMove
+	RenderSprites:
+		Image: daewoo
+	Buildable:
+		Queue: Ship
+		BuildAtProductionType: Boat
+		BuildPaletteOrder: 293
+		Prerequisites: ~syrd, dome, ~techlevel.high
+		Description: actor-daewoo.description
+	Valued:
+		Cost: 1900
+	Tooltip:
+		Name: actor-daewoo.name
+		GenericName: actor-daewoo.generic-name
+	Health:
+		HP: 55000
+	Armor:
+		Type: Heavy
+	Mobile:
+		TurnSpeed: 25
+		Speed: 78
+	RevealsShroud:
+		Range: 8c0
+	Armament@PRIMARY:
+		Weapon: Stinger
+	Armament@SECONDARY:
+		Weapon: DepthCharge
+	Armament@ANTIAIR:
+		Weapon: StingerAA
+	AttackFrontal:
+	DetectCloaked:
+		DetectionTypes: Underwater
+		Range: 4c0
+
+MEKOA200:
+	Inherits: ^Ship
+	Inherits@AUTOTARGET: ^AutoTargetGroundAssaultMove
+	RenderSprites:
+		Image: mekoa200
+	Buildable:
+		Queue: Ship
+		BuildAtProductionType: Boat
+		BuildPaletteOrder: 294
+		Prerequisites: ~syrd, dome, ~techlevel.high
+		Description: actor-mekoa200.description
+	Valued:
+		Cost: 1700
+	Tooltip:
+		Name: actor-mekoa200.name
+		GenericName: actor-mekoa200.generic-name
+	Health:
+		HP: 48000
+	Armor:
+		Type: Heavy
+	Mobile:
+		TurnSpeed: 25
+		Speed: 82
+	RevealsShroud:
+		Range: 8c0
+	Armament@PRIMARY:
+		Weapon: Stinger
+	Armament@SECONDARY:
+		Weapon: DepthCharge
+	Armament@ANTIAIR:
+		Weapon: StingerAA
+	AttackFrontal:
+	DetectCloaked:
+		DetectionTypes: Underwater
+		Range: 4c0
+
+BELHARRAS:
+	Inherits: ^Ship
+	Inherits@AUTOTARGET: ^AutoTargetGroundAssaultMove
+	RenderSprites:
+		Image: belharras
+	Buildable:
+		Queue: Ship
+		BuildAtProductionType: Boat
+		BuildPaletteOrder: 295
+		Prerequisites: ~syrd, dome, ~techlevel.high
+		Description: actor-belharras.description
+	Valued:
+		Cost: 1650
+	Tooltip:
+		Name: actor-belharras.name
+		GenericName: actor-belharras.generic-name
+	Health:
+		HP: 46000
+	Armor:
+		Type: Heavy
+	Mobile:
+		TurnSpeed: 25
+		Speed: 84
+	RevealsShroud:
+		Range: 8c0
+	Armament@PRIMARY:
+		Weapon: Stinger
+	Armament@SECONDARY:
+		Weapon: DepthCharge
+	Armament@ANTIAIR:
+		Weapon: StingerAA
+	AttackFrontal:
+	DetectCloaked:
+		DetectionTypes: Underwater
+		Range: 4c0
+
+SIGMA10514:
+	Inherits: ^Ship
+	Inherits@AUTOTARGET: ^AutoTargetGroundAssaultMove
+	RenderSprites:
+		Image: sigma10514
+	Buildable:
+		Queue: Ship
+		BuildAtProductionType: Boat
+		BuildPaletteOrder: 296
+		Prerequisites: ~syrd, dome, ~techlevel.high
+		Description: actor-sigma10514.description
+	Valued:
+		Cost: 1680
+	Tooltip:
+		Name: actor-sigma10514.name
+		GenericName: actor-sigma10514.generic-name
+	Health:
+		HP: 47000
+	Armor:
+		Type: Heavy
+	Mobile:
+		TurnSpeed: 25
+		Speed: 83
+	RevealsShroud:
+		Range: 8c0
+	Armament@PRIMARY:
+		Weapon: Stinger
+	Armament@SECONDARY:
+		Weapon: DepthCharge
+	Armament@ANTIAIR:
+		Weapon: StingerAA
+	AttackFrontal:
+	DetectCloaked:
+		DetectionTypes: Underwater
+		Range: 4c0
+
+FREMM:
+	Inherits: ^Ship
+	Inherits@AUTOTARGET: ^AutoTargetGroundAssaultMove
+	RenderSprites:
+		Image: fremm
+	Buildable:
+		Queue: Ship
+		BuildAtProductionType: Boat
+		BuildPaletteOrder: 297
+		Prerequisites: ~syrd, atek, ~techlevel.high
+		Description: actor-fremm.description
+	Valued:
+		Cost: 1950
+	Tooltip:
+		Name: actor-fremm.name
+		GenericName: actor-fremm.generic-name
+	Health:
+		HP: 56000
+	Armor:
+		Type: Heavy
+	Mobile:
+		TurnSpeed: 25
+		Speed: 75
+	RevealsShroud:
+		Range: 8c0
+	Armament@PRIMARY:
+		Weapon: Stinger
+	Armament@SECONDARY:
+		Weapon: DepthCharge
+	Armament@ANTIAIR:
+		Weapon: StingerAA
+	AttackFrontal:
+	DetectCloaked:
+		DetectionTypes: Underwater
+		Range: 4c0
+
+KERNOX:
+	Inherits: ^Ship
+	Inherits@AUTOTARGET: ^AutoTargetGroundAssaultMove
+	RenderSprites:
+		Image: kernox
+	Buildable:
+		Queue: Ship
+		BuildAtProductionType: Boat
+		BuildPaletteOrder: 298
+		Prerequisites: ~syrd, dome, ~techlevel.high
+		Description: actor-kernox.description
+	Valued:
+		Cost: 1600
+	Tooltip:
+		Name: actor-kernox.name
+		GenericName: actor-kernox.generic-name
+	Health:
+		HP: 44000
+	Armor:
+		Type: Heavy
+	Mobile:
+		TurnSpeed: 25
+		Speed: 85
+	RevealsShroud:
+		Range: 8c0
+	Armament@PRIMARY:
+		Weapon: Stinger
+	Armament@SECONDARY:
+		Weapon: DepthCharge
+	Armament@ANTIAIR:
+		Weapon: StingerAA
+	AttackFrontal:
+	DetectCloaked:
+		DetectionTypes: Underwater
+		Range: 4c0
+
+BABUR:
+	Inherits: ^Ship
+	Inherits@AUTOTARGET: ^AutoTargetGroundAssaultMove
+	RenderSprites:
+		Image: babur
+	Buildable:
+		Queue: Ship
+		BuildAtProductionType: Boat
+		BuildPaletteOrder: 299
+		Prerequisites: ~syrd, dome, ~techlevel.high
+		Description: actor-babur.description
+	Valued:
+		Cost: 1720
+	Tooltip:
+		Name: actor-babur.name
+		GenericName: actor-babur.generic-name
+	Health:
+		HP: 49000
+	Armor:
+		Type: Heavy
+	Mobile:
+		TurnSpeed: 25
+		Speed: 80
+	RevealsShroud:
+		Range: 8c0
+	Armament@PRIMARY:
+		Weapon: Stinger
+	Armament@SECONDARY:
+		Weapon: DepthCharge
+	Armament@ANTIAIR:
+		Weapon: StingerAA
+	AttackFrontal:
+	DetectCloaked:
+		DetectionTypes: Underwater
+		Range: 4c0
+
+KEDIRI:
+	Inherits: ^Ship
+	Inherits@AUTOTARGET: ^AutoTargetGroundAssaultMove
+	RenderSprites:
+		Image: kediri
+	Buildable:
+		Queue: Ship
+		BuildAtProductionType: Boat
+		BuildPaletteOrder: 300
+		Prerequisites: ~syrd, dome, ~techlevel.high
+		Description: actor-kediri.description
+	Valued:
+		Cost: 1700
+	Tooltip:
+		Name: actor-kediri.name
+		GenericName: actor-kediri.generic-name
+	Health:
+		HP: 48000
+	Armor:
+		Type: Heavy
+	Mobile:
+		TurnSpeed: 25
+		Speed: 82
+	RevealsShroud:
+		Range: 8c0
+	Armament@PRIMARY:
+		Weapon: Stinger
+	Armament@SECONDARY:
+		Weapon: DepthCharge
+	Armament@ANTIAIR:
+		Weapon: StingerAA
+	AttackFrontal:
+	DetectCloaked:
+		DetectionTypes: Underwater
+		Range: 4c0
+
+CONSTELLATION:
+	Inherits: ^Ship
+	Inherits@AUTOTARGET: ^AutoTargetGroundAssaultMove
+	RenderSprites:
+		Image: constellation
+	Buildable:
+		Queue: Ship
+		BuildAtProductionType: Boat
+		BuildPaletteOrder: 301
+		Prerequisites: ~syrd, dome, ~techlevel.high
+		Description: actor-constellation.description
+	Valued:
+		Cost: 1850
+	Tooltip:
+		Name: actor-constellation.name
+		GenericName: actor-constellation.generic-name
+	Health:
+		HP: 52000
+	Armor:
+		Type: Heavy
+	Mobile:
+		TurnSpeed: 25
+		Speed: 78
+	RevealsShroud:
+		Range: 8c0
+	Armament@PRIMARY:
+		Weapon: Stinger
+	Armament@SECONDARY:
+		Weapon: DepthCharge
+	Armament@ANTIAIR:
+		Weapon: StingerAA
+	AttackFrontal:
+	DetectCloaked:
+		DetectionTypes: Underwater
+		Range: 4c0
+
+ABAYA:
+	Inherits: ^Ship
+	Inherits@AUTOTARGET: ^AutoTargetGroundAssaultMove
+	RenderSprites:
+		Image: abaya
+	Buildable:
+		Queue: Ship
+		BuildAtProductionType: Boat
+		BuildPaletteOrder: 302
+		Prerequisites: ~syrd, dome, ~techlevel.high
+		Description: actor-abaya.description
+	Valued:
+		Cost: 1500
+	Tooltip:
+		Name: actor-abaya.name
+		GenericName: actor-abaya.generic-name
+	Health:
+		HP: 42000
+	Armor:
+		Type: Heavy
+	Mobile:
+		TurnSpeed: 25
+		Speed: 86
+	RevealsShroud:
+		Range: 8c0
+	Armament@PRIMARY:
+		Weapon: Stinger
+	Armament@SECONDARY:
+		Weapon: DepthCharge
+	Armament@ANTIAIR:
+		Weapon: StingerAA
+	AttackFrontal:
+	DetectCloaked:
+		DetectionTypes: Underwater
+		Range: 4c0
+
