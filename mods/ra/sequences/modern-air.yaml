@@ -218,6 +218,12 @@ apache:
 	icon:
 		Filename: apache-idle.png
 		Frame: 0
+	rotor:
+		Filename: lrotorlg.shp
+		Length: 4
+	slow-rotor:
+		Filename: lrotorlg.shp
+		Length: 4
 
 cobra:
 	idle:
@@ -238,6 +244,12 @@ cobra:
 	icon:
 		Filename: cobra-idle.png
 		Frame: 0
+	rotor:
+		Filename: lrotorlg.shp
+		Length: 4
+	slow-rotor:
+		Filename: lrotorlg.shp
+		Length: 4
 
 blackhawk:
 	idle:
@@ -258,6 +270,12 @@ blackhawk:
 	icon:
 		Filename: blackhawk-idle.png
 		Frame: 0
+	rotor:
+		Filename: lrotor.shp
+		Length: 4
+	slow-rotor:
+		Filename: lrotor.shp
+		Length: 4
 
 chinook:
 	idle:
@@ -298,6 +316,12 @@ ka52:
 	icon:
 		Filename: ka52-idle.png
 		Frame: 0
+	rotor:
+		Filename: lrotorlg.shp
+		Length: 4
+	slow-rotor:
+		Filename: lrotorlg.shp
+		Length: 4
 
 milmi24:
 	idle:
@@ -318,6 +342,12 @@ milmi24:
 	icon:
 		Filename: milmi24-idle.png
 		Frame: 0
+	rotor:
+		Filename: lrotorlg.shp
+		Length: 4
+	slow-rotor:
+		Filename: lrotorlg.shp
+		Length: 4
 
 uh60:
 	idle:
@@ -378,6 +408,12 @@ ah1z:
 	icon:
 		Filename: ah1z-idle.png
 		Frame: 0
+	rotor:
+		Filename: lrotorlg.shp
+		Length: 4
+	slow-rotor:
+		Filename: lrotorlg.shp
+		Length: 4
 
 nh90:
 	idle:
