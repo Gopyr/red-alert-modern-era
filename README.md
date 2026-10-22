@@ -1,60 +1,42 @@
-# OpenRA
+# Red Alert: Modern Era
 
-A Libre/Free Real Time Strategy game engine supporting early Westwood classics.
+Mod OpenRA untuk Red Alert yang membawa perang modern: 180+ unit dari masa kini, mulai dari infanteri, tank, artileri, MLRS, sampai kapal induk nuklir. Semua sprite dibuat prosedural dengan 8 arah hadap, jadi unit terlihat benar dari segala sudut.
 
-* Website: [https://www.openra.net](https://www.openra.net)
-* Chat: [#openra on Libera](ircs://irc.libera.chat:6697/openra) ([web](https://web.libera.chat/#openra)) or [Discord](https://discord.openra.net) ![Discord Badge](https://discordapp.com/api/guilds/153649279762694144/widget.png)
-* Repository: [https://github.com/OpenRA/OpenRA](https://github.com/OpenRA/OpenRA) ![Continuous Integration](https://github.com/OpenRA/OpenRA/workflows/Continuous%20Integration/badge.svg)
+Mod ini dibangun di atas engine [OpenRA](https://www.openra.net), dibundel sebagai fork dengan modifikasi langsung di mod `ra`. EA tidak terlibat dan tidak mendukung proyek ini.
 
-Please read the [FAQ](https://github.com/OpenRA/OpenRA/wiki/FAQ) in our [Wiki](https://github.com/OpenRA/OpenRA/wiki) and report problems at [https://github.com/OpenRA/OpenRA/issues](https://github.com/OpenRA/OpenRA/issues).
+## Isi mod
 
-Join the [Forum](https://forum.openra.net/) for discussion.
+- **Kendaraan darat**: T-14 Armata, T-15, Boxer, LAV-25, JLTV, BTR-82A, dan puluhan lainnya
+- **Artileri**: M109A7 Paladin, PzH 2000, CAESAR, Archer, K9, M142 HIMARS, M270, PHL-16, dan lainnya
+- **Pertahanan udara**: Pantsir-M2, HQ-9FE, HQ-16FE, Tunguska-M1, dengan rudal SAM baru
+- **Kapal**: kapal induk CVN/LHD/LHA, fregat FREMM/Akizuki/Constellation, korvet, kapal selam
+- **Helikopter**: Apache, AH-1Z, Ka-52, Mi-24, Blackhawk dengan animasi rotor
+- **Sistem baru**: ekonomi gaya WC4, kapal perang nuklir, serangan udara dari carrier, dinding beton dan parit yang bisa terhubung otomatis, 6 unit hero dengan aura
 
-## Play
+Ada juga peta showcase berisi seluruh 186 unit modern kalau ingin lihat semuanya sekali jalan.
 
-Distributed mods include a reimagining of
+## Cara main
 
-* Command & Conquer: Red Alert
-* Command & Conquer: Tiberian Dawn
-* Dune 2000
+1. Clone repo ini, atau unduh rilis AppImage/Windows dari halaman releases.
+2. Jalankan `./launch-game.sh` (Linux/macOS) atau `launch-game.cmd` (Windows).
+3. Pilih mod Red Alert seperti biasa; unit modern sudah ada di dalamnya.
 
-EA has not endorsed and does not support this product.
+## Dari source
 
-Check our [Playing the Game](https://github.com/OpenRA/OpenRA/wiki/Playing-the-game) Guide to win multiplayer matches.
+```bash
+./configure-system-libraries.sh
+./make.cmd dependencies   # Windows, atau: make dependencies
+./make.cmd all            # atau: make all
+./launch-game.cmd
+```
 
-## Contribute
+Panduan lengkap compile ada di [INSTALL.md](INSTALL.md).
 
-* Please read [INSTALL.md](https://github.com/OpenRA/OpenRA/blob/bleed/INSTALL.md) and [Compiling](https://github.com/OpenRA/OpenRA/wiki/Compiling) on how to set up an OpenRA development environment.
-* See [Hacking](https://github.com/OpenRA/OpenRA/wiki/Hacking) for a (now very outdated) overview of the engine.
-* Read and follow our [Code of Conduct](https://github.com/OpenRA/OpenRA/blob/bleed/CODE_OF_CONDUCT.md).
-* To get your patches merged, please adhere to the [Contributing](https://github.com/OpenRA/OpenRA/blob/bleed/CONTRIBUTING.md) guidelines.
+## Kredit
 
-## Mapping
+- Engine dan aset dasar: [OpenRA](https://github.com/OpenRA/OpenRA) (GPL-3.0, lihat [COPYING](COPYING))
+- Sprite unit modern: dibuat dengan bantuan AI art lalu dirapikan manual per frame
 
-* We offer a [Mapping](https://github.com/OpenRA/OpenRA/wiki/Mapping) Tutorial as you can change gameplay drastically with custom rules.
-* For scripted mission have a look at the [Lua API](https://docs.openra.net/en/release/lua/).
-* If you want to share your maps with the community, upload them at the [OpenRA Resource Center](https://resource.openra.net).
+## Lisensi
 
-## Modding
-
-* Download a copy of the [OpenRA Mod SDK](https://github.com/OpenRA/OpenRAModSDK) to start your own mod.
-* Check the [Modding Guide](https://github.com/OpenRA/OpenRA/wiki/Modding-Guide) to create your own classic RTS.
-* There exists an auto-generated [Trait documentation](https://docs.openra.net/en/latest/release/traits/) to get started with yaml files.
-* Some hints on how to create new OpenRA compatible [Pixelart](https://github.com/OpenRA/OpenRA/wiki/Pixelart).
-* Upload total conversions at [our Mod DB profile](https://www.moddb.com/games/openra/mods).
-
-## Support
-
-* Sponsor a [mirror server](https://github.com/OpenRA/OpenRAWebsiteV3/tree/master/packages) if you have some bandwidth to spare.
-* You can immediately set up a [Dedicated](https://github.com/OpenRA/OpenRA/wiki/Dedicated-Server) Game Server.
-
-## License
-Copyright (c) OpenRA Developers and Contributors
-This file is part of OpenRA, which is free software. It is made
-available to you under the terms of the GNU General Public License
-as published by the Free Software Foundation, either version 3 of
-the License, or (at your option) any later version. For more
-information, see [COPYING](https://github.com/OpenRA/OpenRA/blob/bleed/COPYING).
-
-# Sponsors
-Free code signing on Windows provided by [SignPath.io](https://about.signpath.io/), certificate by [SignPath Foundation](https://signpath.org/).
+Copyright (c) OpenRA Developers and Contributors. Bagian mod mengikuti lisensi yang sama, GPL-3.0. Detail di [COPYING](COPYING).
